@@ -57,6 +57,17 @@ export default function SignInWelcomeScreen({navigation}) {
               style={{height: '100%', width: '100%'}}
             />
           </View>
+          </Swiper>
+      </View>
+      <View style={{flex: 4, justifyContent: 'flex-end', marginBottom: 50}}>
+        <View style={{marginHorizontal: 20, marginTop: 30}}>
+          <Button
+            title="SIGN IN"
+            buttonStyle={parameters.styleButton}
+            titleStyle={parameters.buttonTitle}
+            onPress={() => navigation.navigate('SignInScreen')}
+          />
+        </View>
     </View>
   );
 }
