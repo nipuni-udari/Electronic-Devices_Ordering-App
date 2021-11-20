@@ -51,6 +51,12 @@ export default function SignInWelcomeScreen({navigation}) {
               style={{height: '100%', width: '100%'}}
             />
           </View>
+          <View style={styles.slide3}>
+            <Image
+              source={require('../../assets/images/5.jpg')}
+              style={{height: '100%', width: '100%'}}
+            />
+          </View>
     </View>
   );
 }
