@@ -1,6 +1,7 @@
 import React from 'react';
 import {View, Text, StyleSheet, StatusBar} from 'react-native';
 import {colors} from './global/styles';
+import Header from './components/Header';
 
 
 export default function App() {
