@@ -95,6 +95,16 @@ export default function SignInScreen() {
           onPress={() => {}}
         />
       </View>
+      <View style={{marginTop: 25, marginLeft: 20}}>
+        <Text style={{...styles.text1}}> Not on Xpress E-Tech ?</Text>
+      </View>
+      <View style={{alignItems: 'flex-end', marginHorizontal: 20}}>
+        <Button
+          title="Create An Account"
+          buttonStyle={styles.createButton}
+          titleStyle={styles.createButtonTitle}
+        />
+      </View>
             
           
     </View>
