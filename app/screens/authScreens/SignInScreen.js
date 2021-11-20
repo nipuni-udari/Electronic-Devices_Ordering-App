@@ -1,15 +1,20 @@
-import React from 'react';
-import {View, Text, StyleSheet, Dimensions} from 'react-native';
-import {colors, parameters} from '../../global/styles';
-import {Icon} from 'react-native-elements';
+import React, {useState, useRef} from 'react';
+import {View, Text, StyleSheet, Dimensions, TextInput} from 'react-native';
+import {colors, parameters, title} from '../../global/styles';
+import {Icon, Button, SocialIcon} from 'react-native-elements';
 import Header from '../../components/Header';
 import * as Animatable from 'react-native-animatable';
 import {color} from 'react-native-elements/dist/helpers';
 
-export default function SignInScreen() {
+export default function SignInScreen(){
+    const [textInput2Fossued, setTextInput2Fossued] = useState(false);
+
+    const textInput1 = useRef(1);
+    const textInput2 = useRef(2);
+
   return (
     <View style={styles.container}>
-      <Header title="MY ACCOUNT" type="arrow-left" navigation={navigation} />
+      <Header title="MY ACCOUNT" type="arrow-left"  />
 
       <View style={{marginLeft: 20, marginTop: 10}}>
         <Text style={title}>Sign-In</Text>
@@ -19,6 +24,7 @@ export default function SignInScreen() {
         <Text style={styles.text1}>Please enter the email and password</Text>
         <Text style={styles.text1}>registered with your account</Text>
       </View>
+
       <View style={{marginTop: 20}}>
         <View>
           <TextInput
@@ -38,7 +44,7 @@ export default function SignInScreen() {
               type="material"
             />
           </Animatable.View>
-        <TextInput
+          <TextInput
             style={{width: '80%'}}
             placeholder="Password"
             ref={textInput2}
@@ -87,7 +93,6 @@ export default function SignInScreen() {
           onPress={() => {}}
         />
       </View>
-
       <View style={{marginHorizontal: 10, marginTop: 10}}>
         <SocialIcon
           title="Sign In google"
@@ -107,8 +112,6 @@ export default function SignInScreen() {
           titleStyle={styles.createButtonTitle}
         />
       </View>
-            
-          
     </View>
   );
 }
