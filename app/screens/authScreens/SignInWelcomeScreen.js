@@ -13,7 +13,7 @@ import * as Animatable from 'react-native-animatable';
 
 import Swiper from 'react-native-swiper';
 
-export default function SignInWelcomeScreen() {
+export default function SignInWelcomeScreen({navigation}) {
   return (
     <View style={{flex: 1}}>
       <View
@@ -68,6 +68,7 @@ export default function SignInWelcomeScreen() {
             title="SIGN IN"
             buttonStyle={parameters.styleButton}
             titleStyle={parameters.buttonTitle}
+            onPress={() => navigation.navigate('SignInScreen')}
           />
         </View>
         <View style={{marginHorizontal: 20, marginTop: 30}}>
