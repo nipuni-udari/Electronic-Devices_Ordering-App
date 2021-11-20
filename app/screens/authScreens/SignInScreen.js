@@ -3,6 +3,8 @@ import {View, Text, StyleSheet, Dimensions} from 'react-native';
 import {colors, parameters} from '../../global/styles';
 import {Icon} from 'react-native-elements';
 import Header from '../../components/Header';
+import * as Animatable from 'react-native-animatable';
+import {color} from 'react-native-elements/dist/helpers';
 
 export default function SignInScreen() {
   return (
