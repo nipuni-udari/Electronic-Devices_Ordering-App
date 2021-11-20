@@ -57,6 +57,15 @@ export default function SignInScreen() {
               style={{marginRight: 20}}
             />
           </Animatable.View>
+        </View>
+      </View>
+      <View style={{marginHorizontal: 20, marginTop: 30}}>
+        <Button
+          title="SIGN IN"
+          buttonStyle={parameters.styleButton}
+          titleStyle={parameters.buttonTitle}
+        />
+      </View>
             
           
     </View>
