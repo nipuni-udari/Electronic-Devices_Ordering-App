@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, Text, StyleSheet, StatusBar} from 'react-native';
 import {colors} from './global/styles';
-
+import SignInScreen from './screens/authScreens/SignInScreen';
 
 
 export default function App() {

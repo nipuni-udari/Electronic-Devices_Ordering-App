@@ -1,8 +1,8 @@
 import React from 'react';
 import {View, Text, StyleSheet, Dimensions} from 'react-native';
-import {colors, parameters} from '../global/styles';
+import {colors, parameters} from '../../global/styles';
 import {Icon} from 'react-native-elements';
-import Header from './components/Header';
+import Header from '../../components/Header';
 
 export default function SignInScreen(){
 
