@@ -66,6 +66,15 @@ export default function SignInScreen() {
           titleStyle={parameters.buttonTitle}
         />
       </View>
+      <View style={{alignItems: 'center', marginTop: 15}}>
+        <Text style={{...styles.text1, textDecorationLine: 'underline'}}>
+          {' '}
+          Forgot Password ?
+        </Text>
+      </View>
+      <View style={{alignItems: 'center', marginTop: 20, marginBottom: 20}}>
+        <Text style={{fontSize: 20, fontWeight: 'bold'}}>OR</Text>
+      </View>
             
           
     </View>
