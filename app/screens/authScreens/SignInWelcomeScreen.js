@@ -31,7 +31,14 @@ export default function SignInWelcomeScreen({navigation}) {
         </Text>
       </View>
 
-      
+      <View style={{flex: 4, justifyContent: 'center'}}>
+        <Swiper autoplay={true}>
+          <View style={styles.slide1}>
+            <Image
+              source={require('../../assets/images/4.jpg')}
+              style={{height: '100%', width: '100%'}}
+            />
+          </View>
     </View>
   );
 }
