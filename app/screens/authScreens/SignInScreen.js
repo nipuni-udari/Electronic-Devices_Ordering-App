@@ -6,15 +6,15 @@ import Header from '../../components/Header';
 import * as Animatable from 'react-native-animatable';
 import {color} from 'react-native-elements/dist/helpers';
 
-export default function SignInScreen(){
-    const [textInput2Fossued, setTextInput2Fossued] = useState(false);
+export default function SignInScreen() {
+  const [textInput2Fossued, setTextInput2Fossued] = useState(false);
 
-    const textInput1 = useRef(1);
-    const textInput2 = useRef(2);
+  const textInput1 = useRef(1);
+  const textInput2 = useRef(2);
 
   return (
     <View style={styles.container}>
-      <Header title="MY ACCOUNT" type="arrow-left"  />
+      <Header title="MY ACCOUNT" type="arrow-left" />
 
       <View style={{marginLeft: 20, marginTop: 10}}>
         <Text style={title}>Sign-In</Text>
