@@ -18,7 +18,14 @@ export default function AuthStack() {
         }}
       />
 
-      
+      <Auth.Screen
+        name="SignInScreen"
+        component={SignInScreen}
+        options={{
+          headerShown: false,
+          ...TransitionPresets.RevealFromBottomAndroid,
+        }}
+      />
     </Auth.Navigator>
   );
 }
