@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, Text, StyleSheet, StatusBar} from 'react-native';
-import {colors} from './src/global/styles';
-import RootNavigator from './src/navigation/rootNavigation';
+import {colors} from './global/styles';
+
 
 export default function App() {
   return (
