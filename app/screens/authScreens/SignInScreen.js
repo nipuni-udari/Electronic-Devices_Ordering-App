@@ -17,6 +17,14 @@ export default function SignInScreen() {
         <Text style={styles.text1}>Please enter the email and password</Text>
         <Text style={styles.text1}>registered with your account</Text>
       </View>
+      <View style={{marginTop: 20}}>
+        <View>
+          <TextInput
+            style={styles.TextInput1}
+            placeholder="Email"
+            ref={textInput1}
+          />
+        </View>
     </View>
   );
 }
