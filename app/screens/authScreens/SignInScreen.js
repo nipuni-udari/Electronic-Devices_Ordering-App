@@ -47,6 +47,16 @@ export default function SignInScreen() {
               setTextInput2Fossued(true);
             }}
           />
+          <Animatable.View
+            animation={textInput2Fossued ? '' : 'fadeInLeft'}
+            duration={100}>
+            <Icon
+              name="visibility-off"
+              iconStyle={{color: color.grey3}}
+              type="material"
+              style={{marginRight: 20}}
+            />
+          </Animatable.View>
             
           
     </View>
