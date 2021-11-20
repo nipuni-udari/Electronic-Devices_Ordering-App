@@ -39,6 +39,12 @@ export default function SignInWelcomeScreen({navigation}) {
               style={{height: '100%', width: '100%'}}
             />
           </View>
+          <View style={styles.slide2}>
+            <Image
+              source={require('../../assets/images/2.jpg')}
+              style={{height: '100%', width: '100%'}}
+            />
+          </View>
     </View>
   );
 }
