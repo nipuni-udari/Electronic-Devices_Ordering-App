@@ -25,6 +25,17 @@ export default function SignInScreen() {
             ref={textInput1}
           />
         </View>
+        <TextInput
+            style={{width: '80%'}}
+            placeholder="Password"
+            ref={textInput2}
+            onFocus={() => {
+              setTextInput2Fossued(false);
+            }}
+            onBlur={() => {
+              setTextInput2Fossued(true);
+            }}
+          />
     </View>
   );
 }
