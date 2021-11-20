@@ -68,6 +68,14 @@ export default function SignInWelcomeScreen({navigation}) {
             onPress={() => navigation.navigate('SignInScreen')}
           />
         </View>
+        <View style={{marginHorizontal: 20, marginTop: 30}}>
+          <Button
+            title="Create An Account"
+            buttonStyle={styles.createButton}
+            titleStyle={styles.createButtonTitle}
+          />
+        </View>
+      </View>
     </View>
   );
 }
