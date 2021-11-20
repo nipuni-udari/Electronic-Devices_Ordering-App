@@ -30,6 +30,8 @@ export default function SignInWelcomeScreen({navigation}) {
           In Your Area
         </Text>
       </View>
+
+      
     </View>
   );
 }
