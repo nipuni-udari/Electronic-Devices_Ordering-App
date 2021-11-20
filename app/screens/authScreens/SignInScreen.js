@@ -75,6 +75,16 @@ export default function SignInScreen() {
       <View style={{alignItems: 'center', marginTop: 20, marginBottom: 20}}>
         <Text style={{fontSize: 20, fontWeight: 'bold'}}>OR</Text>
       </View>
+
+      <View style={{marginHorizontal: 10, marginTop: 10}}>
+        <SocialIcon
+          title="Sign In Facebook"
+          button
+          type="facebook"
+          style={styles.SocialIcon}
+          onPress={() => {}}
+        />
+      </View>
             
           
     </View>
