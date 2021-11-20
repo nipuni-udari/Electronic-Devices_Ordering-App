@@ -57,7 +57,7 @@ export default function SignInWelcomeScreen({navigation}) {
               style={{height: '100%', width: '100%'}}
             />
           </View>
-          </Swiper>
+        </Swiper>
       </View>
       <View style={{flex: 4, justifyContent: 'flex-end', marginBottom: 50}}>
         <View style={{marginHorizontal: 20, marginTop: 30}}>
@@ -79,3 +79,46 @@ export default function SignInWelcomeScreen({navigation}) {
     </View>
   );
 }
+
+const styles = StyleSheet.create({
+  slide1: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#9DD6EB',
+  },
+
+  slide2: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#97CAE5',
+  },
+
+  slide3: {
+    flex: 1,
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: '#92BBD9',
+  },
+
+  createButton: {
+    borderWidth: 1,
+    borderColor: colors.buttons,
+    height: 50,
+    borderRadius: 12,
+    backgroundColor: 'white',
+    justifyContent: 'center',
+    allignContent: 'center',
+    paddingHorizontal: 60,
+  },
+
+  createButtonTitle: {
+    color: colors.grey1,
+    fontSize: 20,
+    fontWeight: 'bold',
+    allignItems: 'center',
+    justifyContent: 'center',
+    marginTop: -3,
+  },
+});
