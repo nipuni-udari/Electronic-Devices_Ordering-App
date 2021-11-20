@@ -85,6 +85,16 @@ export default function SignInScreen() {
           onPress={() => {}}
         />
       </View>
+
+      <View style={{marginHorizontal: 10, marginTop: 10}}>
+        <SocialIcon
+          title="Sign In google"
+          button
+          type="google"
+          style={styles.SocialIcon}
+          onPress={() => {}}
+        />
+      </View>
             
           
     </View>
