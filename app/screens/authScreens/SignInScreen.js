@@ -25,6 +25,17 @@ export default function SignInScreen() {
             ref={textInput1}
           />
         </View>
+
+        <View style={styles.TextInput2}>
+          <Animatable.View
+            animation={textInput2Fossued ? '' : 'fadeInLeft'}
+            duration={100}>
+            <Icon
+              name="lock"
+              iconStyle={{color: color.grey3}}
+              type="material"
+            />
+          </Animatable.View>
         <TextInput
             style={{width: '80%'}}
             placeholder="Password"
