@@ -14,7 +14,7 @@ export default function SignInScreen({navigation}) {
 
   return (
     <View style={styles.container}>
-      <Header title="MY ACCOUNT" type="arrow-left" navigation={navigation}/>
+      <Header title="MY ACCOUNT" type="arrow-left" navigation={navigation} />
 
       <View style={{marginLeft: 20, marginTop: 10}}>
         <Text style={title}>Sign-In</Text>
@@ -72,6 +72,9 @@ export default function SignInScreen({navigation}) {
           title="SIGN IN"
           buttonStyle={parameters.styleButton}
           titleStyle={parameters.buttonTitle}
+          onPress={() => {
+            navigation.navigate('HomeScreen');
+          }}
         />
       </View>
       <View style={{alignItems: 'center', marginTop: 15}}>
@@ -143,10 +146,10 @@ const styles = StyleSheet.create({
     borderRadius: 12,
     flexDirection: 'row',
     justifyContent: 'space-between',
-    allignContent: 'center',
-    allignItems: 'center',
-    paddingTop: 4,
-    paddingLeft: 5,
+    alignContent: 'center',
+    paddingTop: 3,
+    paddingLeft: 12,
+    alignItems: 'center',
   },
 
   SocialIcon: {
@@ -161,7 +164,7 @@ const styles = StyleSheet.create({
     borderRadius: 12,
     backgroundColor: 'white',
     justifyContent: 'center',
-    allignContent: 'center',
+    alignContent: 'center',
     paddingHorizontal: 20,
   },
 
@@ -169,7 +172,7 @@ const styles = StyleSheet.create({
     color: '#ff8c52',
     fontSize: 16,
     fontWeight: 'bold',
-    allignItems: 'center',
+    alignItems: 'center',
     justifyContent: 'center',
     marginTop: -3,
   },

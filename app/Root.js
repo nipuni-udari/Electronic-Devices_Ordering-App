@@ -3,7 +3,6 @@ import {View, Text, StyleSheet, StatusBar} from 'react-native';
 import {colors} from './global/styles';
 import RootNavigator from './navigation/rootNavigation';
 
-
 export default function App() {
   return (
     <View style={styles.container}>

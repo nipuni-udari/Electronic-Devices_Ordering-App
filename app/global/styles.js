@@ -18,14 +18,14 @@ export const parameters = {
     color: 'white',
     fontSize: 20,
     fontWeight: 'bold',
-    allignItems: 'center',
+    alignItems: 'center',
     justifyContent: 'center',
     marginTop: -3,
   },
 
   styleButton: {
     backgroundColor: '#ff8c52',
-    allignContent: 'center',
+    alignContent: 'center',
     justifyContent: 'center',
     borderRadius: 12,
     borderWidth: 1,
