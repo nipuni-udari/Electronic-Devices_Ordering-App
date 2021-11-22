@@ -148,7 +148,7 @@ const styles = StyleSheet.create({
 
   headerText: {
     color: colors.grey2,
-    fontSize: 24,
+    fontSize: 22,
     fontWeight: 'bold',
     paddingLeft: 10,
   },
