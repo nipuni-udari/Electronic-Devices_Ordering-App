@@ -21,32 +21,82 @@ export default function HomeScreen() {
   return (
     <View style={styles.container}>
       <HomeHeader />
-      <View
-        style={{
-          marginTop: 10,
-          flexDirection: 'row',
-          justifyContent: 'space-evenly',
-        }}>
-        <TouchableOpacity>
+      <ScrollView stickyHeaderIndices={[0]} showsVerticalScrollIndicator={true}>
+        <View
+          style={{backgroundColor: colors.cardbackground, paddingBottom: 5}}>
           <View
             style={{
-              ...styles.deliveryButton,
-              backgroundColor: delivery ? colors.buttons : colors.grey5,
+              marginTop: 10,
+              flexDirection: 'row',
+              justifyContent: 'space-evenly',
             }}>
-            <Text style={styles.deliveryText}>Delivery</Text>
-          </View>
-        </TouchableOpacity>
+            <TouchableOpacity
+              onPress={() => {
+                setDelivery(true);
+              }}>
+              <View
+                style={{
+                  ...styles.deliveryButton,
+                  backgroundColor: delivery ? colors.buttons : colors.grey5,
+                }}>
+                <Text style={styles.deliveryText}>Delivery</Text>
+              </View>
+            </TouchableOpacity>
 
-        <TouchableOpacity>
-          <View
-            style={{
-              ...styles.deliveryButton,
-              backgroundColor: delivery ? colors.grey5 : colors.buttons,
-            }}>
-            <Text style={styles.deliveryText}>Pick Up</Text>
+            <TouchableOpacity
+              onPress={() => {
+                setDelivery(false);
+              }}>
+              <View
+                style={{
+                  ...styles.deliveryButton,
+                  backgroundColor: delivery ? colors.grey5 : colors.buttons,
+                }}>
+                <Text style={styles.deliveryText}>Pick Up</Text>
+              </View>
+            </TouchableOpacity>
           </View>
-        </TouchableOpacity>
-      </View>
+        </View>
+        <View style={styles.filterView}>
+          <View style={styles.addressView}>
+            <View
+              style={{
+                flexDirection: 'row',
+                alignItems: 'center',
+                paddingLeft: 10,
+              }}>
+              <Icon
+                type="material-community"
+                name="map-marker"
+                color={colors.grey1}
+                size={26}
+              />
+
+              <Text style={{marginLeft: 5}}>22 Beessie Street</Text>
+            </View>
+
+            <View style={styles.clockView}>
+              <Icon
+                type="material-community"
+                name="clock-time-four"
+                color={colors.grey1}
+                size={26}
+              />
+
+              <Text style={{marginLeft: 5}}>Now</Text>
+            </View>
+          </View>
+
+          <View>
+            <Icon
+              type="material-community"
+              name="tune"
+              color={colors.grey1}
+              size={26}
+            />
+          </View>
+        </View>
+      </ScrollView>
     </View>
   );
 }
