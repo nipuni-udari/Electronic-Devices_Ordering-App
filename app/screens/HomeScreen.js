@@ -96,6 +96,9 @@ export default function HomeScreen() {
             />
           </View>
         </View>
+        <View style={styles.headerTextView}>
+          <Text style={styles.headerText}>Categories</Text>
+        </View>
       </ScrollView>
     </View>
   );
