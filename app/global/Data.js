@@ -1,9 +1,9 @@
 export const filterData = [
-  {name: 'Fast food', image: require('../assets/images/A.webp'), id: '0'},
-  {name: 'Burgers', image: require('../assets/images/camera.jpg'), id: '1'},
-  {name: 'Salads', image: require('../assets/images/desktop.jpg'), id: '2'},
-  {name: 'Hotdog', image: require('../assets/images/gaming.jpg'), id: '3'},
-  {name: 'Chinese', image: require('../assets/images/laptops.jpg'), id: '4'},
-  {name: 'Mexican', image: require('../assets/images/tab.jpg'), id: '5'},
-  {name: 'Sea food', image: require('../assets/images/mobile.jpg'), id: '6'},
+  {name: 'TV, Video', image: require('../assets/images/tv.webp'), id: '0'},
+  {name: 'Camera,accessories ', image: require('../assets/images/camera.png'), id: '1'},
+  {name: 'Audio devices', image: require('../assets/images/audio.png'), id: '2'},
+  {name: 'Games & Consoles', image: require('../assets/images/game.jpg'), id: '3'},
+  {name: 'Computer & Network', image: require('../assets/images/ll.jpg'), id: '4'},
+  {name: 'smart home', image: require('../assets/images/HOME.jpg'), id: '5'},
+  {name: 'vehicle electronic', image: require('../assets/images/CAR.jpg'), id: '6'},
 ];
