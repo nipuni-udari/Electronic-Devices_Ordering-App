@@ -33,7 +33,19 @@ export default function HomeHeader() {
         </Text>
       </View>
 
-      
+      <View
+        style={{
+          alignItems: 'center',
+          justifyContent: 'center',
+          marginRight: 15,
+        }}>
+        <BadgeIcon
+          type="material-community"
+          name="cart"
+          size={35}
+          color={colors.cardbackground}
+        />
+      </View>
     </View>
   );
 }
