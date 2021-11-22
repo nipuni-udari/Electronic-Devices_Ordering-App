@@ -112,7 +112,7 @@ const styles = StyleSheet.create({
     borderRadius: 12,
     backgroundColor: 'white',
     justifyContent: 'center',
-    allignContent: 'center',
+    alignContent: 'center',
     paddingHorizontal: 60,
   },
 
@@ -120,7 +120,7 @@ const styles = StyleSheet.create({
     color: colors.grey1,
     fontSize: 20,
     fontWeight: 'bold',
-    allignItems: 'center',
+    alignItems: 'center',
     justifyContent: 'center',
     marginTop: -3,
   },
