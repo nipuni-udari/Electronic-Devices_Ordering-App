@@ -197,6 +197,25 @@ export default function HomeScreen() {
             )}
           />
         </View>
+        <View style={styles.headerTextView}>
+          <Text style={styles.headerText}>Electronics Stores in your Area</Text>
+        </View>
+
+        <View style={{width: SCREEN_WIDTH, paddingTop: 10}}>
+          {shopsData.map(item => (
+            <View key={item.id} style={{paddingBottom: 20}}>
+              <FoodCard
+                screenWidth={SCREEN_WIDTH * 0.95}
+                images={item.images}
+                restaurantName={item.restaurantName}
+                farAway={item.farAway}
+                businessAddress={item.businessAddress}
+                averageReview={item.averageReview}
+                numberOfReview={item.numberOfReview}
+              />
+            </View>
+          ))}
+        </View>
       </ScrollView>
     </View>
   );
