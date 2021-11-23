@@ -15,7 +15,10 @@ import {
 import {Icon} from 'react-native-elements';
 import {colors, paremeters} from '../global/styles';
 import HomeHeader from '../components/HomeHeader';
-import {filterData, restaurantsData} from '../global/Data';
+import {filterData, shopsData} from '../global/Data';
+import FoodCard from '../components/DeviceCards';
+
+const SCREEN_WIDTH = Dimensions.get('window').width;
 
 export default function HomeScreen() {
   const [delivery, setDelivery] = useState(true);
@@ -144,6 +147,29 @@ export default function HomeScreen() {
 
         <View style={styles.headerTextView}>
           <Text style={styles.headerText}>Free Delivery now</Text>
+        </View>
+
+        <View>
+          <FlatList
+            style={{marginTop: 10, marginBottom: 10}}
+            horizontal={true}
+            data={shopsData}
+            keyExtractor={(item, index) => index.toString()}
+            showsHorizontalScrollIndicator={false}
+            renderItem={({item}) => (
+              <View style={{marginRight: 5}}>
+                <FoodCard
+                  screenWidth={SCREEN_WIDTH * 0.8}
+                  images={item.images}
+                  shopName={item.shopName}
+                  farAway={item.farAway}
+                  businessAddress={item.businessAddress}
+                  averageReview={item.averageReview}
+                  numberOfReview={item.numberOfReview}
+                />
+              </View>
+            )}
+          />
         </View>
       </ScrollView>
     </View>
