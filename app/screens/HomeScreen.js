@@ -171,6 +171,32 @@ export default function HomeScreen() {
             )}
           />
         </View>
+        <View style={styles.headerTextView}>
+          <Text style={styles.headerText}>Promotions available</Text>
+        </View>
+
+        <View>
+          <FlatList
+            style={{marginTop: 10, marginBottom: 10}}
+            horizontal={true}
+            data={shopsData}
+            keyExtractor={(item, index) => index.toString()}
+            showsHorizontalScrollIndicator={false}
+            renderItem={({item}) => (
+              <View style={{marginRight: 5}}>
+                <FoodCard
+                  screenWidth={SCREEN_WIDTH * 0.8}
+                  images={item.images}
+                  restaurantName={item.restaurantName}
+                  farAway={item.farAway}
+                  businessAddress={item.businessAddress}
+                  averageReview={item.averageReview}
+                  numberOfReview={item.numberOfReview}
+                />
+              </View>
+            )}
+          />
+        </View>
       </ScrollView>
     </View>
   );
