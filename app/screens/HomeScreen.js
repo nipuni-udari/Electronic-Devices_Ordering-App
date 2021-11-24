@@ -21,7 +21,7 @@ import CountDown from 'react-native-countdown-component';
 
 const SCREEN_WIDTH = Dimensions.get('window').width;
 
-export default function HomeScreen() {
+export default function HomeScreen({navigation}) {
   const [delivery, setDelivery] = useState(true);
   const [indexCheck, setIndexCheck] = useState('0');
 
@@ -53,6 +53,7 @@ export default function HomeScreen() {
             <TouchableOpacity
               onPress={() => {
                 setDelivery(false);
+                navigation.navigate('ElectronicStoresMapScreen');
               }}>
               <View
                 style={{
@@ -238,6 +239,23 @@ export default function HomeScreen() {
           ))}
         </View>
       </ScrollView>
+      {delivery && (
+        <View style={styles.floatButton}>
+          <TouchableOpacity
+            onPress={() => {
+              navigation.navigate('ElectronicStoresMapScreen');
+            }}>
+            <Icon
+              name="place"
+              type="material"
+              size={32}
+              color={colors.buttons}
+            />
+
+            <Text style={{color: colors.grey2}}>Map</Text>
+          </TouchableOpacity>
+        </View>
+      )}
     </View>
   );
 }
