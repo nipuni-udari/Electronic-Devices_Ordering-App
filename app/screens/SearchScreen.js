@@ -1,11 +1,22 @@
 import React from 'react';
+import {
+  View,
+  Text,
+  StyleSheet,
+  FlatList,
+  ImageBackground,
+  Dimensions,
+  TouchableWithoutFeedback,
+  ImageBackgroundComponent,
+} from 'react-native';
+import SearchComponent from '../components/SearchComponent';
 
-import {View, Text, StyleSheet} from 'react-native';
+const SCREEN_WIDTH = Dimensions.get('window').width;
 
 export default function SearchScreen() {
   return (
-    <View style={{flex: 1, alignItems: 'center', justifyContent: 'center'}}>
-      <Text>Search Screen</Text>
+    <View style={{flex: 1, marginBottom: 10, paddingTop: 20}}>
+      <SearchComponent />
     </View>
   );
 }
