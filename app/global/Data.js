@@ -31,7 +31,8 @@ export const filterData = [
 export const filterData2 = [
   {
     name: 'Fast food',
-    image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4V2uA9rKCObDZt6u5XKw2RspaPWCP4LsoThk9gk3WsCirH14l8xZr-KVatR-xxIxGndU&usqp=CAU',
+    image:
+      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4V2uA9rKCObDZt6u5XKw2RspaPWCP4LsoThk9gk3WsCirH14l8xZr-KVatR-xxIxGndU&usqp=CAU',
     id: '0',
   },
   {

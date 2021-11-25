@@ -26,7 +26,10 @@ export default function SearchScreen({navigation}) {
             data={filterData2}
             keyExtractor={item => item.id}
             renderItem={({item, index}) => (
-              <TouchableWithoutFeedback>
+              <TouchableWithoutFeedback
+                onPress={() => {
+                  navigation.navigate('SearchResultScreen', {item: item.name});
+                }}>
                 <View style={styles.imageView}>
                   <ImageBackground
                     style={styles.image}
@@ -63,7 +66,10 @@ const Footer = () => {
           data={filterData2}
           keyExtractor={item => item.id}
           renderItem={({item, index}) => (
-            <TouchableWithoutFeedback>
+            <TouchableWithoutFeedback
+              onPress={() => {
+                navigation.navigate('SearchResultScreen', {item: item.name});
+              }}>
               <View style={styles.imageView}>
                 <ImageBackground
                   style={styles.image}
