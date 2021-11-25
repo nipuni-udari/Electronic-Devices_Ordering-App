@@ -14,22 +14,26 @@ const SearchResultScreen = ({navigation, route}) => {
           {shopsData.length} Result for {route.params.item}
         </Text>
       </View>
-      <SearchResultCard
-        screenWidth={SCREEN_WIDTH}
-        images={shopsData[0].images}
-        averageReview={shopsData[0].averageReview}
-        numberOfReview={shopsData[0].numberOfReview}
-        shopName={shopsData[0].shopName}
-        farAway={shopsData[0].farAway}
-        businessAddress={shopsData[0].businessAddress}
-        //productData={shopsData[0].productData}
-        //OnPressRestaurantCard={() => {
-        //navigation.navigate('RestaurantHomeScreen', {
-        //id: index,
-        //restaurant: item.shopName,
-        //});
-        //}}
-      />
+
+      <View>
+        <FlatList
+          style={{backgroundColor: colors.cardbackground}}
+          data={shopsData}
+          keyExtractor={(item, index) => index.toString()}
+          renderItem={({item, index}) => (
+            <SearchResultCard
+              screenWidth={SCREEN_WIDTH}
+              images={item.images}
+              averageReview={item.averageReview}
+              numberOfReview={item.numberOfReview}
+              shopName={item.shopName}
+              farAway={item.farAway}
+              businessAddress={item.businessAddress}
+              productData={item.productData}
+            />
+          )}
+        />
+      </View>
     </View>
   );
 };
