@@ -12,7 +12,7 @@ import ProductCard from './ProductCard';
 import {colors} from '../global/styles';
 
 const SearchResultCard = ({
-  OnPressRestaurantCard,
+  OnPressShopCard,
   shopName,
   deliveryAvailabe,
   discountAvailable,
@@ -26,7 +26,7 @@ const SearchResultCard = ({
 }) => {
   return (
     <View>
-      <TouchableOpacity onPress={OnPressRestaurantCard}>
+      <TouchableOpacity onPress={OnPressShopCard}>
         <View style={styles.view1}>
           <View style={{height: 150}}>
             <ImageBackground

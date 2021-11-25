@@ -10,12 +10,6 @@ const SearchResultScreen = ({navigation, route}) => {
   return (
     <View style={styles.container}>
       <View>
-        <Text style={styles.listHeader}>
-          {shopsData.length} Result for {route.params.item}
-        </Text>
-      </View>
-
-      <View>
         <FlatList
           style={{backgroundColor: colors.cardbackground}}
           data={shopsData}
@@ -30,8 +24,22 @@ const SearchResultScreen = ({navigation, route}) => {
               farAway={item.farAway}
               businessAddress={item.businessAddress}
               productData={item.productData}
+              OnPressShopCard={() => {
+                navigation.navigate('ShopHomeScreen', {
+                  id: index,
+                  Shop: item.ShopName,
+                });
+              }}
             />
           )}
+          ListHeaderComponent={
+            <View>
+              <Text style={styles.listHeader}>
+                {shopsData.length} Result for {route.params.item}
+              </Text>
+            </View>
+          }
+          showsVerticalScrollIndicator={false}
         />
       </View>
     </View>
