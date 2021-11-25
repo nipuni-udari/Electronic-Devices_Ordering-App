@@ -30,55 +30,96 @@ export const filterData = [
 
 export const filterData2 = [
   {
-    name: 'Fast food',
+    name: 'TV, Video',
     image:
-      'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR4V2uA9rKCObDZt6u5XKw2RspaPWCP4LsoThk9gk3WsCirH14l8xZr-KVatR-xxIxGndU&usqp=CAU',
+      'https://www.tcl.com/content/dam/tcl-dam/product/tv-product/x-series/x915/site/pc/product-image/X915_Camera_perspective_B_global.png',
     id: '0',
   },
   {
-    name: 'Burgers',
-    image: 'https://bukasapics.s3.us-east-2.amazonaws.com/macdo.png',
+    name: 'Camera,accessories ',
+    image:
+      'https://i.gadgets360cdn.com/large/olympus_om-d_e-1_mark_iii_1581574056322.jpg',
     id: '1',
   },
   {
-    name: 'Salads',
-    image: 'https://bukasapics.s3.us-east-2.amazonaws.com/nandos.png',
+    name: 'Audio devices ',
+    image: 'https://m.media-amazon.com/images/I/71Fe4BJp0dL._AC_SY355_.jpg',
     id: '2',
   },
   {
-    name: 'Hotdog',
-    image: 'https://bukasapics.s3.us-east-2.amazonaws.com/pizza.png',
+    name: 'Games & Consoles ',
+    image:
+      'https://pyxis.nymag.com/v1/imgs/cbf/4a2/ec7456fedf57d61fc8e52cb51c3acb47dd-video-game-consoles-for-you-lede.rsquare.w1200.jpg',
     id: '3',
   },
   {
-    name: 'Chinese',
-    image: 'https://bukasapics.s3.us-east-2.amazonaws.com/pizza6.png',
+    name: 'Computer & Network ',
+    image: 'https://m.media-amazon.com/images/I/71y2J84ntdL._AC_SY450_.jpg',
     id: '4',
   },
   {
-    name: 'Mexican',
-    image: 'https://bukasapics.s3.us-east-2.amazonaws.com/plate1.png',
+    name: 'smart home ',
+    image:
+      'https://www.the-ambient.com/media/imager/202003/29888-posts.homepage_preview_md.jpg',
     id: '5',
   },
   {
-    name: 'Sea food',
-    image: 'https://bukasapics.s3.us-east-2.amazonaws.com/plate2.png',
+    name: 'Vehicle Electronics & GPS',
+    image:
+      'https://zoodmall.com/cdn-cgi/image/w=450,fit=contain,f=auto/https://img-541ade145.yinxiangzhao.com/image20201220/ZYC21011302B_20210118155225359.jpg',
     id: '6',
   },
+
   {
-    name: 'Chinese Food',
-    image: 'https://bukasapics.s3.us-east-2.amazonaws.com/plate3.png',
+    name: 'Laptops & Note books',
+    image:
+      'https://static.acer.com/up/Resource/Acer/Laptops/Nitro_5/Image/20210106/Nitro5_AN515-56_Bl_Bk_modelpreview.png',
     id: '7',
   },
   {
-    name: 'Mexican pie',
-    image: 'https://bukasapics.s3.us-east-2.amazonaws.com/plate4.png',
+    name: 'Printers, Scanners & Supplies',
+    image:
+      'https://www.brother.com.lk/-/media/ap/Singapore/TopPage/Offer-zone/1-3/EX-Banner_1200X720px_R1-w.ashx',
     id: '8',
   },
   {
-    name: 'Ocean dish',
-    image: 'https://bukasapics.s3.us-east-2.amazonaws.com/plate5.png',
+    name: 'Computer Drives, Storage & Blank Media',
+    image: 'https://i.ebayimg.com/thumbs/images/g/aAQAAOSw8~xgUCYK/s-l300.webp',
     id: '9',
+  },
+  {
+    name: 'Computer Keyboards, Mice & Pointers',
+    image: 'https://m.media-amazon.com/images/I/711Vq1mPCOL._AC_SL1500_.jpg',
+    id: '10',
+  },
+  {
+    name: 'Tablets & eReaders',
+    image:
+      'https://p3-ofp.static.pub/fes/cms/2021/07/22/icysl39azuqnz4yrv7wc9zopwx8a45492484.png',
+    id: '11',
+  },
+  {
+    name: 'Computer Softwares',
+    image:
+      'https://www.nexxcom.lk/wp-content/uploads/2019/11/ESET-SMART-SECURITY-2020.jpg',
+    id: '12',
+  },
+  {
+    name: 'Enterprise Networking & Servers',
+    image:
+      'https://itigic.com/wp-content/uploads/2021/05/20210522_60a9101406ee1.jpg',
+    id: '13',
+  },
+  {
+    name: 'Desktops & All-In-One Computers',
+    image: 'https://d.newsweek.com/en/full/1552872/apple-mac-pro.jpg',
+    id: '14',
+  },
+
+  {
+    name: 'Computer Cpmponents',
+    image: 'https://i.ebayimg.com/thumbs/images/g/cAkAAOSwi8VZW0zc/s-l225.webp',
+    id: '15',
   },
 ];
 
@@ -88,7 +129,7 @@ export const shopsData = [
     farAway: '21.2',
     businessAddress: '22 Bessie street, Cape Town',
     images:
-      'https://th.bing.com/th/id/R.f3efd348bd9d3d6c5ef2ba3dabfbd440?rik=GXJh3q0Xoj%2bcYQ&pid=ImgRaw&r=0',
+      'https://images.samsung.com/is/image/samsung/p6pim/fi/ue75tu6905kxxc/gallery/fi-uhd-4k-tv-ue75tu6905kxxc-front-black-423593765?$720_576_PNG$',
     averageReview: 4.9,
     numberOfReview: 272,
     coordinates: {lat: -26.1888612, lng: 28.246325},
