@@ -6,10 +6,10 @@ import {colors} from '../global/styles';
 
 const SCREEN_WIDTH = Dimensions.get('window').width;
 
-const SearchResultScreen = () => {
+const SearchResultScreen = ({navigation, route}) => {
   return (
     <View style={styles.container}>
-      <Text>search result </Text>
+      <Text>search result for{route.params.item}</Text>
     </View>
   );
 };
