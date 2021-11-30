@@ -27,7 +27,7 @@ const SearchResultScreen = ({navigation, route}) => {
               OnPressShopCard={() => {
                 navigation.navigate('ShopHomeScreen', {
                   id: index,
-                  Shop: item.ShopName,
+                  shop: item.shopName,
                 });
               }}
             />

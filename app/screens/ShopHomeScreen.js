@@ -9,15 +9,12 @@ import {
   Modal,
 } from 'react-native';
 import ShopHeader from '../components/ShopHeader';
-import {shopsData} from '../global/Data';
-import {colors, fonts} from '../global/styles';
-import {Icon} from 'react-native-elements';
-import {TabView, TabBar} from 'react-native-tab-view';
 
-const ShopHomeScreen = () => {
+const ShopHomeScreen = ({navigation, route}) => {
+  const {id, shop} = route.params;
   return (
     <View>
-      <Text>ShopHomeScreen</Text>
+      <ShopHeader id={id} navigation={navigation}/>
     </View>
   );
 };

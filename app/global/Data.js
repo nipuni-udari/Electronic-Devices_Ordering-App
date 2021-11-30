@@ -128,8 +128,7 @@ export const shopsData = [
     shopName: 'EZone Electronics',
     farAway: '21.2',
     businessAddress: '22 Bessie street, Cape Town',
-    images:
-      'https://images.samsung.com/is/image/samsung/p6pim/fi/ue75tu6905kxxc/gallery/fi-uhd-4k-tv-ue75tu6905kxxc-front-black-423593765?$720_576_PNG$',
+    images: 'https://standardtt.com/wp-content/uploads/Products3/Electronics/Television/UN40J5290AHXPA.jpg',
     averageReview: 4.9,
     numberOfReview: 272,
     coordinates: {lat: -26.1888612, lng: 28.246325},
