@@ -312,7 +312,7 @@ export const productData = [
   },
 ];
 
-export const menuData = [
+export const categoriesData = [
   {title: 'BEEF', special: false, key: 0},
   {title: 'CHICKEN', special: false, key: 1},
   {title: 'VEGGIE BURGER', special: false, key: 2},

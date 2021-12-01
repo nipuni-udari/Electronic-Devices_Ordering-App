@@ -15,6 +15,7 @@ import {Icon} from 'react-native-elements';
 import {TabView, TabBar} from 'react-native-tab-view';
 
 import ShopHeader from '../components/ShopHeader';
+import CategoriesScreen from './ShopTabs/CategoriesScreen';
 
 const SCREEN_WIDTH = Dimensions.get('window').width;
 const initialLayout = SCREEN_WIDTH;
@@ -22,7 +23,7 @@ const initialLayout = SCREEN_WIDTH;
 const ShopHomeScreen = ({navigation, route}) => {
   const {id, shop} = route.params;
   const [routes] = useState([
-    {key: 'first', title: 'Device'},
+    {key: 'first', title: 'catalog'},
     {key: 'second', title: 'INFO'},
     {key: 'third', title: 'REVIEWS'},
     {key: 'fourth', title: 'GALLERY'},
@@ -108,7 +109,18 @@ const ShopHomeScreen = ({navigation, route}) => {
             tabBarPosition="top"
           />
         </View>
+        {index === 0 && <CategoriesScreen />}
       </ScrollView>
+      <TouchableOpacity>
+        <View style={styles.view11}>
+          <View style={styles.view12}>
+            <Text style={styles.text13}>View Cart</Text>
+            <View style={styles.view13}>
+              <Text style={styles.text13}>0</Text>
+            </View>
+          </View>
+        </View>
+      </TouchableOpacity>
     </View>
   );
 };
