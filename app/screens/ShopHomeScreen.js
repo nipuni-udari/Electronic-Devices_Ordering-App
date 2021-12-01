@@ -21,6 +21,31 @@ const initialLayout = SCREEN_WIDTH;
 
 const ShopHomeScreen = ({navigation, route}) => {
   const {id, shop} = route.params;
+  const [routes] = useState([
+    {key: 'first', title: 'Device'},
+    {key: 'second', title: 'INFO'},
+    {key: 'third', title: 'REVIEWS'},
+    {key: 'fourth', title: 'GALLERY'},
+  ]);
+
+  const [index, setIndex] = useState(0);
+
+  const renderTabBar = props => (
+    <TabBar
+      {...props}
+      indicatorStyle={{backgroundColor: colors.cardbackground}}
+      tabStyle={styles.tabStyle}
+      scrollEnabled={true}
+      style={styles.tab}
+      labelStyle={styles.tabLabel}
+      contentContainerStyle={styles.tabContainer}
+    />
+  );
+
+  const UpdateRoute1 = () => {
+    return <View />;
+  };
+
   return (
     <View style={styles.container}>
       <ScrollView>
@@ -72,6 +97,16 @@ const ShopHomeScreen = ({navigation, route}) => {
               </View>
             </View>
           </View>
+        </View>
+        <View style={styles.view10}>
+          <TabView
+            navigationState={{index, routes}}
+            renderScene={UpdateRoute1}
+            onIndexChange={setIndex}
+            initialLayout={initialLayout}
+            renderTabBar={renderTabBar}
+            tabBarPosition="top"
+          />
         </View>
       </ScrollView>
     </View>
