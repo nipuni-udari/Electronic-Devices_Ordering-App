@@ -22,7 +22,7 @@ const initialLayout = SCREEN_WIDTH;
 
 const ShopHomeScreen = ({navigation, route}) => {
   const {id, shop} = route.params;
-  const [routes2] = useState(categories);
+
   const [routes] = useState([
     {key: 'first', title: 'catalog'},
     {key: 'second', title: 'INFO'},
@@ -31,21 +31,8 @@ const ShopHomeScreen = ({navigation, route}) => {
   ]);
 
   const [index, setIndex] = useState(0);
-  const [index2, setIndex2] = useState(0);
-  const [modalVisible, setModalVisible] = useState(false);
 
   const renderTabBar = props => (
-    <TabBar
-      {...props}
-      indicatorStyle={{backgroundColor: colors.cardbackground}}
-      tabStyle={styles.tabStyle}
-      scrollEnabled={true}
-      style={styles.tab}
-      labelStyle={styles.tabLabel}
-      contentContainerStyle={styles.tabContainer}
-    />
-  );
-  const renderTabBar2 = props => (
     <TabBar
       {...props}
       indicatorStyle={{backgroundColor: colors.cardbackground}}
@@ -61,30 +48,7 @@ const ShopHomeScreen = ({navigation, route}) => {
     return <View />;
   };
   const categoriesPressed = () => {
-    setModalVisible(true);
-  };
-  const renderScene = ({route}) => {
-    switch (route.key) {
-      case 1:
-        return <Route1 name={navigation} />;
-      case 2:
-        return <Route2 name={navigation} />;
-      case 3:
-        return <Route3 name={navigation} />;
-      case 4:
-        return <Route4 name={navigation} />;
-      case 5:
-        return <Route5 name={navigation} />;
-      case 6:
-        return <Route6 name={navigation} />;
-      case 7:
-        return <Route7 name={navigation} />;
-      case 8:
-        return <Route8 name={navigation} />;
-
-      default:
-        return null;
-    }
+    navigation.navigate('CategoriesProductsScreen');
   };
 
   return (
@@ -161,18 +125,6 @@ const ShopHomeScreen = ({navigation, route}) => {
           </View>
         </View>
       </TouchableOpacity>
-      <Modal visible={modalVisible} animationType="slide">
-        <View style={styles.view14}>
-          <Icon
-            name="arrow-left"
-            type="material-community"
-            color={colors.black}
-            size={25}
-            onPress={() => setModalVisible(false)}
-          />
-          <Text style={styles.text14}>Categories</Text>
-        </View>
-      </Modal>
     </View>
   );
 };
