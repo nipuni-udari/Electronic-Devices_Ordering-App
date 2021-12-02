@@ -4,9 +4,6 @@ import {colors, Icon} from 'react-native-elements';
 import {specialData, categoriesData} from '../../global/Data';
 
 const CategoriesScreen = ({navigation, shop, onPress}) => {
-  const handlepress = () => {
-    //navigation.navigate("ProductSec")
-  };
   return (
     <View style={styles.container}>
       <View>
@@ -25,7 +22,7 @@ const CategoriesScreen = ({navigation, shop, onPress}) => {
       <View>
         {categoriesData.map(items => (
           <View key={items.key} style={styles.view1}>
-            <TouchableOpacity onPress={handlepress}>
+            <TouchableOpacity onPress={onPress}>
               <View style={styles.view2}>
                 <Text style={styles.text1}>{items.title}</Text>
               </View>

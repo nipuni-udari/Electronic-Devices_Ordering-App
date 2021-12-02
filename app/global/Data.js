@@ -333,7 +333,7 @@ export const specialData = [
   {title: 'MCCHICKEN DELUXE PROMO', key: 3},
 ];
 
-export const menu = [
+export const categories = [
   {key: 1, title: 'BEEF'},
   {key: 2, title: 'CHICKEN'},
   {key: 3, title: 'VEGGIE BURGER'},
@@ -344,7 +344,7 @@ export const menu = [
   {key: 8, title: 'Milkshakes'},
 ];
 
-export const menuDetailedData = [
+export const categoriesDetailedData = [
   {
     meal: 'Big Mac',
     price: 70.2,
