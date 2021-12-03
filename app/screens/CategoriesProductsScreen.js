@@ -10,13 +10,11 @@ import {
   Route7,
   Route8,
 } from './CategoriesTabs';
-import {shopsData, menu, categories} from '../global/Data';
+import {shopsData, categories} from '../global/Data';
 const SCREEN_WIDTH = Dimensions.get('window').width;
 import {TabView, TabBar} from 'react-native-tab-view';
 import {colors} from '../global/styles';
 import {Icon} from 'react-native-elements';
-const initialLayout = SCREEN_WIDTH;
-
 
 const CategoriesProductScreen = ({navigation, route}) => {
   const [routes] = useState(categories);

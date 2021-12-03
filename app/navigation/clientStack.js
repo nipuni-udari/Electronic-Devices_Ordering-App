@@ -7,13 +7,12 @@ import ShopHomeScreen from '../screens/ShopHomeScreen';
 import {getFocusedRouteNameFromRoute} from '@react-navigation/native';
 import CategoriesProductScreen from '../screens/CategoriesProductsScreen';
 
-
 const ClientSearch = createStackNavigator();
 
 export function ClientStack({navigation, route}) {
   useLayoutEffect(() => {
     const routeName = getFocusedRouteNameFromRoute(route);
-    if (routeName === 'ShopHomeScreen') {
+    if (routeName === 'ShopHomeScreen' || 'CategoriesProductScreen') {
       navigation.setOptions({tabBarVisible: false});
     } else {
       navigation.setOptions({tabBarVisible: true});

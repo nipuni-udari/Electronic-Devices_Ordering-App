@@ -1,7 +1,7 @@
 import React from 'react';
 import {View, StyleSheet, FlatList, TouchableOpacity, Text} from 'react-native';
 import {categoriesData, categoriesDetailedData} from '../global/Data';
-
+import CategoriesCard from '../components/CategoriesCard';
 
 export function Route1() {
   return (
@@ -13,7 +13,12 @@ export function Route1() {
           keyExtractor={(item, index) => index.toString()}
           renderItem={({item, index}) => (
             <TouchableOpacity>
-              
+              <CategoriesCard
+                productName={item.meal}
+                image={item.image}
+                price={item.price}
+                productDetails={item.details}
+              />
             </TouchableOpacity>
           )}
           showsVerticalScrollIndicator={false}
