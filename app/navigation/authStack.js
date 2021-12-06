@@ -38,33 +38,6 @@ export default function AuthStack() {
           ...TransitionPresets.RevealFromBottomAndroid,
         }}
       />
-
-      <Auth.Screen
-        name="HomeScreen"
-        component={HomeScreen}
-        options={{
-          headerShown: false,
-          ...TransitionPresets.RevealFromBottomAndroid,
-        }}
-      />
-
-      <Auth.Screen
-        name="DrawerNavigator"
-        component={DrawerNavigator}
-        options={{
-          headerShown: false,
-          ...TransitionPresets.RevealFromBottomAndroid,
-        }}
-      />
-
-      <Auth.Screen
-        name="ElectronicStoresMapScreen"
-        component={ElectronicStoresMapScreen}
-        options={{
-          headerShown: false,
-          ...TransitionPresets.RevealFromBottomAndroid,
-        }}
-      />
     </Auth.Navigator>
   );
 }
