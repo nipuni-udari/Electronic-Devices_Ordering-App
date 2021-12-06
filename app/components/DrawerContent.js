@@ -1,4 +1,5 @@
 import React, {useState, useContext, useEffect} from 'react';
+import auth from '@react-native-firebase/auth';
 
 import {
   View,
@@ -8,6 +9,7 @@ import {
   Alert,
   Switch,
   StyleSheet,
+  TouchableOpacity,
 } from 'react-native';
 
 import {
@@ -17,10 +19,27 @@ import {
 } from '@react-navigation/drawer';
 
 import {Avatar, Button, Icon} from 'react-native-elements';
+import {SignInContext} from '../contexts/authContext';
 
 import {colors} from '../global/styles';
 
 export default function DrawerContent(props) {
+  const {dispatchSignedIn} = useContext(SignInContext);
+  async function signOut() {
+    try {
+      auth()
+        .signOut()
+        .then(() => {
+          console.log('log out');
+          dispatchSignedIn({
+            type: 'UPDATE_SIGN_IN',
+            payload: {userToken: null},
+          });
+        });
+    } catch (err) {
+      Alert.alert(err.code);
+    }
+  }
   return (
     <View style={styles.container}>
       <DrawerContentScrollView {...props}>
@@ -180,6 +199,9 @@ export default function DrawerContent(props) {
             name="logout-variant"
             color={color}
             size={size}
+            onPress={() => {
+              signOut();
+            }}
           />
         )}
       />
