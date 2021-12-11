@@ -346,7 +346,7 @@ export const categories = [
 
 export const categoriesDetailedData = [
   {
-    meal: 'Big Mac',
+    Device: 'Big Mac',
     price: 70.2,
     image: 'https://bukasapics.s3.us-east-2.amazonaws.com/plate1.png',
     details: 'McFeast features two 100% fresh beef burger patties that are hot',
@@ -412,7 +412,7 @@ export const categoriesDetailedData = [
   },
 
   {
-    meal: 'Hand cut chips',
+    Device: 'Hand cut chips',
     price: 29.3,
     image: 'https://bukasapics.s3.us-east-2.amazonaws.com/plate4.png',
     details: 'Two 100% fresh beef burger patties that are hot,deliciously',
@@ -478,7 +478,7 @@ export const categoriesDetailedData = [
   },
 
   {
-    meal: 'Chicken Burger',
+    Device: 'Chicken Burger',
     price: 45.7,
     image: 'https://bukasapics.s3.us-east-2.amazonaws.com/plate3.png',
     details: '',
@@ -545,7 +545,7 @@ export const categoriesDetailedData = [
   },
 
   {
-    meal: 'Big Mac',
+    Device: 'Big Mac',
     price: 50.8,
     image: 'https://bukasapics.s3.us-east-2.amazonaws.com/plate4.png',
     details: 'McFeast features two 100% fresh beef burger patties that are hot',
@@ -612,7 +612,7 @@ export const categoriesDetailedData = [
   },
 
   {
-    meal: 'Hand cut chips',
+    Device: 'Hand cut chips',
     price: 29.3,
     image: 'https://bukasapics.s3.us-east-2.amazonaws.com/plate5.png',
     details: 'Two 100% fresh beef burger patties that are hot,deliciously',
@@ -681,7 +681,7 @@ export const categoriesDetailedData = [
   },
 
   {
-    meal: 'Big Mac',
+    Device: 'Big Mac',
     price: 70.2,
     image: 'https://bukasapics.s3.us-east-2.amazonaws.com/plate1.png',
     details: 'McFeast features two 100% fresh beef burger patties that are hot',
