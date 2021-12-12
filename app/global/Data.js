@@ -352,10 +352,9 @@ export const categoriesDetailedData = [
     details: 'McFeast features two 100% fresh beef burger patties that are hot',
     preferenceTitle: [
       'Choose your 2 dips',
-      'Choose your 1st drink flavour',
-      'Choose your 2nd drink flavour',
-      'Would you like to add a side?',
-      'Would you Like any extra sauce?',
+      'Choose your 1st  choice',
+      'Choose your 2nd  choice',
+      'Would you like to add more?',
     ],
     preferenceData: [
       [
@@ -405,7 +404,7 @@ export const categoriesDetailedData = [
       ],
     ],
 
-    minimum_quatity: [2, 1, 1, null, null],
+    minimum_quantity: [2, 1, 1, null, null],
     counter: [0, 0, 0, 0, 0],
     required: [true, true, true, false, false],
     id: 0,

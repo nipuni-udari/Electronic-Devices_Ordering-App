@@ -7,16 +7,28 @@ import {
   ScrollView,
   Image,
 } from 'react-native';
-import {Icon, checkBox} from 'react-native-elements';
+import {Icon, checkBox, CheckBox} from 'react-native-elements';
 import {color} from 'react-native-reanimated';
 import {colors} from '../global/styles';
 
 import {categoriesDetailedData} from '../global/Data';
 
 export default class PreferenceScreen extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      preference:
+        categoriesDetailedData[this.props.route.params.index].preferenceData,
+      required: categoriesDetailedData[this.props.route.params.index].required,
+      minimum_quantity:
+        categoriesDetailedData[this.props.route.params.index].minimum_quantity,
+    };
+  }
   render() {
-    const {Device, details, price} =
-      categoriesDetailedData[this.props.route.params.index];
+    const {index} = this.props.route.params;
+    const {Device, details, price} = categoriesDetailedData[index];
+
     return (
       <View style={styles.container}>
         <ScrollView>
@@ -46,7 +58,82 @@ export default class PreferenceScreen extends Component {
             <Text style={styles.text1}>{Device}</Text>
             <Text style={styles.text2}>{details}</Text>
           </View>
+          <View style={styles.view2}>
+            <Text style={styles.text3}>Choose Device Type</Text>
+            <View style={styles.view3}>
+              <Text style={styles.text4}>REQUIRED</Text>
+            </View>
+          </View>
+          <View style={styles.view4}>
+            <View style={styles.view5}>
+              <View style={styles.view6}>
+                <CheckBox
+                  center
+                  checkedIcon="dot-circle-o"
+                  uncheckedIcon="circle-o"
+                  checked={true}
+                  checkedColor={colors.buttons}
+                />
+                <Text style={styles.text5}>- - - - -</Text>
+              </View>
+              <Text style={styles.text6}>RS :{price.toFixed(2)}</Text>
+            </View>
+          </View>
+          <View>
+            {this.state.preference.map(item => (
+              <View key={item.id}>
+                <View style={styles.view7}>
+                  <Text style={styles.text8}>
+                    {
+                      categoriesDetailedData[index].preferenceTitle[
+                        this.state.preference.indexOf(item)
+                      ]
+                    }
+                  </Text>
+                  {this.state.required[this.state.preference.indexOf(item)] && (
+                    <View style={styles.view9}>
+                      <Text style={styles.text7}>
+                        {
+                          this.state.minimum_quantity[
+                            this.state.preference.indexOf(item)
+                          ]
+                        }{' '}
+                        REQUIRED
+                      </Text>
+                    </View>
+                  )}
+                </View>
+                <View style={styles.view10}>
+                  {item.map(items => (
+                    <View>
+                      <View style={styles.view4}>
+                        <View style={styles.view19}>
+                          <View style={styles.view6}>
+                            <CheckBox
+                              center
+                              checkedIcon="check-square-o"
+                              uncheckedIcon="square-o"
+                              checked={false}
+                              checkedColor={colors.buttons}
+                            />
+                            <Text
+                              style={{color: colors.grey2, marginLeft: -10}}>
+                              {items.name}
+                            </Text>
+                          </View>
+                          <Text style={styles.text6}>
+                            RS :{items.price.toFixed(2)}
+                          </Text>
+                        </View>
+                      </View>
+                    </View>
+                  ))}
+                </View>
+              </View>
+            ))}
+          </View>
         </ScrollView>
+        
       </View>
     );
   }
@@ -118,7 +205,7 @@ const styles = StyleSheet.create({
   },
   text4: {backgroundColor: 'bold', color: colors.grey3, padding: 5},
 
-  view4: {backgroundColor: 'white', marginBottom: 15},
+  view4: {backgroundColor: 'white', marginBottom: 10},
 
   view5: {
     flexDirection: 'row',
@@ -137,7 +224,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'space-between',
   },
-  view8: {
+  text8: {
     fontSize: 16,
     fontWeight: 'bold',
     color: colors.grey1,
@@ -198,6 +285,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     marginBottom: 0,
   },
+  
 
   text10: {padding: 10, fontWeight: 'bold', fontSize: 18},
 });
