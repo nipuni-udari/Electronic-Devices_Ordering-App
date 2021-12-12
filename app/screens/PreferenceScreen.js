@@ -133,7 +133,37 @@ export default class PreferenceScreen extends Component {
             ))}
           </View>
         </ScrollView>
-        
+        <View style={styles.view13}>
+          <Text style={styles.text11}>Quantity</Text>
+        </View>
+        <View style={styles.view14}>
+          <View style={styles.view16}>
+            <Icon
+              name="remove"
+              type="material"
+              color={colors.black}
+              size={25}
+              onPress={() => {
+                this.props.navigation.goBack();
+              }}
+            />
+          </View>
+          <Text style={styles.text9}>1</Text>
+          <View style={styles.view16}>
+            <Icon
+              name="add"
+              type="material"
+              color={colors.black}
+              size={25}
+              onPress={() => {}}
+            />
+          </View>
+        </View>
+        <View style={styles.view17}>
+          <View style={styles.view18}>
+            <Text style={styles.text10}>ADD 1 to Cart RS:1200</Text>
+          </View>
+        </View>
       </View>
     );
   }
@@ -230,6 +260,12 @@ const styles = StyleSheet.create({
     color: colors.grey1,
     marginLeft: 10,
   },
+  text11: {
+    paddingLeft: 10,
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: colors.grey3,
+  },
   view9: {
     borderWidth: 3,
     borderColor: color.grey5,
@@ -285,7 +321,6 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     marginBottom: 0,
   },
-  
 
   text10: {padding: 10, fontWeight: 'bold', fontSize: 18},
 });
