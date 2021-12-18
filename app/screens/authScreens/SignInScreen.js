@@ -200,7 +200,7 @@ const styles = StyleSheet.create({
 
   createButton: {
     borderWidth: 1,
-    borderColor: '#ff8c52',
+    borderColor: '#9013fe',
     height: 40,
     borderRadius: 12,
     backgroundColor: 'white',
@@ -210,7 +210,7 @@ const styles = StyleSheet.create({
   },
 
   createButtonTitle: {
-    color: '#ff8c52',
+    color: '#9013fe',
     fontSize: 16,
     fontWeight: 'bold',
     alignItems: 'center',
