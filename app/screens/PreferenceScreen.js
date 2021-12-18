@@ -3,6 +3,7 @@ import {
   Platform,
   StyleSheet,
   Text,
+  TouchableOpacity,
   View,
   ScrollView,
   Image,
@@ -23,6 +24,7 @@ export default class PreferenceScreen extends Component {
       required: categoriesDetailedData[this.props.route.params.index].required,
       minimum_quantity:
         categoriesDetailedData[this.props.route.params.index].minimum_quantity,
+      counter: categoriesDetailedData[this.props.route.params.index].counter,
     };
   }
   render() {
@@ -105,7 +107,43 @@ export default class PreferenceScreen extends Component {
                 </View>
                 <View style={styles.view10}>
                   {item.map(items => (
-                    <View>
+                    <TouchableOpacity
+                      key={items.id}
+                      onPress={() => {
+                        const id = this.state.preference.indexOf(item);
+
+                        if (this.state.minimum_quantity[id] !== null) {
+                          const check = item.filter(items =>
+                            items.checked ? items : null,
+                          );
+                          this.state.preference[id].forEach(i => {
+                            if (i.id === items.id) {
+                              if (
+                                check.length < this.state.minimum_quantity[id]
+                              ) {
+                                i.checked = !i.checked;
+                              } else {
+                                i.checked = false;
+                              }
+                            }
+                          }),
+                            (this.state.counter[id] =
+                              this.state.counter[id] + 1);
+                          this.setState({
+                            preference: [...this.state.preference],
+                            counter: [...this.state.counter],
+                          });
+                        } else {
+                          this.state.preference[id].forEach(i => {
+                            if (i.id === items.id) {
+                              i.checked = !i.checked;
+                            }
+                          });
+                          this.setState({
+                            preference: [...this.state.preference],
+                          });
+                        }
+                      }}>
                       <View style={styles.view4}>
                         <View style={styles.view19}>
                           <View style={styles.view6}>
@@ -113,7 +151,7 @@ export default class PreferenceScreen extends Component {
                               center
                               checkedIcon="check-square-o"
                               uncheckedIcon="square-o"
-                              checked={false}
+                              checked={items.checked}
                               checkedColor={colors.buttons}
                             />
                             <Text
@@ -126,7 +164,7 @@ export default class PreferenceScreen extends Component {
                           </Text>
                         </View>
                       </View>
-                    </View>
+                    </TouchableOpacity>
                   ))}
                 </View>
               </View>
