@@ -7,12 +7,31 @@ import HomeScreen from '../screens/HomeScreen';
 import DrawerNavigator from './DrawerNavigator';
 import ElectronicStoresMapScreen from '../screens/ElectronicStoresMapScreen';
 import SignUpScreen from '../screens/authScreens/SignUpScreen';
+import SplashScreen from '../screens/authScreens/SplashScreen';
+import OnboardingScreens from '../screens/authScreens/OnboardingScreens';
 
 const Auth = createStackNavigator();
 
 export default function AuthStack() {
   return (
     <Auth.Navigator>
+
+      <Auth.Screen
+        name="SplashScreen"
+        component={SplashScreen}
+        options={{
+          headerShown: false,
+          ...TransitionPresets.RevealFromBottomAndroid,
+        }}
+      />
+      <Auth.Screen
+        name="OnboardingScreens"
+        component={OnboardingScreens}
+        options={{
+          headerShown: false,
+          ...TransitionPresets.RevealFromBottomAndroid,
+        }}
+      />
       <Auth.Screen
         name="SignInWelcomeScreen"
         component={SignInWelcomeScreen}

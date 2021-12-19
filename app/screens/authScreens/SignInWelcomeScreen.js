@@ -9,8 +9,8 @@ import {
 } from 'react-native';
 import {colors, parameters, title} from '../../global/styles';
 import {Icon, Button, SocialIcon} from 'react-native-elements';
-import * as Animatable from 'react-native-animatable';
 
+import Header from '../../components/Header';
 import Swiper from 'react-native-swiper';
 
 export default function SignInWelcomeScreen({navigation}) {
@@ -18,15 +18,23 @@ export default function SignInWelcomeScreen({navigation}) {
     <View style={{flex: 1}}>
       <View
         style={{
+          flex: 1,
+          justifyContent: 'center',
+          backgroundColor: '#9013fe',
+        }}
+      />
+      <View
+        style={{
           flex: 3,
           justifyContent: 'flex-start',
           alignItems: 'center',
           paddingTop: 20,
+          backgroundColor: '#9013fe',
         }}>
-        <Text style={{fontSize: 26, color: colors.buttons, fontWeight: 'bold'}}>
-          Discover The E-Shops
+        <Text style={{fontSize: 27, color: colors.white, fontWeight: 'bold'}}>
+          Discover The Electronic Stores
         </Text>
-        <Text style={{fontSize: 26, color: colors.buttons, fontWeight: 'bold'}}>
+        <Text style={{fontSize: 26, color: colors.white, fontWeight: 'bold'}}>
           In Your Area
         </Text>
       </View>
