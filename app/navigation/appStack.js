@@ -1,7 +1,7 @@
 import React from 'react';
 import {createStackNavigator, TransitionPresets} from '@react-navigation/stack';
 import DrawerNavigator from './DrawerNavigator';
-import ElectronicStoresMapScreen from '../screens/ElectronicStoresMapScreen';
+import MapScreen from '../screens/MapScreen';
 
 const App = createStackNavigator();
 
@@ -19,7 +19,7 @@ export function AppStack() {
 
       <App.Screen
         name="ElectronicStoresMapScreen"
-        component={ElectronicStoresMapScreen}
+        component={MapScreen}
         options={{
           headerShown: false,
           ...TransitionPresets.RevealFromBottomAndroid,

@@ -5,7 +5,7 @@ import SignInWelcomeScreen from '../screens/authScreens/SignInWelcomeScreen';
 import SignInScreen from '../screens/authScreens/SignInScreen';
 import HomeScreen from '../screens/HomeScreen';
 import DrawerNavigator from './DrawerNavigator';
-import ElectronicStoresMapScreen from '../screens/ElectronicStoresMapScreen';
+
 import SignUpScreen from '../screens/authScreens/SignUpScreen';
 import SplashScreen from '../screens/authScreens/SplashScreen';
 import OnboardingScreens from '../screens/authScreens/OnboardingScreens';
