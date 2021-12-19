@@ -18,7 +18,7 @@ export function AppStack() {
       />
 
       <App.Screen
-        name="ElectronicStoresMapScreen"
+        name="MapScreen"
         component={MapScreen}
         options={{
           headerShown: false,

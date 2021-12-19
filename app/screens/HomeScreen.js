@@ -53,7 +53,7 @@ export default function HomeScreen({navigation}) {
             <TouchableOpacity
               onPress={() => {
                 setDelivery(false);
-                navigation.navigate('ElectronicStoresMapScreen');
+                navigation.navigate('MapScreen');
               }}>
               <View
                 style={{
@@ -243,7 +243,7 @@ export default function HomeScreen({navigation}) {
         <View style={styles.floatButton}>
           <TouchableOpacity
             onPress={() => {
-              navigation.navigate('ElectronicStoresMapScreen');
+              navigation.navigate('MapScreen');
             }}>
             <Icon
               name="place"
