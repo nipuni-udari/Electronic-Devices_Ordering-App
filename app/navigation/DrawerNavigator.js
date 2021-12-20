@@ -6,6 +6,7 @@ import {Icon} from 'react-native-elements';
 import {colors} from '../global/styles';
 import BusinessConsoleScreen from '../screens/BusinessConsoleScreen';
 import DrawerContent from '../components/DrawerContent';
+import PaymentScreen from '../screens/PaymentScreen';
 
 const Drawer = createDrawerNavigator();
 
@@ -36,6 +37,21 @@ export default function DrawerNavigator() {
             <Icon
               type="material"
               name="business"
+              color={focussed ? '#7cc' : colors.grey2}
+              size={size}
+            />
+          ),
+        }}
+      />
+      <Drawer.Screen
+        name="Payment"
+        component={PaymentScreen}
+        options={{
+          title: 'Payment',
+          drawerIcon: ({focussed, size}) => (
+            <Icon
+              type="material-community"
+              name="credit-card-outline"
               color={focussed ? '#7cc' : colors.grey2}
               size={size}
             />

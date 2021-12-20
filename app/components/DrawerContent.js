@@ -67,11 +67,11 @@ export default function DrawerContent(props) {
                   color: colors.cardbackground,
                   fontSize: 18,
                 }}>
-                John Mark
+                Nipuni udari
               </Text>
               <Text style={{color: colors.cardbackground, fontSize: 14}}>
                 {' '}
-                john@xpressfood.com
+                NipuniUdari@gmail.com
               </Text>
             </View>
           </View>
@@ -128,17 +128,7 @@ export default function DrawerContent(props) {
 
         <DrawerItemList {...props} />
 
-        <DrawerItem
-          label="Payment"
-          icon={({color, size}) => (
-            <Icon
-              type="material-community"
-              name="credit-card-outline"
-              color={color}
-              size={size}
-            />
-          )}
-        />
+        
 
         <DrawerItem
           label="Promotions"

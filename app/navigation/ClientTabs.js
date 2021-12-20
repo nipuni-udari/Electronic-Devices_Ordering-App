@@ -9,6 +9,8 @@ import SearchScreen from '../screens/SearchScreen';
 import MyOrdersScreen from '../screens/MyOrdersScreen';
 import MyAccountScreen from '../screens/MyAccountScreen';
 import {ClientStack} from './clientStack';
+import PaymentScreen from '../screens/PaymentScreen';
+import {PayStack} from './PayStack';
 
 const ClientTabs = createBottomTabNavigator();
 
@@ -41,7 +43,7 @@ export default function RootClientTabs() {
 
       <ClientTabs.Screen
         name="MyOrdersScreen"
-        component={MyOrdersScreen}
+        component={PayStack}
         options={{
           tabBarLabel: 'My Orders',
           tabBarIcon: ({color, size}) => (

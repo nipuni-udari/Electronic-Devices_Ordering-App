@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 import React, {Component} from 'react';
 import {
   View,
@@ -12,18 +13,12 @@ import {colors, parameters, title} from '../global/styles';
 import {Marker} from 'react-native-maps';
 import {Icon, Button, SocialIcon} from 'react-native-elements';
 import TitleBar from '../constants/TitleBar';
+import Header from '../components/Header';
+
 export default function MapScreen({navigation}) {
   return (
     <View style={styles.MainContainer}>
-      <View style={styles.view1}>
-        <Icon
-          name="arrow-left"
-          type="material-community"
-          color={colors.black}
-          size={25}
-          onPress={() => navigation.goBack()}
-        />
-      </View>
+      <View style={styles.view2} />
 
       <MapView
         style={styles.mapStyle}
@@ -31,15 +26,15 @@ export default function MapScreen({navigation}) {
         zoomEnabled={true}
         zoomControlEnabled={true}
         initialRegion={{
-          latitude: 6.928365633030097,
-          longitude: 79.89499658264656,
+          latitude: 6.864937410242063,
+          longitude: 79.90085304664619,
           latitudeDelta: 0.0922,
           longitudeDelta: 0.0421,
         }}>
         <Marker
           coordinate={{
-            latitude: 6.928365633030097,
-            longitude: 79.89499658264656,
+            latitude: 6.864937410242063,
+            longitude: 79.90085304664619,
           }}
           title={'JavaTpoint'}
           description={'Java Training Institute'}
@@ -47,7 +42,7 @@ export default function MapScreen({navigation}) {
       </MapView>
       <View style={{marginHorizontal: 20, marginTop: 30}}>
         <Button
-          title="Save location"
+          title="Save your Delivery location"
           buttonStyle={styles.createButton}
           titleStyle={styles.createButtonTitle}
           onPress={() => navigation.navigate('HomeScreen')}
@@ -67,6 +62,7 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     justifyContent: 'flex-end',
   },
+
   mapStyle: {
     position: 'absolute',
     top: 0,

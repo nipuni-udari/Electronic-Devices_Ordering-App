@@ -13,7 +13,7 @@ import {
 } from 'react-native';
 import {Icon} from 'react-native-elements';
 
-export default class MyAccountScreen extends React.Component {
+export default class MyOrdersScreen extends React.Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -160,7 +160,12 @@ export default class MyAccountScreen extends React.Component {
             marginBottom: 10,
           }}>
           <View style={[styles.centerElement, {width: 50, height: 50}]}>
-            <Icon name="cart" size={25} color="#000" />
+            <Icon
+              name="cart-arrow-right"
+              type="material-community"
+              size={25}
+              color="#000"
+            />
           </View>
           <View style={[styles.centerElement, {height: 50}]}>
             <Text style={{fontSize: 18, color: '#000'}}>Shopping Cart</Text>
@@ -188,13 +193,14 @@ export default class MyAccountScreen extends React.Component {
                       style={[styles.centerElement, {width: 32, height: 32}]}
                       onPress={() => this.selectHandler(i, item.checked)}>
                       <Icon
+                        type="material-community"
                         name={
                           item.checked == 1
-                            ? 'ios-checkmark-circle'
-                            : 'ios-checkmark-circle-outline'
+                            ? 'checkbox-marked-circle'
+                            : 'checkbox-marked-circle-outline'
                         }
                         size={25}
-                        color={item.checked == 1 ? '#0faf9a' : '#aaaaaa'}
+                        color={item.checked == 1 ? '#9013fe' : '#aaaaaa'}
                       />
                     </TouchableOpacity>
                   </View>
@@ -271,7 +277,12 @@ export default class MyAccountScreen extends React.Component {
                     <TouchableOpacity
                       style={[styles.centerElement, {width: 32, height: 32}]}
                       onPress={() => this.deleteHandler(i)}>
-                      <Icon name="md-trash" size={25} color="#ee4d2d" />
+                      <Icon
+                        name="delete"
+                        type="material-community"
+                        size={25}
+                        color="#ee4d2d"
+                      />
                     </TouchableOpacity>
                   </View>
                 </View>
@@ -290,7 +301,12 @@ export default class MyAccountScreen extends React.Component {
             <View style={{flexDirection: 'row'}}>
               <View style={[styles.centerElement, {width: 60}]}>
                 <View style={[styles.centerElement, {width: 32, height: 32}]}>
-                  <Icon name="ticket" size={25} color="#f0ac12" />
+                  <Icon
+                    name="certificate"
+                    type="material-community"
+                    size={25}
+                    color="#f0ac12"
+                  />
                 </View>
               </View>
               <View
@@ -323,13 +339,14 @@ export default class MyAccountScreen extends React.Component {
                   style={[styles.centerElement, {width: 32, height: 32}]}
                   onPress={() => this.selectHandlerAll(selectAll)}>
                   <Icon
+                    type="material-community"
                     name={
                       selectAll == true
-                        ? 'ios-checkmark-circle'
-                        : 'ios-checkmark-circle-outline'
+                        ? 'checkbox-marked-circle'
+                        : 'checkbox-marked-circle-outline'
                     }
                     size={25}
-                    color={selectAll == true ? '#0faf9a' : '#aaaaaa'}
+                    color={selectAll == true ? '#9013fe' : '#aaaaaa'}
                   />
                 </TouchableOpacity>
               </View>
@@ -349,7 +366,7 @@ export default class MyAccountScreen extends React.Component {
                     alignItems: 'center',
                   }}>
                   <Text style={{color: '#8f8f8f'}}>SubTotal: </Text>
-                  <Text>${this.subtotalPrice().toFixed(2)}</Text>
+                  <Text>RS:{this.subtotalPrice().toFixed(2)}</Text>
                 </View>
               </View>
             </View>
@@ -365,13 +382,15 @@ export default class MyAccountScreen extends React.Component {
                 style={[
                   styles.centerElement,
                   {
-                    backgroundColor: '#0faf9a',
+                    backgroundColor: '#9013fe',
                     width: 100,
                     height: 25,
                     borderRadius: 5,
                   },
                 ]}
-                onPress={() => console.log('test')}>
+                onPress={() => {
+                  this.props.navigation.navigate('PaymentScreen');
+                }}>
                 <Text style={{color: '#ffffff'}}>Checkout</Text>
               </TouchableOpacity>
             </View>

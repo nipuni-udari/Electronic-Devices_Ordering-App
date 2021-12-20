@@ -7,6 +7,7 @@ import ShopHomeScreen from '../screens/ShopHomeScreen';
 import {getFocusedRouteNameFromRoute} from '@react-navigation/native';
 import CategoriesProductScreen from '../screens/CategoriesProductsScreen';
 import PreferenceScreen from '../screens/PreferenceScreen';
+import PaymentScreen from '../screens/PaymentScreen';
 
 const ClientSearch = createStackNavigator();
 
@@ -59,6 +60,7 @@ export function ClientStack({navigation, route}) {
           headerShown: false,
         })}
       />
+      
     </ClientSearch.Navigator>
   );
 }
