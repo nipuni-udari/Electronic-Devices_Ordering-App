@@ -3,6 +3,8 @@ import {Text, View, StyleSheet, Image, Button, TextInput} from 'react-native';
 import {colors, parameters, title} from '../global/styles';
 import MyOrdersScreen from './MyOrdersScreen';
 import TitleBar from '../constants/TitleBar';
+import SuccessMsgScreen from '../screens/SuccessMsgScreen';
+
 
 export default class PaymentScreen extends Component {
   render() {
@@ -43,7 +45,7 @@ export default class PaymentScreen extends Component {
                 buttonStyle={styles.createButton}
                 titleStyle={styles.createButtonTitle}
                 active
-                onPress={() => this.props.navigation.navigate(MyOrdersScreen)}
+                onPress={() => this.props.navigation.navigate(SuccessMsgScreen)}
               />
             </View>
           </View>
