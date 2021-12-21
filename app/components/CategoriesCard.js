@@ -16,7 +16,7 @@ export default function CategoriesCard({
           <View>
             <Text style={styles.text2}>{productDetails}</Text>
           </View>
-          <Text style={styles.text3}>ZAR {price}</Text>
+          <Text style={styles.text3}>LKR {price}</Text>
         </View>
         <View style={{flex: 2}}>
           <Image style={styles.image} source={{uri: image}} />

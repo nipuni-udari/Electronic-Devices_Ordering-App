@@ -57,7 +57,7 @@ export default function SearchScreen({navigation}) {
   );
 }
 
-const Footer = () => {
+const Footer = ({navigation}) => {
   return (
     <View style={{flex: 1, marginBottom: 10, paddingTop: 20}}>
       <View style={{}}>

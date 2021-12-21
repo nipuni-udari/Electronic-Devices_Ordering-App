@@ -20,9 +20,9 @@ export default function TitleBar({}) {
             color: colors.cardbackground,
             fontSize: 25,
             fontWeight: 'bold',
-            alignContent:'center',
-            textAlign:'center',
-            paddingRight:115,
+            alignContent: 'center',
+            textAlign: 'center',
+            paddingRight: 115,
           }}>
           Xpress E-Tech
         </Text>
@@ -37,6 +37,6 @@ const styles = StyleSheet.create({
     backgroundColor: colors.buttons,
     height: parameters.headerHeight,
     justifyContent: 'space-between',
-    alignContent:'center',
+    alignContent: 'center',
   },
 });

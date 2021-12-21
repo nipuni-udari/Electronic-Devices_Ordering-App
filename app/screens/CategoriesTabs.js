@@ -17,7 +17,7 @@ export function Route1({navigation}) {
                 navigation.navigate('PreferenceScreen', {index});
               }}>
               <CategoriesCard
-                productName={item.meal}
+                productName={item.Device}
                 image={item.image}
                 price={item.price}
                 productDetails={item.details}
@@ -31,16 +31,197 @@ export function Route1({navigation}) {
   );
 }
 
-export const Route2 = () => <View style={styles.scene} />;
-export const Route3 = () => <View style={styles.scene} />;
-export const Route4 = () => (
-  <View style={{...styles.scene, backgroundColor: 'green'}} />
-);
-export const Route5 = () => <View style={styles.scene} />;
-export const Route6 = () => <View style={styles.scene} />;
-export const Route7 = () => <View style={styles.scene} />;
-export const Route8 = () => <View style={styles.scene} />;
+export function Route2({navigation}) {
+  return (
+    <View style={{flex: 1}}>
+      <View style={styles.view2}>
+        <FlatList
+          style={{backgroundColor: 'white'}}
+          data={categoriesDetailedData}
+          keyExtractor={(item, index) => index.toString()}
+          renderItem={({item, index}) => (
+            <TouchableOpacity
+              onPress={() => {
+                navigation.navigate('PreferenceScreen', {index});
+              }}>
+              <CategoriesCard
+                productName={item.Device}
+                image={item.image}
+                price={item.price}
+                productDetails={item.details}
+              />
+            </TouchableOpacity>
+          )}
+          showsVerticalScrollIndicator={false}
+        />
+      </View>
+    </View>
+  );
+}
 
+export function Route3({navigation}) {
+  return (
+    <View style={{flex: 1}}>
+      <View style={styles.view2}>
+        <FlatList
+          style={{backgroundColor: 'white'}}
+          data={categoriesDetailedData}
+          keyExtractor={(item, index) => index.toString()}
+          renderItem={({item, index}) => (
+            <TouchableOpacity
+              onPress={() => {
+                navigation.navigate('PreferenceScreen', {index});
+              }}>
+              <CategoriesCard
+                productName={item.Device}
+                image={item.image}
+                price={item.price}
+                productDetails={item.details}
+              />
+            </TouchableOpacity>
+          )}
+          showsVerticalScrollIndicator={false}
+        />
+      </View>
+    </View>
+  );
+}
+export function Route4({navigation}) {
+  return (
+    <View style={{flex: 1}}>
+      <View style={styles.view2}>
+        <FlatList
+          style={{backgroundColor: 'white'}}
+          data={categoriesDetailedData}
+          keyExtractor={(item, index) => index.toString()}
+          renderItem={({item, index}) => (
+            <TouchableOpacity
+              onPress={() => {
+                navigation.navigate('PreferenceScreen', {index});
+              }}>
+              <CategoriesCard
+                productName={item.Device}
+                image={item.image}
+                price={item.price}
+                productDetails={item.details}
+              />
+            </TouchableOpacity>
+          )}
+          showsVerticalScrollIndicator={false}
+        />
+      </View>
+    </View>
+  );
+}
+
+export function Route5({navigation}) {
+  return (
+    <View style={{flex: 1}}>
+      <View style={styles.view2}>
+        <FlatList
+          style={{backgroundColor: 'white'}}
+          data={categoriesDetailedData}
+          keyExtractor={(item, index) => index.toString()}
+          renderItem={({item, index}) => (
+            <TouchableOpacity
+              onPress={() => {
+                navigation.navigate('PreferenceScreen', {index});
+              }}>
+              <CategoriesCard
+                productName={item.Device}
+                image={item.image}
+                price={item.price}
+                productDetails={item.details}
+              />
+            </TouchableOpacity>
+          )}
+          showsVerticalScrollIndicator={false}
+        />
+      </View>
+    </View>
+  );
+}
+export function Route6({navigation}) {
+  return (
+    <View style={{flex: 1}}>
+      <View style={styles.view2}>
+        <FlatList
+          style={{backgroundColor: 'white'}}
+          data={categoriesDetailedData}
+          keyExtractor={(item, index) => index.toString()}
+          renderItem={({item, index}) => (
+            <TouchableOpacity
+              onPress={() => {
+                navigation.navigate('PreferenceScreen', {index});
+              }}>
+              <CategoriesCard
+                productName={item.Device}
+                image={item.image}
+                price={item.price}
+                productDetails={item.details}
+              />
+            </TouchableOpacity>
+          )}
+          showsVerticalScrollIndicator={false}
+        />
+      </View>
+    </View>
+  );
+}
+export function Route7({navigation}) {
+  return (
+    <View style={{flex: 1}}>
+      <View style={styles.view2}>
+        <FlatList
+          style={{backgroundColor: 'white'}}
+          data={categoriesDetailedData}
+          keyExtractor={(item, index) => index.toString()}
+          renderItem={({item, index}) => (
+            <TouchableOpacity
+              onPress={() => {
+                navigation.navigate('PreferenceScreen', {index});
+              }}>
+              <CategoriesCard
+                productName={item.Device}
+                image={item.image}
+                price={item.price}
+                productDetails={item.details}
+              />
+            </TouchableOpacity>
+          )}
+          showsVerticalScrollIndicator={false}
+        />
+      </View>
+    </View>
+  );
+}
+export function Route8({navigation}) {
+  return (
+    <View style={{flex: 1}}>
+      <View style={styles.view2}>
+        <FlatList
+          style={{backgroundColor: 'white'}}
+          data={categoriesDetailedData}
+          keyExtractor={(item, index) => index.toString()}
+          renderItem={({item, index}) => (
+            <TouchableOpacity
+              onPress={() => {
+                navigation.navigate('PreferenceScreen', {index});
+              }}>
+              <CategoriesCard
+                productName={item.Device}
+                image={item.image}
+                price={item.price}
+                productDetails={item.details}
+              />
+            </TouchableOpacity>
+          )}
+          showsVerticalScrollIndicator={false}
+        />
+      </View>
+    </View>
+  );
+}
 const styles = StyleSheet.create({
   scene: {
     flex: 1,

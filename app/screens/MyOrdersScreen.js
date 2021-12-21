@@ -22,42 +22,42 @@ export default class MyOrdersScreen extends React.Component {
       cartItems: [
         {
           itemId: '501436323',
-          name: 'Power Wheels Dune Racer Extreme',
+          name: 'Wired Mouse with RGB Backlit, KKUOD Silent USB Computer Mouse',
           thumbnailImage:
-            'https://i5.walmartimages.com/asr/a3922e8e-2128-4603-ba8c-b58d1333253b_1.44d66337098c1db8fed9abe2ff4b57ce.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF',
-          color: 'Red',
+            'https://m.media-amazon.com/images/I/61M9TBM9HaL._AC_UY327_FMwebp_QL65_.jpg',
+          color: 'Black',
           qty: 1,
-          salePrice: '105',
+          salePrice: '800',
           checked: 1,
         },
         {
           itemId: '35031861',
-          name: 'Better Homes & Gardens Leighton Twin Over Twin Wood Bunk Bed, Multiple Finishes',
+          name: 'Fiodio Rainbow Membrane Gaming Keyboard',
           thumbnailImage:
-            'https://i5.walmartimages.com/asr/4aedb609-4b61-4593-ad8a-cdc8c88696b1_1.3f505ce3d55db4745cf4c51d559994dc.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF',
+            'https://m.media-amazon.com/images/I/71z6gsI87bL._AC_UL480_FMwebp_QL65_.jpg',
           qty: 1,
-          color: 'Green',
-          salePrice: '199',
+          color: 'Purple',
+          salePrice: '1990',
           checked: 0,
         },
         {
           itemId: '801099131',
-          name: 'LEGO Star Wars 2019 Advent Calendar 75245 Holiday Building Kit',
+          name: 'AILIHEN C8 Wired Headphones with Microphone ',
           thumbnailImage:
-            'https://i5.walmartimages.com/asr/9a8ea1ab-311d-455c-bda8-ce15692a8185_3.208d48e0260f80891d32b351cb116a4b.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF',
+            'https://m.media-amazon.com/images/I/71XfadRBl1L._AC_UL640_QL65_.jpg',
           qty: 1,
-          color: 'Blue',
-          salePrice: '27.99',
+          color: 'Green',
+          salePrice: '1500',
           checked: 1,
         },
         {
           itemId: '42608079',
-          name: 'Little Tikes Cape Cottage Playhouse, Tan',
+          name: 'Portable Charger Power Bank 25800mAh',
           thumbnailImage:
-            'https://i5.walmartimages.com/asr/2654cd64-1471-44af-8b0c-1debaf598cb3_1.c30c481d1ac8fdd6aa041c0690d7214c.jpeg?odnHeight=100&odnWidth=100&odnBg=FFFFFF',
+            'https://m.media-amazon.com/images/I/61p9QTx-jgL._AC_UY327_FMwebp_QL65_.jpg',
           color: 'Purple',
           qty: 1,
-          salePrice: '129.99',
+          salePrice: '8000',
           checked: 0,
         },
         {
@@ -235,7 +235,7 @@ export default class MyOrdersScreen extends React.Component {
                       <Text
                         numberOfLines={1}
                         style={{color: '#333333', marginBottom: 10}}>
-                        ${item.qty * item.salePrice}
+                       LKR: {item.qty * item.salePrice}
                       </Text>
                       <View style={{flexDirection: 'row'}}>
                         <TouchableOpacity
@@ -366,7 +366,7 @@ export default class MyOrdersScreen extends React.Component {
                     alignItems: 'center',
                   }}>
                   <Text style={{color: '#8f8f8f'}}>SubTotal: </Text>
-                  <Text>RS:{this.subtotalPrice().toFixed(2)}</Text>
+                  <Text>LKR :{this.subtotalPrice().toFixed(2)}</Text>
                 </View>
               </View>
             </View>

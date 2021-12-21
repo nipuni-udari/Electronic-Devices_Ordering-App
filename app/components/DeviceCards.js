@@ -11,8 +11,10 @@ import {
 import {Icon} from 'react-native-elements';
 
 import {colors, parameters} from '../global/styles';
+import SearchScreen from '../screens/SearchScreen';
+import ShopHomeScreen from '../screens/ShopHomeScreen';
 
-export default function FoodCard({
+export default function DeviceCard({
   OnPressFoodCard,
   shopName,
   deliveryAvailable,
@@ -31,7 +33,9 @@ export default function FoodCard({
         <Image
           style={{...styles.image, width: screenWidth}}
           source={{uri: images}}
+          onPress={() => this.props.navigation.navigate(ShopHomeScreen)}
         />
+
 
         <View>
           <View>

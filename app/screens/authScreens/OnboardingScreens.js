@@ -11,19 +11,19 @@ import {useNavigation} from '@react-navigation/native';
 const slides = [
   {
     key: 1,
-    title: 'Order Online',
+    title: 'Discover E-Stores near you',
     text: 'We make it simple to find your favorite E-gadgets.Enter your address and let us do the rest.',
     image: Slider1,
   },
   {
     key: 2,
-    title: 'Your Choice',
+    title: 'Order your favorites',
     text: 'We will your favorite devices based on your search and orders',
     image: Slider2,
   },
   {
     key: 3,
-    title: 'Fast Delivery',
+    title: 'Fastest Delivery',
     text: 'We make E-Gadgets ordering fast, easy and free.No matter you paid online or cash.',
     image: Slider3,
   },
@@ -95,8 +95,8 @@ const styles = StyleSheet.create({
     marginBottom: 70,
   },
   imageStyle: {
-    height: '60%',
-    width: '100%',
+    height: '40%',
+    width: '90%',
     resizeMode: 'contain',
   },
   title: {

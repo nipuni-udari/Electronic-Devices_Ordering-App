@@ -12,7 +12,7 @@ function SplashScreen() {
   useEffect(() => {
     setTimeout(() => {
       navigation.replace('OnboardingScreens');
-    }, 4000);
+    }, 3500);
   });
 
   return (

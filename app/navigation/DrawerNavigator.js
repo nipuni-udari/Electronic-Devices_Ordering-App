@@ -4,7 +4,7 @@ import RootClientTabs from './ClientTabs';
 
 import {Icon} from 'react-native-elements';
 import {colors} from '../global/styles';
-import BusinessConsoleScreen from '../screens/BusinessConsoleScreen';
+import Profile from '../screens/Profile';
 import DrawerContent from '../components/DrawerContent';
 import PaymentScreen from '../screens/PaymentScreen';
 
@@ -29,14 +29,14 @@ export default function DrawerNavigator() {
         }}
       />
       <Drawer.Screen
-        name="Business consoleScreen"
-        component={BusinessConsoleScreen}
+        name="Profile"
+        component={Profile}
         options={{
-          title: 'Business console',
+          title: 'Profile',
           drawerIcon: ({focussed, size}) => (
             <Icon
               type="material"
-              name="business"
+              name="person"
               color={focussed ? '#7cc' : colors.grey2}
               size={size}
             />

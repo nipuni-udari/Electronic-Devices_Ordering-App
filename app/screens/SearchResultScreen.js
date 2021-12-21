@@ -3,13 +3,18 @@ import {StyleSheet, Text, View, Dimensions, FlatList} from 'react-native';
 import SearchResultCard from '../components/SearchResultCard';
 import {shopsData} from '../global/Data';
 import {colors} from '../global/styles';
+import TitleBar from '../constants/TitleBar';
 
 const SCREEN_WIDTH = Dimensions.get('window').width;
 
 const SearchResultScreen = ({navigation, route}) => {
+  
   return (
+    
     <View style={styles.container}>
+      <TitleBar></TitleBar>
       <View>
+        
         <FlatList
           style={{backgroundColor: colors.cardbackground}}
           data={shopsData}
@@ -35,7 +40,7 @@ const SearchResultScreen = ({navigation, route}) => {
           ListHeaderComponent={
             <View>
               <Text style={styles.listHeader}>
-                {shopsData.length} Result for {route.params.item}
+                {shopsData.length}: Results for {route.params.item}
               </Text>
             </View>
           }

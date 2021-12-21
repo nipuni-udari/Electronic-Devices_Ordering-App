@@ -36,8 +36,8 @@ export default function MapScreen({navigation}) {
             latitude: 6.864937410242063,
             longitude: 79.90085304664619,
           }}
-          title={'JavaTpoint'}
-          description={'Java Training Institute'}
+          title={'Nugegoda'}
+          description={'Wijerama junction,University of Sri jayewardenepura'}
         />
       </MapView>
       <View style={{marginHorizontal: 20, marginTop: 30}}>
@@ -79,7 +79,7 @@ const styles = StyleSheet.create({
     backgroundColor: colors.background,
     justifyContent: 'center',
     alignContent: 'center',
-    paddingHorizontal: 60,
+    paddingHorizontal: 20,
     marginBottom: 50,
   },
 

@@ -13,7 +13,7 @@ import {
 } from 'react-native';
 import {Icon} from 'react-native-elements';
 
-export default function BusinessConsoleScreen() {
+export default function Profile() {
   return (
     <View style={styles.container}>
       <Text>Welcome to Business console</Text>

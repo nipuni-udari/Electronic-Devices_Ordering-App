@@ -8,6 +8,7 @@ import {
   TouchableOpacity,
   Modal,
 } from 'react-native';
+import TitleBar from '../constants/TitleBar';
 
 import {shopsData, categories} from '../global/Data';
 import {colors, fonts} from '../global/styles';
@@ -25,7 +26,7 @@ const ShopHomeScreen = ({navigation, route}) => {
 
   const [routes] = useState([
     {key: 'first', title: 'catalog'},
-    {key: 'second', title: 'INFO'},
+    {key: 'second', title: 'ABOUT'},
     {key: 'third', title: 'REVIEWS'},
     {key: 'fourth', title: 'GALLERY'},
   ]);
@@ -53,6 +54,8 @@ const ShopHomeScreen = ({navigation, route}) => {
 
   return (
     <View style={styles.container}>
+      <TitleBar></TitleBar>
+
       <ScrollView>
         <View>
           <ShopHeader id={id} navigation={navigation} />

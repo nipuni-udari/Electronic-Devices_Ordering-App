@@ -16,8 +16,9 @@ import {Icon} from 'react-native-elements';
 import {colors, paremeters} from '../global/styles';
 import HomeHeader from '../components/HomeHeader';
 import {filterData, shopsData} from '../global/Data';
-import FoodCard from '../components/DeviceCards';
+import DeviceCard from '../components/DeviceCards';
 import CountDown from 'react-native-countdown-component';
+import SearchScreen from './SearchScreen';
 
 const SCREEN_WIDTH = Dimensions.get('window').width;
 
@@ -46,7 +47,7 @@ export default function HomeScreen({navigation}) {
                   ...styles.deliveryButton,
                   backgroundColor: delivery ? colors.buttons : colors.grey5,
                 }}>
-                <Text style={styles.deliveryText}>Delivery</Text>
+                <Text style={styles.deliveryText}>Home</Text>
               </View>
             </TouchableOpacity>
 
@@ -80,7 +81,7 @@ export default function HomeScreen({navigation}) {
                 size={26}
               />
 
-              <Text style={{marginLeft: 5}}>22 Beessie Street</Text>
+              <Text style={{marginLeft: 5}}>No 45,Pallegama,Hungama</Text>
             </View>
 
             <View style={styles.clockView}>
@@ -179,8 +180,10 @@ export default function HomeScreen({navigation}) {
             keyExtractor={(item, index) => index.toString()}
             showsHorizontalScrollIndicator={false}
             renderItem={({item}) => (
+              
+              
               <View style={{marginRight: 5}}>
-                <FoodCard
+                <DeviceCard
                   screenWidth={SCREEN_WIDTH * 0.8}
                   images={item.images}
                   shopName={item.shopName}
@@ -188,6 +191,7 @@ export default function HomeScreen({navigation}) {
                   businessAddress={item.businessAddress}
                   averageReview={item.averageReview}
                   numberOfReview={item.numberOfReview}
+                  onPress={() => this.props.navigation.navigate(SearchScreen)}
                 />
               </View>
             )}
@@ -206,7 +210,7 @@ export default function HomeScreen({navigation}) {
             showsHorizontalScrollIndicator={false}
             renderItem={({item}) => (
               <View style={{marginRight: 5}}>
-                <FoodCard
+                <DeviceCard
                   screenWidth={SCREEN_WIDTH * 0.8}
                   images={item.images}
                   restaurantName={item.restaurantName}
@@ -226,7 +230,7 @@ export default function HomeScreen({navigation}) {
         <View style={{width: SCREEN_WIDTH, paddingTop: 10}}>
           {shopsData.map(item => (
             <View key={item.id} style={{paddingBottom: 20}}>
-              <FoodCard
+              <DeviceCard
                 screenWidth={SCREEN_WIDTH * 0.95}
                 images={item.images}
                 restaurantName={item.restaurantName}

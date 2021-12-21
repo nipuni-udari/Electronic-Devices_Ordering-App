@@ -9,32 +9,32 @@ import {
 } from 'react-native';
 import Feather from 'react-native-vector-icons/Feather';
 import LinearGradient from 'react-native-linear-gradient';
+import TitleBar from '../constants/TitleBar';
 
 export default class MyAccountScreen extends Component {
   render() {
     return (
       <>
-        <StatusBar barStyle="light-content" backgroundColor="#075E54" />
         <View style={styles.container}>
+          <TitleBar />
           <View style={styles.header}>
-            <LinearGradient
-              colors={['#188168', '#95CE67']}
-              style={styles.home}></LinearGradient>
+            <LinearGradient colors={['#9013fe', 'black']} style={styles.home} />
           </View>
           <Image
             style={styles.avatar}
-            source={require('../assets/images/audio.png')}
+            source={require('../assets/images/avt.jpg')}
           />
           <View style={styles.body}>
             <View style={styles.bodyContent}>
-              <Text style={styles.name}>Ocraniawan Patattan</Text>
-              <Text style={styles.info}>ocraniawan@arkademian</Text>
-              <Text style={styles.description}>
-                Lorem ipsum dolor sit amet, saepe sapientem eu nam. Qui ne assum
-                electram expetendis, omittam deseruisse consequuntur ius an,
-              </Text>
+              <Text style={styles.name}>Nipuni Udari</Text>
+              <Text style={styles.info}>nipuniudari@gmail.com</Text>
+              <Text style={styles.description}>No 45,pallegmama,Hungama.</Text>
 
-              <TouchableOpacity style={styles.buttonContainer}>
+              <TouchableOpacity
+                style={styles.buttonContainer}
+                onPress={() => {
+                  this.props.navigation.navigate('Profile');
+                }}>
                 <Feather name="settings" size={25} color="white" />
                 <Text
                   style={{
@@ -46,7 +46,11 @@ export default class MyAccountScreen extends Component {
                   Settings
                 </Text>
               </TouchableOpacity>
-              <TouchableOpacity style={styles.buttonContainer2}>
+              <TouchableOpacity
+                style={styles.buttonContainer2}
+                onPress={() => {
+                  this.props.navigation.navigate('HomeScreen');
+                }}>
                 <Feather name="log-out" size={25} color="white" />
                 <Text
                   style={{
@@ -55,7 +59,7 @@ export default class MyAccountScreen extends Component {
                     marginLeft: 10,
                     color: 'white',
                   }}>
-                  Log Out
+                  Back
                 </Text>
               </TouchableOpacity>
             </View>
@@ -93,17 +97,13 @@ const styles = StyleSheet.create({
     fontWeight: '600',
   },
   body: {
-    marginTop: 40,
+    backgroundColor: 'black',
+    height: 500,
   },
   bodyContent: {
     flex: 1,
     alignItems: 'center',
     padding: 30,
-  },
-  name: {
-    fontSize: 28,
-    color: '#696969',
-    fontWeight: '600',
   },
   info: {
     fontSize: 16,
@@ -126,7 +126,7 @@ const styles = StyleSheet.create({
     marginBottom: 10,
     width: 250,
     borderRadius: 30,
-    backgroundColor: '#7EC544',
+    backgroundColor: '#9013fe',
   },
   buttonContainer2: {
     marginTop: 10,
@@ -137,6 +137,6 @@ const styles = StyleSheet.create({
     marginBottom: 20,
     width: 250,
     borderRadius: 30,
-    backgroundColor: '#F95A37',
+    backgroundColor: '#43dff7',
   },
 });

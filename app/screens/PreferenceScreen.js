@@ -8,11 +8,12 @@ import {
   ScrollView,
   Image,
 } from 'react-native';
-import {Icon, checkBox, CheckBox} from 'react-native-elements';
+import {Icon, checkBox, Button, CheckBox} from 'react-native-elements';
 import {color} from 'react-native-reanimated';
 import {colors} from '../global/styles';
 
 import {categoriesDetailedData} from '../global/Data';
+import MyOrdersScreen from './MyOrdersScreen';
 
 export default class PreferenceScreen extends Component {
   constructor(props) {
@@ -94,7 +95,7 @@ export default class PreferenceScreen extends Component {
                   </Text>
                   {this.state.required[this.state.preference.indexOf(item)] && (
                     <View style={styles.view9}>
-                      <Text style={styles.text7}>
+                      <Text style={styles.text8}>
                         {
                           this.state.minimum_quantity[
                             this.state.preference.indexOf(item)
@@ -197,11 +198,13 @@ export default class PreferenceScreen extends Component {
             />
           </View>
         </View>
-        <View style={styles.view17}>
-          <View style={styles.view18}>
-            <Text style={styles.text10}>ADD 1 to Cart RS:1200</Text>
-          </View>
-        </View>
+        <Button
+          title="Go to Cart"
+          buttonStyle={styles.createButton}
+          titleStyle={styles.createButtonTitle}
+          active
+          onPress={() => this.props.navigation.navigate(MyOrdersScreen)}
+        />
       </View>
     );
   }
@@ -358,6 +361,28 @@ const styles = StyleSheet.create({
     backgroundColor: colors.buttons,
     alignItems: 'center',
     marginBottom: 0,
+  },
+  createButton: {
+    borderWidth: 1,
+    borderColor: colors.black,
+    height: 50,
+    borderRadius: 12,
+    backgroundColor: colors.background,
+    justifyContent: 'center',
+    alignContent: 'center',
+    paddingHorizontal: 60,
+    marginBottom: 20,
+    width: 300,
+    marginHorizontal: 50,
+  },
+
+  createButtonTitle: {
+    color: colors.white,
+    fontSize: 20,
+    fontWeight: 'bold',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginTop: -3,
   },
 
   text10: {padding: 10, fontWeight: 'bold', fontSize: 18},

@@ -9,18 +9,20 @@ import {
 } from 'react-native';
 import {colors, parameters, title} from '../../global/styles';
 import {Icon, Button, SocialIcon} from 'react-native-elements';
-
+import TitleBar from '../../constants/TitleBar';
+import LinearGradient from 'react-native-linear-gradient';
 import Header from '../../components/Header';
 import Swiper from 'react-native-swiper';
 
 export default function SignInWelcomeScreen({navigation}) {
   return (
     <View style={{flex: 1}}>
+      <TitleBar />
+
       <View
         style={{
           flex: 1,
           justifyContent: 'center',
-          backgroundColor: '#9013fe',
         }}
       />
       <View
@@ -29,17 +31,18 @@ export default function SignInWelcomeScreen({navigation}) {
           justifyContent: 'flex-start',
           alignItems: 'center',
           paddingTop: 20,
-          backgroundColor: '#9013fe',
         }}>
-        <Text style={{fontSize: 27, color: colors.white, fontWeight: 'bold'}}>
+        <Text
+          style={{fontSize: 27, color: colors.background, fontWeight: 'bold'}}>
           Discover The Electronic Stores
         </Text>
-        <Text style={{fontSize: 26, color: colors.white, fontWeight: 'bold'}}>
+        <Text
+          style={{fontSize: 26, color: colors.background, fontWeight: 'bold'}}>
           In Your Area
         </Text>
       </View>
 
-      <View style={{flex: 4, justifyContent: 'center'}}>
+      <View style={{flex: 4, justifyContent: 'center', height: 200}}>
         <Swiper autoplay={true}>
           <View style={styles.slide1}>
             <Image
