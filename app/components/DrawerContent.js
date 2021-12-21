@@ -20,6 +20,7 @@ import {
 
 import {Avatar, Button, Icon} from 'react-native-elements';
 import {SignInContext} from '../contexts/authContext';
+import {NavigationContainer, DarkTheme} from '@react-navigation/native';
 
 import {colors} from '../global/styles';
 
@@ -41,6 +42,7 @@ export default function DrawerContent(props) {
     }
   }
   return (
+    
     <View style={styles.container}>
       <DrawerContentScrollView {...props}>
         <View style={{backgroundColor: colors.buttons}}>
@@ -170,6 +172,7 @@ export default function DrawerContent(props) {
           <Text style={styles.preferences}>Preferences</Text>
 
           <View style={styles.switchText}>
+            
             <Text style={styles.darkthemeText}>Dark Theme</Text>
             <View style={{paddingRight: 10}}>
               <Switch
