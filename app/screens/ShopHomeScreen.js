@@ -19,6 +19,7 @@ import ShopHeader from '../components/ShopHeader';
 import CategoriesScreen from './ShopTabs/CategoriesScreen';
 import AboutScreen from './ShopTabs/AboutScreen';
 import ReviewsScreen from './ShopTabs/ReviewsScreen';
+import GalleryScreen from './ShopTabs/GalleryScreen';
 
 const SCREEN_WIDTH = Dimensions.get('window').width;
 const initialLayout = SCREEN_WIDTH;
@@ -124,6 +125,7 @@ const ShopHomeScreen = ({navigation, route}) => {
         {index === 0 && <CategoriesScreen onPress={categoriesPressed} />}
         {index === 1 && <AboutScreen onPress={categoriesPressed} />}
         {index === 2 && <ReviewsScreen onPress={categoriesPressed} />}
+        {index === 3 && <GalleryScreen onPress={categoriesPressed} />}
       </ScrollView>
       <TouchableOpacity
         onPress={() => {
