@@ -28,7 +28,7 @@ export default class MyAccountScreen extends Component {
             <View style={styles.bodyContent}>
               <Text style={styles.name}>Nipuni Udari</Text>
               <Text style={styles.info}>nipuniudari@gmail.com</Text>
-              <Text style={styles.description}>No 45,pallegmama,Hungama.</Text>
+              <Text style={styles.description}>No 45, pallegmama, Hungama.</Text>
 
               <TouchableOpacity
                 style={styles.buttonContainer}
@@ -89,7 +89,7 @@ const styles = StyleSheet.create({
     marginBottom: 10,
     alignSelf: 'center',
     position: 'absolute',
-    marginTop: 130,
+    marginTop: 110,
   },
   name: {
     fontSize: 22,

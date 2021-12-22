@@ -20,11 +20,11 @@ import {
 
 import {Avatar, Button, Icon} from 'react-native-elements';
 import {SignInContext} from '../contexts/authContext';
-import {NavigationContainer, DarkTheme} from '@react-navigation/native';
 
 import {colors} from '../global/styles';
 
 export default function DrawerContent(props) {
+  const [darkMode, setDarkMode] = useState(false);
   const {dispatchSignedIn} = useContext(SignInContext);
   async function signOut() {
     try {
@@ -42,7 +42,6 @@ export default function DrawerContent(props) {
     }
   }
   return (
-    
     <View style={styles.container}>
       <DrawerContentScrollView {...props}>
         <View style={{backgroundColor: colors.buttons}}>
@@ -130,8 +129,6 @@ export default function DrawerContent(props) {
 
         <DrawerItemList {...props} />
 
-        
-
         <DrawerItem
           label="Promotions"
           icon={({color, size}) => (
@@ -172,12 +169,13 @@ export default function DrawerContent(props) {
           <Text style={styles.preferences}>Preferences</Text>
 
           <View style={styles.switchText}>
-            
             <Text style={styles.darkthemeText}>Dark Theme</Text>
             <View style={{paddingRight: 10}}>
               <Switch
-                trackColor={{false: '#767577', true: '#81b0ff'}}
-                thumbColor="#f4f3f4"
+                value={darkMode}
+                onValueChange={val => {
+                  setDarkMode(val);
+                }}
               />
             </View>
           </View>

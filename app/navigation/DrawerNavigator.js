@@ -7,7 +7,11 @@ import {colors} from '../global/styles';
 import Profile from '../screens/Profile';
 import DrawerContent from '../components/DrawerContent';
 import PaymentScreen from '../screens/PaymentScreen';
-
+import {
+  NavigationContainer,
+  DefaultTheme,
+  DarkTheme,
+} from '@react-navigation/native';
 const Drawer = createDrawerNavigator();
 
 export default function DrawerNavigator() {

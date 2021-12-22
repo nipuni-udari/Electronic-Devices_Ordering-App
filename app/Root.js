@@ -12,6 +12,7 @@ export default function App() {
           barStyle="light-content"
           backgroundColor={colors.statusbar}
         />
+
         <RootNavigator />
       </View>
     </SignInContextProvider>
