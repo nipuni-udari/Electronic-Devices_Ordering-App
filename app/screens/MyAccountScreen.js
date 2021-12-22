@@ -71,10 +71,7 @@ export default class MyAccountScreen extends Component {
 }
 
 const styles = StyleSheet.create({
-  header: {
-    backgroundColor: '#7EC544',
-    height: 200,
-  },
+
   home: {
     alignItems: 'center',
     justifyContent: 'center',

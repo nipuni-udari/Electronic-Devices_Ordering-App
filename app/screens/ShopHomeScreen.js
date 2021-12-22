@@ -17,6 +17,7 @@ import {TabView, TabBar} from 'react-native-tab-view';
 
 import ShopHeader from '../components/ShopHeader';
 import CategoriesScreen from './ShopTabs/CategoriesScreen';
+import AboutScreen from './ShopTabs/AboutScreen';
 
 const SCREEN_WIDTH = Dimensions.get('window').width;
 const initialLayout = SCREEN_WIDTH;
@@ -48,13 +49,16 @@ const ShopHomeScreen = ({navigation, route}) => {
   const UpdateRoute1 = () => {
     return <View />;
   };
+  const UpdateRoute2 = () => {
+    return <View />;
+  };
   const categoriesPressed = () => {
     navigation.navigate('CategoriesProductsScreen');
   };
 
   return (
     <View style={styles.container}>
-      <TitleBar></TitleBar>
+      <TitleBar />
 
       <ScrollView>
         <View>
@@ -117,8 +121,13 @@ const ShopHomeScreen = ({navigation, route}) => {
           />
         </View>
         {index === 0 && <CategoriesScreen onPress={categoriesPressed} />}
+        {index === 1 && <AboutScreen onPress={categoriesPressed} />}
+        {index === 2 && <ReviewsScreen onPress={categoriesPressed} />}
       </ScrollView>
-      <TouchableOpacity>
+      <TouchableOpacity
+        onPress={() => {
+          navigation.navigate('MyOrdersScreen');
+        }}>
         <View style={styles.view11}>
           <View style={styles.view12}>
             <Text style={styles.text13}>View Cart</Text>
