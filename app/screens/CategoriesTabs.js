@@ -1,6 +1,6 @@
 import React from 'react';
 import {View, StyleSheet, FlatList, TouchableOpacity, Text} from 'react-native';
-import {categoriesData, categoriesDetailedData} from '../global/Data';
+import {categoriesData, categoriesDetailedData, categoriesDetailedData2, categoriesDetailedData3, categoriesDetailedData4, categoriesDetailedData5, categoriesDetailedData6, categoriesDetailedData7, categoriesDetailedData8} from '../global/Data';
 import CategoriesCard from '../components/CategoriesCard';
 
 export function Route1({navigation}) {
@@ -37,7 +37,7 @@ export function Route2({navigation}) {
       <View style={styles.view2}>
         <FlatList
           style={{backgroundColor: 'white'}}
-          data={categoriesDetailedData}
+          data={categoriesDetailedData5}
           keyExtractor={(item, index) => index.toString()}
           renderItem={({item, index}) => (
             <TouchableOpacity
@@ -65,7 +65,7 @@ export function Route3({navigation}) {
       <View style={styles.view2}>
         <FlatList
           style={{backgroundColor: 'white'}}
-          data={categoriesDetailedData}
+          data={categoriesDetailedData4}
           keyExtractor={(item, index) => index.toString()}
           renderItem={({item, index}) => (
             <TouchableOpacity
@@ -92,7 +92,7 @@ export function Route4({navigation}) {
       <View style={styles.view2}>
         <FlatList
           style={{backgroundColor: 'white'}}
-          data={categoriesDetailedData}
+          data={categoriesDetailedData2}
           keyExtractor={(item, index) => index.toString()}
           renderItem={({item, index}) => (
             <TouchableOpacity
@@ -120,7 +120,7 @@ export function Route5({navigation}) {
       <View style={styles.view2}>
         <FlatList
           style={{backgroundColor: 'white'}}
-          data={categoriesDetailedData}
+          data={categoriesDetailedData3}
           keyExtractor={(item, index) => index.toString()}
           renderItem={({item, index}) => (
             <TouchableOpacity
@@ -147,7 +147,7 @@ export function Route6({navigation}) {
       <View style={styles.view2}>
         <FlatList
           style={{backgroundColor: 'white'}}
-          data={categoriesDetailedData}
+          data={categoriesDetailedData6}
           keyExtractor={(item, index) => index.toString()}
           renderItem={({item, index}) => (
             <TouchableOpacity
@@ -174,7 +174,7 @@ export function Route7({navigation}) {
       <View style={styles.view2}>
         <FlatList
           style={{backgroundColor: 'white'}}
-          data={categoriesDetailedData}
+          data={categoriesDetailedData7}
           keyExtractor={(item, index) => index.toString()}
           renderItem={({item, index}) => (
             <TouchableOpacity
@@ -201,7 +201,7 @@ export function Route8({navigation}) {
       <View style={styles.view2}>
         <FlatList
           style={{backgroundColor: 'white'}}
-          data={categoriesDetailedData}
+          data={categoriesDetailedData8}
           keyExtractor={(item, index) => index.toString()}
           renderItem={({item, index}) => (
             <TouchableOpacity

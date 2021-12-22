@@ -119,7 +119,7 @@ export default function HomeScreen({navigation}) {
             renderItem={({item, index}) => (
               <Pressable
                 onPress={() => {
-                  setIndexCheck(item.id);
+                  navigation.navigate('SearchResultScreen', {item: item.name});
                 }}>
                 <View
                   style={

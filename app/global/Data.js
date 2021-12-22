@@ -429,53 +429,53 @@ export const categoriesDetailedData = [
     ],
     preferenceData: [
       [
-        {name: '1TB', price: 10000, checked: false, id: 0},
-        {name: '512GB SSD', price: 20000, checked: false, id: 1},
-        {name: '2TB', price: 15000, checked: false, id: 2},
+        {name: '1TB', price: 10000, checked: false, id: 41},
+        {name: '512GB SSD', price: 20000, checked: false, id: 42},
+        {name: '2TB', price: 15000, checked: false, id: 43},
       ],
 
       [
-        {name: 'Red', price: 1000, checked: false, id: 0},
-        {name: 'Blue', price: 10000, checked: false, id: 1},
-        {name: 'Grey', price: 10000, checked: false, id: 2},
-        {name: 'Black', price: 10000, checked: false, id: 3},
-        {name: 'Yellow', price: 10000, checked: false, id: 4},
-        {name: 'White', price: 10000, checked: false, id: 5},
-        {name: 'Green', price: 10000, checked: false, id: 6},
-        {name: 'Sliver', price: 10000, checked: false, id: 7},
+        {name: 'Red', price: 1000, checked: false, id: 44},
+        {name: 'Blue', price: 10000, checked: false, id: 45},
+        {name: 'Grey', price: 10000, checked: false, id: 46},
+        {name: 'Black', price: 10000, checked: false, id: 47},
+        {name: 'Yellow', price: 10000, checked: false, id: 48},
+        {name: 'White', price: 10000, checked: false, id: 49},
+        {name: 'Green', price: 10000, checked: false, id: 50},
+        {name: 'Sliver', price: 10000, checked: false, id: 51},
       ],
 
       [
-        {name: '4GB', price: 2000, checked: false, id: 0},
-        {name: '6GB', price: 4000, checked: false, id: 1},
-        {name: '8GB', price: 6000, checked: false, id: 2},
-        {name: '12GB', price: 8000, checked: false, id: 3},
-        {name: '24GB', price: 10000, checked: false, id: 4},
-        {name: '32GB', price: 12000, checked: false, id: 5},
-        {name: '64GB', price: 14000, checked: false, id: 6},
-        {name: '16GB', price: 16000, checked: false, id: 7},
-        {name: '128GB', price: 18000, checked: false, id: 8},
+        {name: '4GB', price: 2000, checked: false, id: 52},
+        {name: '6GB', price: 4000, checked: false, id: 53},
+        {name: '8GB', price: 6000, checked: false, id: 54},
+        {name: '12GB', price: 8000, checked: false, id: 55},
+        {name: '24GB', price: 10000, checked: false, id: 56},
+        {name: '32GB', price: 12000, checked: false, id: 57},
+        {name: '64GB', price: 14000, checked: false, id: 58},
+        {name: '16GB', price: 16000, checked: false, id: 59},
+        {name: '128GB', price: 18000, checked: false, id: 60},
       ],
 
       [
-        {name: 'i3', price: 1000, checked: false, id: 0},
-        {name: 'i5', price: 2000, checked: false, id: 1},
-        {name: 'i7', price: 3000, checked: false, id: 2},
+        {name: 'i3', price: 1000, checked: false, id: 61},
+        {name: 'i5', price: 2000, checked: false, id: 62},
+        {name: 'i7', price: 3000, checked: false, id: 63},
       ],
 
       [
-        {name: 'Mouse', price: 500, checked: false, id: 0},
-        {name: 'Keyboard', price: 1000, checked: false, id: 1},
-        {name: 'Laptop cover', price: 1000, checked: false, id: 2},
-        {name: 'Head phones', price: 700, checked: false, id: 3},
-        {name: 'Speakers', price: 2000, checked: false, id: 4},
-        {name: 'mouse pad', price: 100, checked: false, id: 5},
-        {name: 'cd rom', price: 2500, checked: false, id: 6},
-        {name: 'UPS', price: 16000, checked: false, id: 7},
-        {name: 'Power bank', price: 8000, checked: false, id: 8},
+        {name: 'Mouse', price: 500, checked: false, id: 64},
+        {name: 'Keyboard', price: 1000, checked: false, id: 65},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 66},
+        {name: 'Head phones', price: 700, checked: false, id: 67},
+        {name: 'Speakers', price: 2000, checked: false, id: 68},
+        {name: 'mouse pad', price: 100, checked: false, id: 69},
+        {name: 'cd rom', price: 2500, checked: false, id: 70},
+        {name: 'UPS', price: 16000, checked: false, id: 71},
+        {name: 'Power bank', price: 8000, checked: false, id: 72},
       ],
     ],
-    minimum_quatity: [2, 1, 2, null, null],
+    minimum_quantity: [2, 1, 2, null, null],
     counter: [0, 0, 0, 0, 0],
     required: [true, true, true, false, false],
     id: 1,
@@ -541,7 +541,7 @@ export const categoriesDetailedData = [
         {name: 'Power bank', price: 8000, checked: false, id: 8},
       ],
     ],
-    minimum_quatity: [2, 1, 1, null, null],
+    minimum_quantity: [2, 1, 1, null, null],
     counter: [0, 0, 0, 0, 0],
     required: [true, true, true, false, false],
     id: 2,
@@ -608,7 +608,7 @@ export const categoriesDetailedData = [
       ],
     ],
 
-    minimum_quatity: [2, 1, 1, null, null],
+    minimum_quantity: [2, 1, 1, null, null],
     counter: [0, 0, 0, 0, 0],
     required: [true, true, true, false, false],
     id: 3,
@@ -678,7 +678,7 @@ export const categoriesDetailedData = [
       ],
     ],
 
-    minimum_quatity: [2, 1, 1, null, null],
+    minimum_quantity: [2, 1, 1, null, null],
     counter: [0, 0, 0, 0, 0],
     required: [true, true, true, false, false],
     id: 4,
@@ -745,7 +745,2902 @@ export const categoriesDetailedData = [
         {name: 'Power bank', price: 8000, checked: false, id: 8},
       ],
     ],
-    minimum_quatity: [2, 1, 1, null, null],
+    minimum_quantity: [2, 1, 1, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 5,
+  },
+];
+
+
+
+
+
+
+
+
+
+
+
+export const categoriesDetailedData2 = [
+  {
+    Device: 'LISM Sucker Car Phone Holder',
+    price: 100000,
+    image:
+      'https://ae01.alicdn.com/kf/He7ad5f541f0e4fcf90f142820d9bcfd6o/LISM-Sucker-Car-Phone-Holder-Mobile-Phone-Holder-Stand-in-Car-No-Magnetic-GPS-Mount-Support.jpg_220x220xz.jpg_.webp',
+    details:
+      'LISM Sucker Car Phone Holder Mobile Phone Holder Stand in Car No Magnetic GPS Mount Support For iPhone 12 11 Pro Xiaomi HUAWEI',
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 10},
+        {name: '512GB SSD', price: 20000, checked: false, id: 11},
+        {name: '2TB', price: 15000, checked: false, id: 12},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 13},
+        {name: 'Blue', price: 10000, checked: false, id: 14},
+        {name: 'Grey', price: 10000, checked: false, id: 15},
+        {name: 'Black', price: 10000, checked: false, id: 16},
+        {name: 'Yellow', price: 10000, checked: false, id: 17},
+        {name: 'White', price: 10000, checked: false, id: 18},
+        {name: 'Green', price: 10000, checked: false, id: 19},
+        {name: 'Sliver', price: 10000, checked: false, id: 20},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 21},
+        {name: '6GB', price: 4000, checked: false, id: 22},
+        {name: '8GB', price: 6000, checked: false, id: 23},
+        {name: '12GB', price: 8000, checked: false, id: 24},
+        {name: '24GB', price: 10000, checked: false, id: 25},
+        {name: '32GB', price: 12000, checked: false, id: 26},
+        {name: '64GB', price: 14000, checked: false, id: 27},
+        {name: '16GB', price: 16000, checked: false, id: 28},
+        {name: '128GB', price: 18000, checked: false, id: 29},
+      ],
+      [
+        {name: 'i3', price: 1000, checked: false, id: 30},
+        {name: 'i5', price: 2000, checked: false, id: 31},
+        {name: 'i7', price: 3000, checked: false, id: 32},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 33},
+        {name: 'Keyboard', price: 1000, checked: false, id: 34},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 35},
+        {name: 'Head phones', price: 700, checked: false, id: 36},
+        {name: 'Speakers', price: 2000, checked: false, id: 37},
+        {name: 'mouse pad', price: 100, checked: false, id: 38},
+        {name: 'cd rom', price: 2500, checked: false, id: 39},
+        {name: 'UPS', price: 16000, checked: false, id: 40},
+        {name: 'Power bank', price: 8000, checked: false, id: 41},
+      ],
+    ],
+
+    minimum_quantity: [2, 1, 1, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 0,
+  },
+
+  {
+    Device: 'Cafele Car Phone Holder  ',
+    price: 29000,
+    image:
+      'https://ae01.alicdn.com/kf/H89ffa7f084eb4da281177499913345c3h/Cafele-Car-Phone-Holder-Magnetic-Air-Vent-Magnet-Car-Smartphone-Holder-For-Xiaomi-Cell-Phone-Car.jpg_220x220xz.jpg_.webp',
+    details: 'Cafele Car Phone Holder Magnetic Air Vent Magnet Car Smartphone Holder For Xiaomi Cell Phone Car Mobile Support Mount Universal',
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 41},
+        {name: '512GB SSD', price: 20000, checked: false, id: 42},
+        {name: '2TB', price: 15000, checked: false, id: 43},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 44},
+        {name: 'Blue', price: 10000, checked: false, id: 45},
+        {name: 'Grey', price: 10000, checked: false, id: 46},
+        {name: 'Black', price: 10000, checked: false, id: 47},
+        {name: 'Yellow', price: 10000, checked: false, id: 48},
+        {name: 'White', price: 10000, checked: false, id: 49},
+        {name: 'Green', price: 10000, checked: false, id: 50},
+        {name: 'Sliver', price: 10000, checked: false, id: 51},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 52},
+        {name: '6GB', price: 4000, checked: false, id: 53},
+        {name: '8GB', price: 6000, checked: false, id: 54},
+        {name: '12GB', price: 8000, checked: false, id: 55},
+        {name: '24GB', price: 10000, checked: false, id: 56},
+        {name: '32GB', price: 12000, checked: false, id: 57},
+        {name: '64GB', price: 14000, checked: false, id: 58},
+        {name: '16GB', price: 16000, checked: false, id: 59},
+        {name: '128GB', price: 18000, checked: false, id: 60},
+      ],
+
+      [
+        {name: 'i3', price: 1000, checked: false, id: 61},
+        {name: 'i5', price: 2000, checked: false, id: 62},
+        {name: 'i7', price: 3000, checked: false, id: 63},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 64},
+        {name: 'Keyboard', price: 1000, checked: false, id: 65},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 66},
+        {name: 'Head phones', price: 700, checked: false, id: 67},
+        {name: 'Speakers', price: 2000, checked: false, id: 68},
+        {name: 'mouse pad', price: 100, checked: false, id: 69},
+        {name: 'cd rom', price: 2500, checked: false, id: 70},
+        {name: 'UPS', price: 16000, checked: false, id: 71},
+        {name: 'Power bank', price: 8000, checked: false, id: 72},
+      ],
+    ],
+    minimum_quantity: [2, 1, 2, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 1,
+  },
+
+  {
+    Device: 'USLION 540 Rotate 5A Magnetic Cable  ',
+    price: 8650000 ,
+    image: 'https://ae01.alicdn.com/kf/Hb1021bdab24c4790b175afa3d20f2ee0f/USLION-540-Rotate-5A-Magnetic-Cable-Fast-Charging-For-Mobile-Phone-Magnet-Charger-Wire-Cord-Micro.jpg_220x220xz.jpg_.webp',
+    details: 'USLION 540 Rotate 5A Magnetic Cable Fast Charging For Mobile Phone Magnet Charger Wire Cord Micro Type C Cable For iPhone Xiaomi',
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 0},
+        {name: '512GB SSD', price: 20000, checked: false, id: 1},
+        {name: '2TB', price: 15000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 0},
+        {name: 'Blue', price: 10000, checked: false, id: 1},
+        {name: 'Grey', price: 10000, checked: false, id: 2},
+        {name: 'Black', price: 10000, checked: false, id: 3},
+        {name: 'Yellow', price: 10000, checked: false, id: 4},
+        {name: 'White', price: 10000, checked: false, id: 5},
+        {name: 'Green', price: 10000, checked: false, id: 6},
+        {name: 'Sliver', price: 10000, checked: false, id: 7},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 0},
+        {name: '6GB', price: 4000, checked: false, id: 1},
+        {name: '8GB', price: 6000, checked: false, id: 2},
+        {name: '12GB', price: 8000, checked: false, id: 3},
+        {name: '24GB', price: 10000, checked: false, id: 4},
+        {name: '32GB', price: 12000, checked: false, id: 5},
+        {name: '64GB', price: 14000, checked: false, id: 6},
+        {name: '16GB', price: 16000, checked: false, id: 7},
+        {name: '128GB', price: 18000, checked: false, id: 8},
+      ],
+
+      [
+        {name: 'i3', price: 1000, checked: false, id: 0},
+        {name: 'i5', price: 2000, checked: false, id: 1},
+        {name: 'i7', price: 3000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 0},
+        {name: 'Keyboard', price: 1000, checked: false, id: 1},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 2},
+        {name: 'Head phones', price: 700, checked: false, id: 3},
+        {name: 'Speakers', price: 2000, checked: false, id: 4},
+        {name: 'mouse pad', price: 100, checked: false, id: 5},
+        {name: 'cd rom', price: 2500, checked: false, id: 6},
+        {name: 'UPS', price: 16000, checked: false, id: 7},
+        {name: 'Power bank', price: 8000, checked: false, id: 8},
+      ],
+    ],
+    minimum_quantity: [2, 1, 1, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 2,
+  },
+
+  {
+    Device: 'Movols H.265 3MP HD Wireless CCTV',
+    price: 1365,
+    image: 'https://ae01.alicdn.com/kf/Hd7fcb22863e94057802f8a8de2c62b28o/TWS-Bluetooth-5-1-Earphones-3500mAh-Charging-Box-Wireless-Headphone-9D-Stereo-Sports-Waterproof-Earbuds-Headsets.jpg_220x220xz.jpg_.webp',
+    details: 'TWS Bluetooth 5.1 Earphones 3500mAh Charging Box Wireless Headphone 9D Stereo Sports Waterproof Earbuds Headsets With Microphone',
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 0},
+        {name: '512GB SSD', price: 20000, checked: false, id: 1},
+        {name: '2TB', price: 15000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 0},
+        {name: 'Blue', price: 10000, checked: false, id: 1},
+        {name: 'Grey', price: 10000, checked: false, id: 2},
+        {name: 'Black', price: 10000, checked: false, id: 3},
+        {name: 'Yellow', price: 10000, checked: false, id: 4},
+        {name: 'White', price: 10000, checked: false, id: 5},
+        {name: 'Green', price: 10000, checked: false, id: 6},
+        {name: 'Sliver', price: 10000, checked: false, id: 7},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 0},
+        {name: '6GB', price: 4000, checked: false, id: 1},
+        {name: '8GB', price: 6000, checked: false, id: 2},
+        {name: '12GB', price: 8000, checked: false, id: 3},
+        {name: '24GB', price: 10000, checked: false, id: 4},
+        {name: '32GB', price: 12000, checked: false, id: 5},
+        {name: '64GB', price: 14000, checked: false, id: 6},
+        {name: '16GB', price: 16000, checked: false, id: 7},
+        {name: '128GB', price: 18000, checked: false, id: 8},
+      ],
+
+      [
+        {name: 'i3', price: 1000, checked: false, id: 0},
+        {name: 'i5', price: 2000, checked: false, id: 1},
+        {name: 'i7', price: 3000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 0},
+        {name: 'Keyboard', price: 1000, checked: false, id: 1},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 2},
+        {name: 'Head phones', price: 700, checked: false, id: 3},
+        {name: 'Speakers', price: 2000, checked: false, id: 4},
+        {name: 'mouse pad', price: 100, checked: false, id: 5},
+        {name: 'cd rom', price: 2500, checked: false, id: 6},
+        {name: 'UPS', price: 16000, checked: false, id: 7},
+        {name: 'Power bank', price: 8000, checked: false, id: 8},
+      ],
+    ],
+
+    minimum_quantity: [2, 1, 1, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 3,
+  },
+
+  {
+    Device: 'KERUI PIR Motion Detector Security Alarm',
+    price: 4000,
+    image: 'https://ae01.alicdn.com/kf/H2ffab849b944463ab1d6b0c7e1d4e646S/Headphones-Bluetooth-Headset-Earphone-Wireless-Headphones-Stereo-Foldable-Sport-Earphone-Microphone-Headset-Handfree-MP3-Player.jpg_220x220xz.jpg_.webp',
+    details:
+      'Headphones Bluetooth Headset Earphone Wireless Headphones Stereo Foldable Sport Earphone Microphone Headset Handfree MP3 Player',
+
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 0},
+        {name: '512GB SSD', price: 20000, checked: false, id: 1},
+        {name: '2TB', price: 15000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 0},
+        {name: 'Blue', price: 10000, checked: false, id: 1},
+        {name: 'Grey', price: 10000, checked: false, id: 2},
+        {name: 'Black', price: 10000, checked: false, id: 3},
+        {name: 'Yellow', price: 10000, checked: false, id: 4},
+        {name: 'White', price: 10000, checked: false, id: 5},
+        {name: 'Green', price: 10000, checked: false, id: 6},
+        {name: 'Sliver', price: 10000, checked: false, id: 7},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 0},
+        {name: '6GB', price: 4000, checked: false, id: 1},
+        {name: '8GB', price: 6000, checked: false, id: 2},
+        {name: '12GB', price: 8000, checked: false, id: 3},
+        {name: '24GB', price: 10000, checked: false, id: 4},
+        {name: '32GB', price: 12000, checked: false, id: 5},
+        {name: '64GB', price: 14000, checked: false, id: 6},
+        {name: '16GB', price: 16000, checked: false, id: 7},
+        {name: '128GB', price: 18000, checked: false, id: 8},
+      ],
+
+      [
+        {name: 'i3', price: 1000, checked: false, id: 0},
+        {name: 'i5', price: 2000, checked: false, id: 1},
+        {name: 'i7', price: 3000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 0},
+        {name: 'Keyboard', price: 1000, checked: false, id: 1},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 2},
+        {name: 'Head phones', price: 700, checked: false, id: 3},
+        {name: 'Speakers', price: 2000, checked: false, id: 4},
+        {name: 'mouse pad', price: 100, checked: false, id: 5},
+        {name: 'cd rom', price: 2500, checked: false, id: 6},
+        {name: 'UPS', price: 16000, checked: false, id: 7},
+        {name: 'Power bank', price: 8000, checked: false, id: 8},
+      ],
+    ],
+
+    minimum_quantity: [2, 1, 1, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 4,
+  },
+
+  {
+    Device: '5MP Wifi Camera  ',
+    price: 11799000,
+    image: 'https://ae01.alicdn.com/kf/H2364fd94a8b24c2989bdeb636fc4e941w/5MP-Wifi-Camera-Outdoor-Video-Recorder-Surveillance-Camera-With-Wifi-CCTV-Security-Camera-For-Home.jpg_220x220xz.jpg_.webp',
+    details:
+      '5MP Wifi Camera Outdoor Video Recorder Surveillance Camera With Wifi CCTV Security Camera For Home',
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 0},
+        {name: '512GB SSD', price: 20000, checked: false, id: 1},
+        {name: '2TB', price: 15000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 0},
+        {name: 'Blue', price: 10000, checked: false, id: 1},
+        {name: 'Grey', price: 10000, checked: false, id: 2},
+        {name: 'Black', price: 10000, checked: false, id: 3},
+        {name: 'Yellow', price: 10000, checked: false, id: 4},
+        {name: 'White', price: 10000, checked: false, id: 5},
+        {name: 'Green', price: 10000, checked: false, id: 6},
+        {name: 'Sliver', price: 10000, checked: false, id: 7},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 0},
+        {name: '6GB', price: 4000, checked: false, id: 1},
+        {name: '8GB', price: 6000, checked: false, id: 2},
+        {name: '12GB', price: 8000, checked: false, id: 3},
+        {name: '24GB', price: 10000, checked: false, id: 4},
+        {name: '32GB', price: 12000, checked: false, id: 5},
+        {name: '64GB', price: 14000, checked: false, id: 6},
+        {name: '16GB', price: 16000, checked: false, id: 7},
+        {name: '128GB', price: 18000, checked: false, id: 8},
+      ],
+
+      [
+        {name: 'i3', price: 1000, checked: false, id: 0},
+        {name: 'i5', price: 2000, checked: false, id: 1},
+        {name: 'i7', price: 3000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 0},
+        {name: 'Keyboard', price: 1000, checked: false, id: 1},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 2},
+        {name: 'Head phones', price: 700, checked: false, id: 3},
+        {name: 'Speakers', price: 2000, checked: false, id: 4},
+        {name: 'mouse pad', price: 100, checked: false, id: 5},
+        {name: 'cd rom', price: 2500, checked: false, id: 6},
+        {name: 'UPS', price: 16000, checked: false, id: 7},
+        {name: 'Power bank', price: 8000, checked: false, id: 8},
+      ],
+    ],
+    minimum_quantity: [2, 1, 1, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 5,
+  },
+];
+
+
+
+export const categoriesDetailedData3 = [
+  {
+    Device: 'Wireless Headphones Business" ',
+    price: 1000,
+    image:
+      'https://ae01.alicdn.com/kf/H994d13bf9afd4bd4a9f688231bf3b2b0N/Wireless-Headphones-Business-Earphones-Bluetooth-Compatible-Headset-Microphone-Rechargeable-Standby-Car-Driving-Sport-Handsfree.jpg_220x220xz.jpg_.webp',
+    details:
+      'Wireless Headphones Business Earphones Bluetooth-Compatible Headset Microphone Rechargeable Standby Car Driving Sport Handsfree',
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 10},
+        {name: '512GB SSD', price: 20000, checked: false, id: 11},
+        {name: '2TB', price: 15000, checked: false, id: 12},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 13},
+        {name: 'Blue', price: 10000, checked: false, id: 14},
+        {name: 'Grey', price: 10000, checked: false, id: 15},
+        {name: 'Black', price: 10000, checked: false, id: 16},
+        {name: 'Yellow', price: 10000, checked: false, id: 17},
+        {name: 'White', price: 10000, checked: false, id: 18},
+        {name: 'Green', price: 10000, checked: false, id: 19},
+        {name: 'Sliver', price: 10000, checked: false, id: 20},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 21},
+        {name: '6GB', price: 4000, checked: false, id: 22},
+        {name: '8GB', price: 6000, checked: false, id: 23},
+        {name: '12GB', price: 8000, checked: false, id: 24},
+        {name: '24GB', price: 10000, checked: false, id: 25},
+        {name: '32GB', price: 12000, checked: false, id: 26},
+        {name: '64GB', price: 14000, checked: false, id: 27},
+        {name: '16GB', price: 16000, checked: false, id: 28},
+        {name: '128GB', price: 18000, checked: false, id: 29},
+      ],
+      [
+        {name: 'i3', price: 1000, checked: false, id: 30},
+        {name: 'i5', price: 2000, checked: false, id: 31},
+        {name: 'i7', price: 3000, checked: false, id: 32},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 33},
+        {name: 'Keyboard', price: 1000, checked: false, id: 34},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 35},
+        {name: 'Head phones', price: 700, checked: false, id: 36},
+        {name: 'Speakers', price: 2000, checked: false, id: 37},
+        {name: 'mouse pad', price: 100, checked: false, id: 38},
+        {name: 'cd rom', price: 2500, checked: false, id: 39},
+        {name: 'UPS', price: 16000, checked: false, id: 40},
+        {name: 'Power bank', price: 8000, checked: false, id: 41},
+      ],
+    ],
+
+    minimum_quantity: [2, 1, 1, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 0,
+  },
+
+  {
+    Device: 'Game Headphones Gaming  ',
+    price: 29000,
+    image:
+      'https://ae01.alicdn.com/kf/Hfd6e7658b5054911aba04aed35f93f15h/Game-Headphones-Gaming-Headsets-Bass-Stereo-Over-Head-Earphone-Casque-PC-Laptop-Microphone-Wired-Headset-For.jpg_220x220xz.jpg_.webp',
+    details: 'SAMSUNG Galaxy S20 FE 5G Factory Unlocked Android Cell Phone 128GB US Version Smartphone Pro-Grade',
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 41},
+        {name: '512GB SSD', price: 20000, checked: false, id: 42},
+        {name: '2TB', price: 15000, checked: false, id: 43},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 44},
+        {name: 'Blue', price: 10000, checked: false, id: 45},
+        {name: 'Grey', price: 10000, checked: false, id: 46},
+        {name: 'Black', price: 10000, checked: false, id: 47},
+        {name: 'Yellow', price: 10000, checked: false, id: 48},
+        {name: 'White', price: 10000, checked: false, id: 49},
+        {name: 'Green', price: 10000, checked: false, id: 50},
+        {name: 'Sliver', price: 10000, checked: false, id: 51},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 52},
+        {name: '6GB', price: 4000, checked: false, id: 53},
+        {name: '8GB', price: 6000, checked: false, id: 54},
+        {name: '12GB', price: 8000, checked: false, id: 55},
+        {name: '24GB', price: 10000, checked: false, id: 56},
+        {name: '32GB', price: 12000, checked: false, id: 57},
+        {name: '64GB', price: 14000, checked: false, id: 58},
+        {name: '16GB', price: 16000, checked: false, id: 59},
+        {name: '128GB', price: 18000, checked: false, id: 60},
+      ],
+
+      [
+        {name: 'i3', price: 1000, checked: false, id: 61},
+        {name: 'i5', price: 2000, checked: false, id: 62},
+        {name: 'i7', price: 3000, checked: false, id: 63},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 64},
+        {name: 'Keyboard', price: 1000, checked: false, id: 65},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 66},
+        {name: 'Head phones', price: 700, checked: false, id: 67},
+        {name: 'Speakers', price: 2000, checked: false, id: 68},
+        {name: 'mouse pad', price: 100, checked: false, id: 69},
+        {name: 'cd rom', price: 2500, checked: false, id: 70},
+        {name: 'UPS', price: 16000, checked: false, id: 71},
+        {name: 'Power bank', price: 8000, checked: false, id: 72},
+      ],
+    ],
+    minimum_quantity: [2, 1, 2, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 1,
+  },
+
+  {
+    Device: ' embedded industrial mini tablet PC ',
+    price: 8650000 ,
+    image: 'https://ae01.alicdn.com/kf/Hda9343dbe893465388625df16737a2a25/13-3-15-6-18-5-21-5-inch-embedded-industrial-mini-tablet-PC-all-in.jpg_220x220xz.jpg_.webp',
+    details: '13.3 15.6 18.5 21.5 inch embedded industrial mini tablet PC all-in-one computer With capacitive touch screen with WiFi RS232 com',
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 0},
+        {name: '512GB SSD', price: 20000, checked: false, id: 1},
+        {name: '2TB', price: 15000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 0},
+        {name: 'Blue', price: 10000, checked: false, id: 1},
+        {name: 'Grey', price: 10000, checked: false, id: 2},
+        {name: 'Black', price: 10000, checked: false, id: 3},
+        {name: 'Yellow', price: 10000, checked: false, id: 4},
+        {name: 'White', price: 10000, checked: false, id: 5},
+        {name: 'Green', price: 10000, checked: false, id: 6},
+        {name: 'Sliver', price: 10000, checked: false, id: 7},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 0},
+        {name: '6GB', price: 4000, checked: false, id: 1},
+        {name: '8GB', price: 6000, checked: false, id: 2},
+        {name: '12GB', price: 8000, checked: false, id: 3},
+        {name: '24GB', price: 10000, checked: false, id: 4},
+        {name: '32GB', price: 12000, checked: false, id: 5},
+        {name: '64GB', price: 14000, checked: false, id: 6},
+        {name: '16GB', price: 16000, checked: false, id: 7},
+        {name: '128GB', price: 18000, checked: false, id: 8},
+      ],
+
+      [
+        {name: 'i3', price: 1000, checked: false, id: 0},
+        {name: 'i5', price: 2000, checked: false, id: 1},
+        {name: 'i7', price: 3000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 0},
+        {name: 'Keyboard', price: 1000, checked: false, id: 1},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 2},
+        {name: 'Head phones', price: 700, checked: false, id: 3},
+        {name: 'Speakers', price: 2000, checked: false, id: 4},
+        {name: 'mouse pad', price: 100, checked: false, id: 5},
+        {name: 'cd rom', price: 2500, checked: false, id: 6},
+        {name: 'UPS', price: 16000, checked: false, id: 7},
+        {name: 'Power bank', price: 8000, checked: false, id: 8},
+      ],
+    ],
+    minimum_quantity: [2, 1, 1, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 2,
+  },
+
+  {
+    Device: 'eMc E-TİCARET YAZILIMI',
+    price: 13650000,
+    image: 'https://ae01.alicdn.com/kf/UTB8JQlHxevJXKJkSajhq6A7aFXaM/eMc-E-T%C4%B0CARET-YAZILIMI-PLUS-PAKET.jpg_220x220xz.jpg_.webp',
+    details: 'eMc E-TİCARET YAZILIMI | PLUS PAKET',
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 0},
+        {name: '512GB SSD', price: 20000, checked: false, id: 1},
+        {name: '2TB', price: 15000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 0},
+        {name: 'Blue', price: 10000, checked: false, id: 1},
+        {name: 'Grey', price: 10000, checked: false, id: 2},
+        {name: 'Black', price: 10000, checked: false, id: 3},
+        {name: 'Yellow', price: 10000, checked: false, id: 4},
+        {name: 'White', price: 10000, checked: false, id: 5},
+        {name: 'Green', price: 10000, checked: false, id: 6},
+        {name: 'Sliver', price: 10000, checked: false, id: 7},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 0},
+        {name: '6GB', price: 4000, checked: false, id: 1},
+        {name: '8GB', price: 6000, checked: false, id: 2},
+        {name: '12GB', price: 8000, checked: false, id: 3},
+        {name: '24GB', price: 10000, checked: false, id: 4},
+        {name: '32GB', price: 12000, checked: false, id: 5},
+        {name: '64GB', price: 14000, checked: false, id: 6},
+        {name: '16GB', price: 16000, checked: false, id: 7},
+        {name: '128GB', price: 18000, checked: false, id: 8},
+      ],
+
+      [
+        {name: 'i3', price: 1000, checked: false, id: 0},
+        {name: 'i5', price: 2000, checked: false, id: 1},
+        {name: 'i7', price: 3000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 0},
+        {name: 'Keyboard', price: 1000, checked: false, id: 1},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 2},
+        {name: 'Head phones', price: 700, checked: false, id: 3},
+        {name: 'Speakers', price: 2000, checked: false, id: 4},
+        {name: 'mouse pad', price: 100, checked: false, id: 5},
+        {name: 'cd rom', price: 2500, checked: false, id: 6},
+        {name: 'UPS', price: 16000, checked: false, id: 7},
+        {name: 'Power bank', price: 8000, checked: false, id: 8},
+      ],
+    ],
+
+    minimum_quantity: [2, 1, 1, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 3,
+  },
+
+  {
+    Device: '4G Wifi Router',
+    price: 8045000,
+    image: 'https://ae01.alicdn.com/kf/H8bc6e86ca719477dabafe8dd2352c9031/Unlocked-300Mbps-Wifi-Routers-4G-lte-cpe-Mobile-Router-with-LAN-Port-Support-SIM-card-Portable.jpg_220x220xz.jpg_.webp',
+    details:
+      '4G Wifi Router mini router 3G 4G Lte Wireless Portable Pocket wi fi Mobile Hotspot Car Wi-fi Router With Sim Card Slot',
+
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 0},
+        {name: '512GB SSD', price: 20000, checked: false, id: 1},
+        {name: '2TB', price: 15000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 0},
+        {name: 'Blue', price: 10000, checked: false, id: 1},
+        {name: 'Grey', price: 10000, checked: false, id: 2},
+        {name: 'Black', price: 10000, checked: false, id: 3},
+        {name: 'Yellow', price: 10000, checked: false, id: 4},
+        {name: 'White', price: 10000, checked: false, id: 5},
+        {name: 'Green', price: 10000, checked: false, id: 6},
+        {name: 'Sliver', price: 10000, checked: false, id: 7},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 0},
+        {name: '6GB', price: 4000, checked: false, id: 1},
+        {name: '8GB', price: 6000, checked: false, id: 2},
+        {name: '12GB', price: 8000, checked: false, id: 3},
+        {name: '24GB', price: 10000, checked: false, id: 4},
+        {name: '32GB', price: 12000, checked: false, id: 5},
+        {name: '64GB', price: 14000, checked: false, id: 6},
+        {name: '16GB', price: 16000, checked: false, id: 7},
+        {name: '128GB', price: 18000, checked: false, id: 8},
+      ],
+
+      [
+        {name: 'i3', price: 1000, checked: false, id: 0},
+        {name: 'i5', price: 2000, checked: false, id: 1},
+        {name: 'i7', price: 3000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 0},
+        {name: 'Keyboard', price: 1000, checked: false, id: 1},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 2},
+        {name: 'Head phones', price: 700, checked: false, id: 3},
+        {name: 'Speakers', price: 2000, checked: false, id: 4},
+        {name: 'mouse pad', price: 100, checked: false, id: 5},
+        {name: 'cd rom', price: 2500, checked: false, id: 6},
+        {name: 'UPS', price: 16000, checked: false, id: 7},
+        {name: 'Power bank', price: 8000, checked: false, id: 8},
+      ],
+    ],
+
+    minimum_quantity: [2, 1, 1, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 4,
+  },
+
+  {
+    Device: 'Professional gamer Gaming Mouse ',
+    price: 1000,
+    image: 'https://ae01.alicdn.com/kf/Hfa42e1795bf2418db038a712426534010/ZUOYA-Professional-gamer-Gaming-Mouse-8D-3200DPI-Adjustable-Wired-Optical-LED-Computer-Mice-USB-Cable-Mouse.jpg_220x220xz.jpg_.webp',
+    details:
+      'ZUOYA Professional gamer Gaming Mouse 8D 3200DPI Adjustable Wired Optical LED Computer Mice USB Cable Mouse for laptop PC',
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 0},
+        {name: '512GB SSD', price: 20000, checked: false, id: 1},
+        {name: '2TB', price: 15000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 0},
+        {name: 'Blue', price: 10000, checked: false, id: 1},
+        {name: 'Grey', price: 10000, checked: false, id: 2},
+        {name: 'Black', price: 10000, checked: false, id: 3},
+        {name: 'Yellow', price: 10000, checked: false, id: 4},
+        {name: 'White', price: 10000, checked: false, id: 5},
+        {name: 'Green', price: 10000, checked: false, id: 6},
+        {name: 'Sliver', price: 10000, checked: false, id: 7},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 0},
+        {name: '6GB', price: 4000, checked: false, id: 1},
+        {name: '8GB', price: 6000, checked: false, id: 2},
+        {name: '12GB', price: 8000, checked: false, id: 3},
+        {name: '24GB', price: 10000, checked: false, id: 4},
+        {name: '32GB', price: 12000, checked: false, id: 5},
+        {name: '64GB', price: 14000, checked: false, id: 6},
+        {name: '16GB', price: 16000, checked: false, id: 7},
+        {name: '128GB', price: 18000, checked: false, id: 8},
+      ],
+
+      [
+        {name: 'i3', price: 1000, checked: false, id: 0},
+        {name: 'i5', price: 2000, checked: false, id: 1},
+        {name: 'i7', price: 3000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 0},
+        {name: 'Keyboard', price: 1000, checked: false, id: 1},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 2},
+        {name: 'Head phones', price: 700, checked: false, id: 3},
+        {name: 'Speakers', price: 2000, checked: false, id: 4},
+        {name: 'mouse pad', price: 100, checked: false, id: 5},
+        {name: 'cd rom', price: 2500, checked: false, id: 6},
+        {name: 'UPS', price: 16000, checked: false, id: 7},
+        {name: 'Power bank', price: 8000, checked: false, id: 8},
+      ],
+    ],
+    minimum_quantity: [2, 1, 1, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 5,
+  },
+];
+
+
+
+
+
+
+
+
+export const categoriesDetailedData4 = [
+  {
+    Device: 'Fuers Tuya Smart Home WiFi " ',
+    price: 100000,
+    image:
+      'https://ae01.alicdn.com/kf/Hc74b7e5ead314695b4e4d448171da7e3I/Fuers-Tuya-Smart-Home-WiFi-Door-Sensor-Door-Open-Detectors-Security-Protection-Alarm-System-Home-Security.jpg_220x220xz.jpg_.webp',
+    details:
+      'Fuers Tuya Smart Home WiFi Door Sensor Door Open Detectors Security Protection Alarm System Home Security Alert Security Alarm',
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 10},
+        {name: '512GB SSD', price: 20000, checked: false, id: 11},
+        {name: '2TB', price: 15000, checked: false, id: 12},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 13},
+        {name: 'Blue', price: 10000, checked: false, id: 14},
+        {name: 'Grey', price: 10000, checked: false, id: 15},
+        {name: 'Black', price: 10000, checked: false, id: 16},
+        {name: 'Yellow', price: 10000, checked: false, id: 17},
+        {name: 'White', price: 10000, checked: false, id: 18},
+        {name: 'Green', price: 10000, checked: false, id: 19},
+        {name: 'Sliver', price: 10000, checked: false, id: 20},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 21},
+        {name: '6GB', price: 4000, checked: false, id: 22},
+        {name: '8GB', price: 6000, checked: false, id: 23},
+        {name: '12GB', price: 8000, checked: false, id: 24},
+        {name: '24GB', price: 10000, checked: false, id: 25},
+        {name: '32GB', price: 12000, checked: false, id: 26},
+        {name: '64GB', price: 14000, checked: false, id: 27},
+        {name: '16GB', price: 16000, checked: false, id: 28},
+        {name: '128GB', price: 18000, checked: false, id: 29},
+      ],
+      [
+        {name: 'i3', price: 1000, checked: false, id: 30},
+        {name: 'i5', price: 2000, checked: false, id: 31},
+        {name: 'i7', price: 3000, checked: false, id: 32},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 33},
+        {name: 'Keyboard', price: 1000, checked: false, id: 34},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 35},
+        {name: 'Head phones', price: 700, checked: false, id: 36},
+        {name: 'Speakers', price: 2000, checked: false, id: 37},
+        {name: 'mouse pad', price: 100, checked: false, id: 38},
+        {name: 'cd rom', price: 2500, checked: false, id: 39},
+        {name: 'UPS', price: 16000, checked: false, id: 40},
+        {name: 'Power bank', price: 8000, checked: false, id: 41},
+      ],
+    ],
+
+    minimum_quantity: [2, 1, 1, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 0,
+  },
+
+  {
+    Device: 'Neye 4k 8MP HD Wifi IP Camera  ',
+    price: 29000,
+    image:
+      'https://ae01.alicdn.com/kf/H945cb39d48b441c89d6d5e290e9683e8e/Neye-4k-8MP-HD-Wifi-IP-Camera-Outdoor-5X-Digital-Zoom-AI-Human-Detect-Wireless-Camera.jpg_Q90.jpg_.webp',
+    details: 'Neye 4k 8MP HD Wifi IP Camera Outdoor 5X Digital Zoom AI Human Detect Wireless Camera H.265 P2P ONVIF Audio Security CCTV Camera',
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 41},
+        {name: '512GB SSD', price: 20000, checked: false, id: 42},
+        {name: '2TB', price: 15000, checked: false, id: 43},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 44},
+        {name: 'Blue', price: 10000, checked: false, id: 45},
+        {name: 'Grey', price: 10000, checked: false, id: 46},
+        {name: 'Black', price: 10000, checked: false, id: 47},
+        {name: 'Yellow', price: 10000, checked: false, id: 48},
+        {name: 'White', price: 10000, checked: false, id: 49},
+        {name: 'Green', price: 10000, checked: false, id: 50},
+        {name: 'Sliver', price: 10000, checked: false, id: 51},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 52},
+        {name: '6GB', price: 4000, checked: false, id: 53},
+        {name: '8GB', price: 6000, checked: false, id: 54},
+        {name: '12GB', price: 8000, checked: false, id: 55},
+        {name: '24GB', price: 10000, checked: false, id: 56},
+        {name: '32GB', price: 12000, checked: false, id: 57},
+        {name: '64GB', price: 14000, checked: false, id: 58},
+        {name: '16GB', price: 16000, checked: false, id: 59},
+        {name: '128GB', price: 18000, checked: false, id: 60},
+      ],
+
+      [
+        {name: 'i3', price: 1000, checked: false, id: 61},
+        {name: 'i5', price: 2000, checked: false, id: 62},
+        {name: 'i7', price: 3000, checked: false, id: 63},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 64},
+        {name: 'Keyboard', price: 1000, checked: false, id: 65},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 66},
+        {name: 'Head phones', price: 700, checked: false, id: 67},
+        {name: 'Speakers', price: 2000, checked: false, id: 68},
+        {name: 'mouse pad', price: 100, checked: false, id: 69},
+        {name: 'cd rom', price: 2500, checked: false, id: 70},
+        {name: 'UPS', price: 16000, checked: false, id: 71},
+        {name: 'Power bank', price: 8000, checked: false, id: 72},
+      ],
+    ],
+    minimum_quantity: [2, 1, 2, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 1,
+  },
+
+  {
+    Device: 'YUPA TUYA 433Mhz GSM wireless Burglar Home Security System  ',
+    price: 8650000 ,
+    image: 'https://ae01.alicdn.com/kf/H3ed3851aa2ea40e8b9debc7cdebe478dY/YUPA-TUYA-433Mhz-GSM-wireless-Burglar-Home-Security-System-4-3-Inch-Full-Touch-Screen-Alarm.jpg_220x220xz.jpg_.webp',
+    details: 'YUPA TUYA 433Mhz GSM wireless Burglar Home Security System 4.3 Inch Full Touch Screen Alarm Host With Accessories',
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 0},
+        {name: '512GB SSD', price: 20000, checked: false, id: 1},
+        {name: '2TB', price: 15000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 0},
+        {name: 'Blue', price: 10000, checked: false, id: 1},
+        {name: 'Grey', price: 10000, checked: false, id: 2},
+        {name: 'Black', price: 10000, checked: false, id: 3},
+        {name: 'Yellow', price: 10000, checked: false, id: 4},
+        {name: 'White', price: 10000, checked: false, id: 5},
+        {name: 'Green', price: 10000, checked: false, id: 6},
+        {name: 'Sliver', price: 10000, checked: false, id: 7},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 0},
+        {name: '6GB', price: 4000, checked: false, id: 1},
+        {name: '8GB', price: 6000, checked: false, id: 2},
+        {name: '12GB', price: 8000, checked: false, id: 3},
+        {name: '24GB', price: 10000, checked: false, id: 4},
+        {name: '32GB', price: 12000, checked: false, id: 5},
+        {name: '64GB', price: 14000, checked: false, id: 6},
+        {name: '16GB', price: 16000, checked: false, id: 7},
+        {name: '128GB', price: 18000, checked: false, id: 8},
+      ],
+
+      [
+        {name: 'i3', price: 1000, checked: false, id: 0},
+        {name: 'i5', price: 2000, checked: false, id: 1},
+        {name: 'i7', price: 3000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 0},
+        {name: 'Keyboard', price: 1000, checked: false, id: 1},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 2},
+        {name: 'Head phones', price: 700, checked: false, id: 3},
+        {name: 'Speakers', price: 2000, checked: false, id: 4},
+        {name: 'mouse pad', price: 100, checked: false, id: 5},
+        {name: 'cd rom', price: 2500, checked: false, id: 6},
+        {name: 'UPS', price: 16000, checked: false, id: 7},
+        {name: 'Power bank', price: 8000, checked: false, id: 8},
+      ],
+    ],
+    minimum_quantity: [2, 1, 1, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 2,
+  },
+
+  {
+    Device: 'Movols H.265 3MP HD Wireless CCTV',
+    price: 13650000,
+    image: 'https://ae01.alicdn.com/kf/H34611f3a72714aedae49f680eedb52e8S/Movols-H-265-3MP-HD-Wireless-CCTV-System-Two-Way-Audio-Waterproof-PTZ-WIFI-IP-Security.png_220x220xz.png_.webp',
+    details: 'Movols H.265 3MP HD Wireless CCTV System Two Way Audio Waterproof PTZ WIFI IP Security Camera 8CH P2P NVR Video Surveillance Kit',
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 0},
+        {name: '512GB SSD', price: 20000, checked: false, id: 1},
+        {name: '2TB', price: 15000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 0},
+        {name: 'Blue', price: 10000, checked: false, id: 1},
+        {name: 'Grey', price: 10000, checked: false, id: 2},
+        {name: 'Black', price: 10000, checked: false, id: 3},
+        {name: 'Yellow', price: 10000, checked: false, id: 4},
+        {name: 'White', price: 10000, checked: false, id: 5},
+        {name: 'Green', price: 10000, checked: false, id: 6},
+        {name: 'Sliver', price: 10000, checked: false, id: 7},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 0},
+        {name: '6GB', price: 4000, checked: false, id: 1},
+        {name: '8GB', price: 6000, checked: false, id: 2},
+        {name: '12GB', price: 8000, checked: false, id: 3},
+        {name: '24GB', price: 10000, checked: false, id: 4},
+        {name: '32GB', price: 12000, checked: false, id: 5},
+        {name: '64GB', price: 14000, checked: false, id: 6},
+        {name: '16GB', price: 16000, checked: false, id: 7},
+        {name: '128GB', price: 18000, checked: false, id: 8},
+      ],
+
+      [
+        {name: 'i3', price: 1000, checked: false, id: 0},
+        {name: 'i5', price: 2000, checked: false, id: 1},
+        {name: 'i7', price: 3000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 0},
+        {name: 'Keyboard', price: 1000, checked: false, id: 1},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 2},
+        {name: 'Head phones', price: 700, checked: false, id: 3},
+        {name: 'Speakers', price: 2000, checked: false, id: 4},
+        {name: 'mouse pad', price: 100, checked: false, id: 5},
+        {name: 'cd rom', price: 2500, checked: false, id: 6},
+        {name: 'UPS', price: 16000, checked: false, id: 7},
+        {name: 'Power bank', price: 8000, checked: false, id: 8},
+      ],
+    ],
+
+    minimum_quantity: [2, 1, 1, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 3,
+  },
+
+  {
+    Device: 'KERUI PIR Motion Detector Security Alarm',
+    price: 8045000,
+    image: 'https://ae01.alicdn.com/kf/H4d67e86783b444d1856262b77d9fc834n/KERUI-PIR-Motion-Detector-Security-Alarm-Detector-Anti-theft-Motion-Sensor-Detector-Welcome-Doorbell-Human-Body.png_220x220xz.png_.webp',
+    details:
+      'KERUI PIR Motion Detector Security Alarm Detector Anti-theft Motion Sensor Detector Welcome Doorbell Human Body Detector',
+
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 0},
+        {name: '512GB SSD', price: 20000, checked: false, id: 1},
+        {name: '2TB', price: 15000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 0},
+        {name: 'Blue', price: 10000, checked: false, id: 1},
+        {name: 'Grey', price: 10000, checked: false, id: 2},
+        {name: 'Black', price: 10000, checked: false, id: 3},
+        {name: 'Yellow', price: 10000, checked: false, id: 4},
+        {name: 'White', price: 10000, checked: false, id: 5},
+        {name: 'Green', price: 10000, checked: false, id: 6},
+        {name: 'Sliver', price: 10000, checked: false, id: 7},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 0},
+        {name: '6GB', price: 4000, checked: false, id: 1},
+        {name: '8GB', price: 6000, checked: false, id: 2},
+        {name: '12GB', price: 8000, checked: false, id: 3},
+        {name: '24GB', price: 10000, checked: false, id: 4},
+        {name: '32GB', price: 12000, checked: false, id: 5},
+        {name: '64GB', price: 14000, checked: false, id: 6},
+        {name: '16GB', price: 16000, checked: false, id: 7},
+        {name: '128GB', price: 18000, checked: false, id: 8},
+      ],
+
+      [
+        {name: 'i3', price: 1000, checked: false, id: 0},
+        {name: 'i5', price: 2000, checked: false, id: 1},
+        {name: 'i7', price: 3000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 0},
+        {name: 'Keyboard', price: 1000, checked: false, id: 1},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 2},
+        {name: 'Head phones', price: 700, checked: false, id: 3},
+        {name: 'Speakers', price: 2000, checked: false, id: 4},
+        {name: 'mouse pad', price: 100, checked: false, id: 5},
+        {name: 'cd rom', price: 2500, checked: false, id: 6},
+        {name: 'UPS', price: 16000, checked: false, id: 7},
+        {name: 'Power bank', price: 8000, checked: false, id: 8},
+      ],
+    ],
+
+    minimum_quantity: [2, 1, 1, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 4,
+  },
+
+  {
+    Device: '5MP Wifi Camera  ',
+    price: 11799000,
+    image: 'https://ae01.alicdn.com/kf/H2364fd94a8b24c2989bdeb636fc4e941w/5MP-Wifi-Camera-Outdoor-Video-Recorder-Surveillance-Camera-With-Wifi-CCTV-Security-Camera-For-Home.jpg_220x220xz.jpg_.webp',
+    details:
+      '5MP Wifi Camera Outdoor Video Recorder Surveillance Camera With Wifi CCTV Security Camera For Home',
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 0},
+        {name: '512GB SSD', price: 20000, checked: false, id: 1},
+        {name: '2TB', price: 15000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 0},
+        {name: 'Blue', price: 10000, checked: false, id: 1},
+        {name: 'Grey', price: 10000, checked: false, id: 2},
+        {name: 'Black', price: 10000, checked: false, id: 3},
+        {name: 'Yellow', price: 10000, checked: false, id: 4},
+        {name: 'White', price: 10000, checked: false, id: 5},
+        {name: 'Green', price: 10000, checked: false, id: 6},
+        {name: 'Sliver', price: 10000, checked: false, id: 7},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 0},
+        {name: '6GB', price: 4000, checked: false, id: 1},
+        {name: '8GB', price: 6000, checked: false, id: 2},
+        {name: '12GB', price: 8000, checked: false, id: 3},
+        {name: '24GB', price: 10000, checked: false, id: 4},
+        {name: '32GB', price: 12000, checked: false, id: 5},
+        {name: '64GB', price: 14000, checked: false, id: 6},
+        {name: '16GB', price: 16000, checked: false, id: 7},
+        {name: '128GB', price: 18000, checked: false, id: 8},
+      ],
+
+      [
+        {name: 'i3', price: 1000, checked: false, id: 0},
+        {name: 'i5', price: 2000, checked: false, id: 1},
+        {name: 'i7', price: 3000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 0},
+        {name: 'Keyboard', price: 1000, checked: false, id: 1},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 2},
+        {name: 'Head phones', price: 700, checked: false, id: 3},
+        {name: 'Speakers', price: 2000, checked: false, id: 4},
+        {name: 'mouse pad', price: 100, checked: false, id: 5},
+        {name: 'cd rom', price: 2500, checked: false, id: 6},
+        {name: 'UPS', price: 16000, checked: false, id: 7},
+        {name: 'Power bank', price: 8000, checked: false, id: 8},
+      ],
+    ],
+    minimum_quantity: [2, 1, 1, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 5,
+  },
+];
+
+
+
+export const categoriesDetailedData6 = [
+  {
+    Device: 'Double Sided Magnetic Metal Case " ',
+    price: 100000,
+    image:
+      'https://ae01.alicdn.com/kf/H9b84ecc19067409aa92db684968644049/Double-Sided-Magnetic-Metal-Case-For-Samsung-Galaxy-S21-Plus-Ultra-A72-A52-A32-A12-A11.jpg_220x220xz.jpg_.webp',
+    details:
+      'Double Sided Magnetic Metal Case For Samsung Galaxy S21 Plus Ultra A72 A52 A32 A12 A11 A50 A70 A71 A51 M51 M31 M21 Glass cover',
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 10},
+        {name: '512GB SSD', price: 20000, checked: false, id: 11},
+        {name: '2TB', price: 15000, checked: false, id: 12},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 13},
+        {name: 'Blue', price: 10000, checked: false, id: 14},
+        {name: 'Grey', price: 10000, checked: false, id: 15},
+        {name: 'Black', price: 10000, checked: false, id: 16},
+        {name: 'Yellow', price: 10000, checked: false, id: 17},
+        {name: 'White', price: 10000, checked: false, id: 18},
+        {name: 'Green', price: 10000, checked: false, id: 19},
+        {name: 'Sliver', price: 10000, checked: false, id: 20},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 21},
+        {name: '6GB', price: 4000, checked: false, id: 22},
+        {name: '8GB', price: 6000, checked: false, id: 23},
+        {name: '12GB', price: 8000, checked: false, id: 24},
+        {name: '24GB', price: 10000, checked: false, id: 25},
+        {name: '32GB', price: 12000, checked: false, id: 26},
+        {name: '64GB', price: 14000, checked: false, id: 27},
+        {name: '16GB', price: 16000, checked: false, id: 28},
+        {name: '128GB', price: 18000, checked: false, id: 29},
+      ],
+      [
+        {name: 'i3', price: 1000, checked: false, id: 30},
+        {name: 'i5', price: 2000, checked: false, id: 31},
+        {name: 'i7', price: 3000, checked: false, id: 32},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 33},
+        {name: 'Keyboard', price: 1000, checked: false, id: 34},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 35},
+        {name: 'Head phones', price: 700, checked: false, id: 36},
+        {name: 'Speakers', price: 2000, checked: false, id: 37},
+        {name: 'mouse pad', price: 100, checked: false, id: 38},
+        {name: 'cd rom', price: 2500, checked: false, id: 39},
+        {name: 'UPS', price: 16000, checked: false, id: 40},
+        {name: 'Power bank', price: 8000, checked: false, id: 41},
+      ],
+    ],
+
+    minimum_quantity: [2, 1, 1, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 0,
+  },
+
+  {
+    Device: 'Liquid Silicone Square Case ',
+    price: 200,
+    image:
+      'https://ae01.alicdn.com/kf/Hdb96c1d221054565b4fbeb5bbf1f69eaa/For-Samsung-A41-A31-A51-A71-Liquid-Silicone-Square-Case-For-Samsung-S21-S10-S9-S20.jpg_220x220xz.jpg_.webp',
+    details: 'For Samsung A41 A31 A51 A71 Liquid Silicone Square Case For Samsung S21 S10 S9 S20 FE A50 A70 A22 A32 A42 A52 A72 A82 A21s Cover',
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 41},
+        {name: '512GB SSD', price: 20000, checked: false, id: 42},
+        {name: '2TB', price: 15000, checked: false, id: 43},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 44},
+        {name: 'Blue', price: 10000, checked: false, id: 45},
+        {name: 'Grey', price: 10000, checked: false, id: 46},
+        {name: 'Black', price: 10000, checked: false, id: 47},
+        {name: 'Yellow', price: 10000, checked: false, id: 48},
+        {name: 'White', price: 10000, checked: false, id: 49},
+        {name: 'Green', price: 10000, checked: false, id: 50},
+        {name: 'Sliver', price: 10000, checked: false, id: 51},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 52},
+        {name: '6GB', price: 4000, checked: false, id: 53},
+        {name: '8GB', price: 6000, checked: false, id: 54},
+        {name: '12GB', price: 8000, checked: false, id: 55},
+        {name: '24GB', price: 10000, checked: false, id: 56},
+        {name: '32GB', price: 12000, checked: false, id: 57},
+        {name: '64GB', price: 14000, checked: false, id: 58},
+        {name: '16GB', price: 16000, checked: false, id: 59},
+        {name: '128GB', price: 18000, checked: false, id: 60},
+      ],
+
+      [
+        {name: 'i3', price: 1000, checked: false, id: 61},
+        {name: 'i5', price: 2000, checked: false, id: 62},
+        {name: 'i7', price: 3000, checked: false, id: 63},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 64},
+        {name: 'Keyboard', price: 1000, checked: false, id: 65},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 66},
+        {name: 'Head phones', price: 700, checked: false, id: 67},
+        {name: 'Speakers', price: 2000, checked: false, id: 68},
+        {name: 'mouse pad', price: 100, checked: false, id: 69},
+        {name: 'cd rom', price: 2500, checked: false, id: 70},
+        {name: 'UPS', price: 16000, checked: false, id: 71},
+        {name: 'Power bank', price: 8000, checked: false, id: 72},
+      ],
+    ],
+    minimum_quantity: [2, 1, 2, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 1,
+  },
+
+  {
+    Device: 'Xundd Cases For iPhone ',
+    price: 500 ,
+    image: 'https://ae01.alicdn.com/kf/He42b8e9257944c2dae889f162ed758ebr/Xundd-Cases-For-iPhone-11-12-13-Case-Shockproof-Protective-Phone-Bumper-Cover-Coque-For-iPhone11.jpg_220x220xz.jpg_.webp',
+    details: 'Xundd Cases For iPhone 11 12 13 Case Shockproof Protective Phone Bumper Cover Coque For iPhone11 iPhone12 iPhone13 Pro Max Case',
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 0},
+        {name: '512GB SSD', price: 20000, checked: false, id: 1},
+        {name: '2TB', price: 15000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 0},
+        {name: 'Blue', price: 10000, checked: false, id: 1},
+        {name: 'Grey', price: 10000, checked: false, id: 2},
+        {name: 'Black', price: 10000, checked: false, id: 3},
+        {name: 'Yellow', price: 10000, checked: false, id: 4},
+        {name: 'White', price: 10000, checked: false, id: 5},
+        {name: 'Green', price: 10000, checked: false, id: 6},
+        {name: 'Sliver', price: 10000, checked: false, id: 7},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 0},
+        {name: '6GB', price: 4000, checked: false, id: 1},
+        {name: '8GB', price: 6000, checked: false, id: 2},
+        {name: '12GB', price: 8000, checked: false, id: 3},
+        {name: '24GB', price: 10000, checked: false, id: 4},
+        {name: '32GB', price: 12000, checked: false, id: 5},
+        {name: '64GB', price: 14000, checked: false, id: 6},
+        {name: '16GB', price: 16000, checked: false, id: 7},
+        {name: '128GB', price: 18000, checked: false, id: 8},
+      ],
+
+      [
+        {name: 'i3', price: 1000, checked: false, id: 0},
+        {name: 'i5', price: 2000, checked: false, id: 1},
+        {name: 'i7', price: 3000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 0},
+        {name: 'Keyboard', price: 1000, checked: false, id: 1},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 2},
+        {name: 'Head phones', price: 700, checked: false, id: 3},
+        {name: 'Speakers', price: 2000, checked: false, id: 4},
+        {name: 'mouse pad', price: 100, checked: false, id: 5},
+        {name: 'cd rom', price: 2500, checked: false, id: 6},
+        {name: 'UPS', price: 16000, checked: false, id: 7},
+        {name: 'Power bank', price: 8000, checked: false, id: 8},
+      ],
+    ],
+    minimum_quantity: [2, 1, 1, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 2,
+  },
+
+  {
+    Device: 'Double-sided Magnetic 360 Protect Case',
+    price: 13650000,
+    image: 'https://ae01.alicdn.com/kf/Hd018092226fb4cea8fe35020e5f00a86g/Double-sided-Magnetic-360-Protect-Case-For-Samsung-M51-A51-A71-A41-A50-A70-M31-S20FE.jpg_220x220xz.jpg_.webp',
+    details: 'Double-sided Magnetic 360 Protect Case For Samsung M51 A51 A71 A41 A50 A70 M31 S20FE S10 S9 S8 Note20 Tempered Glass Metal Cover',
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 0},
+        {name: '512GB SSD', price: 20000, checked: false, id: 1},
+        {name: '2TB', price: 15000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 0},
+        {name: 'Blue', price: 10000, checked: false, id: 1},
+        {name: 'Grey', price: 10000, checked: false, id: 2},
+        {name: 'Black', price: 10000, checked: false, id: 3},
+        {name: 'Yellow', price: 10000, checked: false, id: 4},
+        {name: 'White', price: 10000, checked: false, id: 5},
+        {name: 'Green', price: 10000, checked: false, id: 6},
+        {name: 'Sliver', price: 10000, checked: false, id: 7},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 0},
+        {name: '6GB', price: 4000, checked: false, id: 1},
+        {name: '8GB', price: 6000, checked: false, id: 2},
+        {name: '12GB', price: 8000, checked: false, id: 3},
+        {name: '24GB', price: 10000, checked: false, id: 4},
+        {name: '32GB', price: 12000, checked: false, id: 5},
+        {name: '64GB', price: 14000, checked: false, id: 6},
+        {name: '16GB', price: 16000, checked: false, id: 7},
+        {name: '128GB', price: 18000, checked: false, id: 8},
+      ],
+
+      [
+        {name: 'i3', price: 1000, checked: false, id: 0},
+        {name: 'i5', price: 2000, checked: false, id: 1},
+        {name: 'i7', price: 3000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 0},
+        {name: 'Keyboard', price: 1000, checked: false, id: 1},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 2},
+        {name: 'Head phones', price: 700, checked: false, id: 3},
+        {name: 'Speakers', price: 2000, checked: false, id: 4},
+        {name: 'mouse pad', price: 100, checked: false, id: 5},
+        {name: 'cd rom', price: 2500, checked: false, id: 6},
+        {name: 'UPS', price: 16000, checked: false, id: 7},
+        {name: 'Power bank', price: 8000, checked: false, id: 8},
+      ],
+    ],
+
+    minimum_quantity: [2, 1, 1, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 3,
+  },
+
+  {
+    Device: 'OnePlus 9 Pro',
+    price: 8045000,
+    image: 'https://ae01.alicdn.com/kf/H408410c00d6d404aa3e351d433955ef5m/Custom-Name-for-iPhone-13-Pro-Case-DIY-Letters-12-8-Plus-SE-2020-Cover-Girls.jpg_220x220xz.jpg_.webp',
+    details:
+      'A top-tier smartphone with built-in Alexa and a new, improved Hasselblad camera.',
+
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 0},
+        {name: '512GB SSD', price: 20000, checked: false, id: 1},
+        {name: '2TB', price: 15000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 0},
+        {name: 'Blue', price: 10000, checked: false, id: 1},
+        {name: 'Grey', price: 10000, checked: false, id: 2},
+        {name: 'Black', price: 10000, checked: false, id: 3},
+        {name: 'Yellow', price: 10000, checked: false, id: 4},
+        {name: 'White', price: 10000, checked: false, id: 5},
+        {name: 'Green', price: 10000, checked: false, id: 6},
+        {name: 'Sliver', price: 10000, checked: false, id: 7},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 0},
+        {name: '6GB', price: 4000, checked: false, id: 1},
+        {name: '8GB', price: 6000, checked: false, id: 2},
+        {name: '12GB', price: 8000, checked: false, id: 3},
+        {name: '24GB', price: 10000, checked: false, id: 4},
+        {name: '32GB', price: 12000, checked: false, id: 5},
+        {name: '64GB', price: 14000, checked: false, id: 6},
+        {name: '16GB', price: 16000, checked: false, id: 7},
+        {name: '128GB', price: 18000, checked: false, id: 8},
+      ],
+
+      [
+        {name: 'i3', price: 1000, checked: false, id: 0},
+        {name: 'i5', price: 2000, checked: false, id: 1},
+        {name: 'i7', price: 3000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 0},
+        {name: 'Keyboard', price: 1000, checked: false, id: 1},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 2},
+        {name: 'Head phones', price: 700, checked: false, id: 3},
+        {name: 'Speakers', price: 2000, checked: false, id: 4},
+        {name: 'mouse pad', price: 100, checked: false, id: 5},
+        {name: 'cd rom', price: 2500, checked: false, id: 6},
+        {name: 'UPS', price: 16000, checked: false, id: 7},
+        {name: 'Power bank', price: 8000, checked: false, id: 8},
+      ],
+    ],
+
+    minimum_quantity: [2, 1, 1, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 4,
+  },
+
+  {
+    Device: 'UNI-T Original Canvas Multimeter Bag ',
+    price: 11799000,
+    image: 'https://ae01.alicdn.com/kf/Ha9a73a943caf4870b74c9385d7190d51N/UNI-T-Original-Canvas-Multimeter-Bag-Black-Waterproof-Tools-Bag-case-For-UT139-UT61-UT89XD-Series.jpg_220x220xz.jpg_.webp',
+    details:
+      'UNI-T Original Canvas Multimeter Bag Black Waterproof Tools Bag case For UT139 UT61 UT89XD Series Universal',
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 0},
+        {name: '512GB SSD', price: 20000, checked: false, id: 1},
+        {name: '2TB', price: 15000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 0},
+        {name: 'Blue', price: 10000, checked: false, id: 1},
+        {name: 'Grey', price: 10000, checked: false, id: 2},
+        {name: 'Black', price: 10000, checked: false, id: 3},
+        {name: 'Yellow', price: 10000, checked: false, id: 4},
+        {name: 'White', price: 10000, checked: false, id: 5},
+        {name: 'Green', price: 10000, checked: false, id: 6},
+        {name: 'Sliver', price: 10000, checked: false, id: 7},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 0},
+        {name: '6GB', price: 4000, checked: false, id: 1},
+        {name: '8GB', price: 6000, checked: false, id: 2},
+        {name: '12GB', price: 8000, checked: false, id: 3},
+        {name: '24GB', price: 10000, checked: false, id: 4},
+        {name: '32GB', price: 12000, checked: false, id: 5},
+        {name: '64GB', price: 14000, checked: false, id: 6},
+        {name: '16GB', price: 16000, checked: false, id: 7},
+        {name: '128GB', price: 18000, checked: false, id: 8},
+      ],
+
+      [
+        {name: 'i3', price: 1000, checked: false, id: 0},
+        {name: 'i5', price: 2000, checked: false, id: 1},
+        {name: 'i7', price: 3000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 0},
+        {name: 'Keyboard', price: 1000, checked: false, id: 1},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 2},
+        {name: 'Head phones', price: 700, checked: false, id: 3},
+        {name: 'Speakers', price: 2000, checked: false, id: 4},
+        {name: 'mouse pad', price: 100, checked: false, id: 5},
+        {name: 'cd rom', price: 2500, checked: false, id: 6},
+        {name: 'UPS', price: 16000, checked: false, id: 7},
+        {name: 'Power bank', price: 8000, checked: false, id: 8},
+      ],
+    ],
+    minimum_quantity: [2, 1, 1, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 5,
+  },
+];
+
+
+
+
+
+
+
+
+
+export const categoriesDetailedData8 = [
+  {
+    Device: 'D13 Smart Watch " ',
+    price: 100000,
+    image:
+      'https://ae01.alicdn.com/kf/H4ab57bf5816146ecbe9df116815beaefn/D13-Smart-Watch-Men-Blood-Pressure-Waterproof-Smartwatch-Women-Heart-Rate-Monitor-Fitness-Tracker-Sport-Watch.jpg_220x220xz.jpg_.webp',
+    details:
+      'D13 Smart Watch Men Blood Pressure Waterproof Smartwatch Women Heart Rate Monitor Fitness Tracker Sport Watch For Android IOS',
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 10},
+        {name: '512GB SSD', price: 20000, checked: false, id: 11},
+        {name: '2TB', price: 15000, checked: false, id: 12},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 13},
+        {name: 'Blue', price: 10000, checked: false, id: 14},
+        {name: 'Grey', price: 10000, checked: false, id: 15},
+        {name: 'Black', price: 10000, checked: false, id: 16},
+        {name: 'Yellow', price: 10000, checked: false, id: 17},
+        {name: 'White', price: 10000, checked: false, id: 18},
+        {name: 'Green', price: 10000, checked: false, id: 19},
+        {name: 'Sliver', price: 10000, checked: false, id: 20},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 21},
+        {name: '6GB', price: 4000, checked: false, id: 22},
+        {name: '8GB', price: 6000, checked: false, id: 23},
+        {name: '12GB', price: 8000, checked: false, id: 24},
+        {name: '24GB', price: 10000, checked: false, id: 25},
+        {name: '32GB', price: 12000, checked: false, id: 26},
+        {name: '64GB', price: 14000, checked: false, id: 27},
+        {name: '16GB', price: 16000, checked: false, id: 28},
+        {name: '128GB', price: 18000, checked: false, id: 29},
+      ],
+      [
+        {name: 'i3', price: 1000, checked: false, id: 30},
+        {name: 'i5', price: 2000, checked: false, id: 31},
+        {name: 'i7', price: 3000, checked: false, id: 32},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 33},
+        {name: 'Keyboard', price: 1000, checked: false, id: 34},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 35},
+        {name: 'Head phones', price: 700, checked: false, id: 36},
+        {name: 'Speakers', price: 2000, checked: false, id: 37},
+        {name: 'mouse pad', price: 100, checked: false, id: 38},
+        {name: 'cd rom', price: 2500, checked: false, id: 39},
+        {name: 'UPS', price: 16000, checked: false, id: 40},
+        {name: 'Power bank', price: 8000, checked: false, id: 41},
+      ],
+    ],
+
+    minimum_quantity: [2, 1, 1, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 0,
+  },
+
+  {
+    Device: 'Light Bar Bluetooth ',
+    price: 29000,
+    image:
+      'https://ae01.alicdn.com/kf/Hf6b9b27e7d3d4f1c85832f7e64be27e0j/Tuya-Symphony-Light-Bar-Bluetooth-WiFi-IR-Smart-LED-Ambient-Light-Ambilight-Color-Bar-Light-Suitable.jpg_220x220xz.jpg_.webp',
+    details: 'Tuya Symphony Light Bar Bluetooth WiFi+IR Smart LED Ambient Light Ambilight Color Bar Light Suitable For Alexa Google Home',
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 41},
+        {name: '512GB SSD', price: 20000, checked: false, id: 42},
+        {name: '2TB', price: 15000, checked: false, id: 43},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 44},
+        {name: 'Blue', price: 10000, checked: false, id: 45},
+        {name: 'Grey', price: 10000, checked: false, id: 46},
+        {name: 'Black', price: 10000, checked: false, id: 47},
+        {name: 'Yellow', price: 10000, checked: false, id: 48},
+        {name: 'White', price: 10000, checked: false, id: 49},
+        {name: 'Green', price: 10000, checked: false, id: 50},
+        {name: 'Sliver', price: 10000, checked: false, id: 51},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 52},
+        {name: '6GB', price: 4000, checked: false, id: 53},
+        {name: '8GB', price: 6000, checked: false, id: 54},
+        {name: '12GB', price: 8000, checked: false, id: 55},
+        {name: '24GB', price: 10000, checked: false, id: 56},
+        {name: '32GB', price: 12000, checked: false, id: 57},
+        {name: '64GB', price: 14000, checked: false, id: 58},
+        {name: '16GB', price: 16000, checked: false, id: 59},
+        {name: '128GB', price: 18000, checked: false, id: 60},
+      ],
+
+      [
+        {name: 'i3', price: 1000, checked: false, id: 61},
+        {name: 'i5', price: 2000, checked: false, id: 62},
+        {name: 'i7', price: 3000, checked: false, id: 63},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 64},
+        {name: 'Keyboard', price: 1000, checked: false, id: 65},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 66},
+        {name: 'Head phones', price: 700, checked: false, id: 67},
+        {name: 'Speakers', price: 2000, checked: false, id: 68},
+        {name: 'mouse pad', price: 100, checked: false, id: 69},
+        {name: 'cd rom', price: 2500, checked: false, id: 70},
+        {name: 'UPS', price: 16000, checked: false, id: 71},
+        {name: 'Power bank', price: 8000, checked: false, id: 72},
+      ],
+    ],
+    minimum_quantity: [2, 1, 2, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 1,
+  },
+
+  {
+    Device: ' Route Flying Fingertip ',
+    price: 8650000 ,
+    image: 'https://ae01.alicdn.com/kf/Hdc071252dcac4046a6450e485cc8af44R/2020-New-Free-Route-Flying-Fingertip-Gyro-UFO-Intelligent-Cyclotron-Suspension-Induction.jpg_220x220.jpg_.webp',
+    details: '2020 New Free Route Flying Fingertip Gyro UFO Intelligent Cyclotron Suspension Induction',
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 0},
+        {name: '512GB SSD', price: 20000, checked: false, id: 1},
+        {name: '2TB', price: 15000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 0},
+        {name: 'Blue', price: 10000, checked: false, id: 1},
+        {name: 'Grey', price: 10000, checked: false, id: 2},
+        {name: 'Black', price: 10000, checked: false, id: 3},
+        {name: 'Yellow', price: 10000, checked: false, id: 4},
+        {name: 'White', price: 10000, checked: false, id: 5},
+        {name: 'Green', price: 10000, checked: false, id: 6},
+        {name: 'Sliver', price: 10000, checked: false, id: 7},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 0},
+        {name: '6GB', price: 4000, checked: false, id: 1},
+        {name: '8GB', price: 6000, checked: false, id: 2},
+        {name: '12GB', price: 8000, checked: false, id: 3},
+        {name: '24GB', price: 10000, checked: false, id: 4},
+        {name: '32GB', price: 12000, checked: false, id: 5},
+        {name: '64GB', price: 14000, checked: false, id: 6},
+        {name: '16GB', price: 16000, checked: false, id: 7},
+        {name: '128GB', price: 18000, checked: false, id: 8},
+      ],
+
+      [
+        {name: 'i3', price: 1000, checked: false, id: 0},
+        {name: 'i5', price: 2000, checked: false, id: 1},
+        {name: 'i7', price: 3000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 0},
+        {name: 'Keyboard', price: 1000, checked: false, id: 1},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 2},
+        {name: 'Head phones', price: 700, checked: false, id: 3},
+        {name: 'Speakers', price: 2000, checked: false, id: 4},
+        {name: 'mouse pad', price: 100, checked: false, id: 5},
+        {name: 'cd rom', price: 2500, checked: false, id: 6},
+        {name: 'UPS', price: 16000, checked: false, id: 7},
+        {name: 'Power bank', price: 8000, checked: false, id: 8},
+      ],
+    ],
+    minimum_quantity: [2, 1, 1, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 2,
+  },
+
+  {
+    Device: 'FPV Quadcopter',
+    price: 136500,
+    image: 'https://ae01.alicdn.com/kf/Hf3e5046d0b214158880d4450bd7f82bdm/2021-Hot-sell-NEW-Drone-Wifi-FPV-Quadcopter-G-sensor-Altitude-Hold-Foldable-Selfie-RC-Drones.jpg_220x220.jpg_.webp',
+    details: '2021 Hot sell NEW Drone Wifi FPV Quadcopter',
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 0},
+        {name: '512GB SSD', price: 20000, checked: false, id: 1},
+        {name: '2TB', price: 15000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 0},
+        {name: 'Blue', price: 10000, checked: false, id: 1},
+        {name: 'Grey', price: 10000, checked: false, id: 2},
+        {name: 'Black', price: 10000, checked: false, id: 3},
+        {name: 'Yellow', price: 10000, checked: false, id: 4},
+        {name: 'White', price: 10000, checked: false, id: 5},
+        {name: 'Green', price: 10000, checked: false, id: 6},
+        {name: 'Sliver', price: 10000, checked: false, id: 7},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 0},
+        {name: '6GB', price: 4000, checked: false, id: 1},
+        {name: '8GB', price: 6000, checked: false, id: 2},
+        {name: '12GB', price: 8000, checked: false, id: 3},
+        {name: '24GB', price: 10000, checked: false, id: 4},
+        {name: '32GB', price: 12000, checked: false, id: 5},
+        {name: '64GB', price: 14000, checked: false, id: 6},
+        {name: '16GB', price: 16000, checked: false, id: 7},
+        {name: '128GB', price: 18000, checked: false, id: 8},
+      ],
+
+      [
+        {name: 'i3', price: 1000, checked: false, id: 0},
+        {name: 'i5', price: 2000, checked: false, id: 1},
+        {name: 'i7', price: 3000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 0},
+        {name: 'Keyboard', price: 1000, checked: false, id: 1},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 2},
+        {name: 'Head phones', price: 700, checked: false, id: 3},
+        {name: 'Speakers', price: 2000, checked: false, id: 4},
+        {name: 'mouse pad', price: 100, checked: false, id: 5},
+        {name: 'cd rom', price: 2500, checked: false, id: 6},
+        {name: 'UPS', price: 16000, checked: false, id: 7},
+        {name: 'Power bank', price: 8000, checked: false, id: 8},
+      ],
+    ],
+
+    minimum_quantity: [2, 1, 1, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 3,
+  },
+
+  {
+    Device: 'OnePlus 9 Pro',
+    price: 8045000,
+    image: 'https://ae01.alicdn.com/kf/H85047fdd471f4dfa8dc708a7b551a427J/NETUM-NT-1698W-Handheld-Wirelress-Barcode-Scanner-AND-NT-1228BL-Bluetooth-1D-2D-QR-Bar-Code.jpg_220x220xz.jpg_.webp',
+    details:
+      'NETUM NT-1698W Handheld Wirelress Barcode Scanner AND NT-1228BL Bluetooth 1D/2D QR Bar Code Reader PDF417 for IOS Android IPAD',
+
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 0},
+        {name: '512GB SSD', price: 20000, checked: false, id: 1},
+        {name: '2TB', price: 15000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 0},
+        {name: 'Blue', price: 10000, checked: false, id: 1},
+        {name: 'Grey', price: 10000, checked: false, id: 2},
+        {name: 'Black', price: 10000, checked: false, id: 3},
+        {name: 'Yellow', price: 10000, checked: false, id: 4},
+        {name: 'White', price: 10000, checked: false, id: 5},
+        {name: 'Green', price: 10000, checked: false, id: 6},
+        {name: 'Sliver', price: 10000, checked: false, id: 7},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 0},
+        {name: '6GB', price: 4000, checked: false, id: 1},
+        {name: '8GB', price: 6000, checked: false, id: 2},
+        {name: '12GB', price: 8000, checked: false, id: 3},
+        {name: '24GB', price: 10000, checked: false, id: 4},
+        {name: '32GB', price: 12000, checked: false, id: 5},
+        {name: '64GB', price: 14000, checked: false, id: 6},
+        {name: '16GB', price: 16000, checked: false, id: 7},
+        {name: '128GB', price: 18000, checked: false, id: 8},
+      ],
+
+      [
+        {name: 'i3', price: 1000, checked: false, id: 0},
+        {name: 'i5', price: 2000, checked: false, id: 1},
+        {name: 'i7', price: 3000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 0},
+        {name: 'Keyboard', price: 1000, checked: false, id: 1},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 2},
+        {name: 'Head phones', price: 700, checked: false, id: 3},
+        {name: 'Speakers', price: 2000, checked: false, id: 4},
+        {name: 'mouse pad', price: 100, checked: false, id: 5},
+        {name: 'cd rom', price: 2500, checked: false, id: 6},
+        {name: 'UPS', price: 16000, checked: false, id: 7},
+        {name: 'Power bank', price: 8000, checked: false, id: 8},
+      ],
+    ],
+
+    minimum_quantity: [2, 1, 1, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 4,
+  },
+
+  {
+    Device: 'OnePlus Nord N200 ',
+    price: 11799000,
+    image: 'https://m.media-amazon.com/images/I/71DCZOdq92S._AC_UY327_FMwebp_QL65_.jpg',
+    details:
+      '11th Generation Intel(R) Core(TM) i3-1115G4 Processor (6MB Cache, up to 4.1GHz)',
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 0},
+        {name: '512GB SSD', price: 20000, checked: false, id: 1},
+        {name: '2TB', price: 15000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 0},
+        {name: 'Blue', price: 10000, checked: false, id: 1},
+        {name: 'Grey', price: 10000, checked: false, id: 2},
+        {name: 'Black', price: 10000, checked: false, id: 3},
+        {name: 'Yellow', price: 10000, checked: false, id: 4},
+        {name: 'White', price: 10000, checked: false, id: 5},
+        {name: 'Green', price: 10000, checked: false, id: 6},
+        {name: 'Sliver', price: 10000, checked: false, id: 7},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 0},
+        {name: '6GB', price: 4000, checked: false, id: 1},
+        {name: '8GB', price: 6000, checked: false, id: 2},
+        {name: '12GB', price: 8000, checked: false, id: 3},
+        {name: '24GB', price: 10000, checked: false, id: 4},
+        {name: '32GB', price: 12000, checked: false, id: 5},
+        {name: '64GB', price: 14000, checked: false, id: 6},
+        {name: '16GB', price: 16000, checked: false, id: 7},
+        {name: '128GB', price: 18000, checked: false, id: 8},
+      ],
+
+      [
+        {name: 'i3', price: 1000, checked: false, id: 0},
+        {name: 'i5', price: 2000, checked: false, id: 1},
+        {name: 'i7', price: 3000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 0},
+        {name: 'Keyboard', price: 1000, checked: false, id: 1},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 2},
+        {name: 'Head phones', price: 700, checked: false, id: 3},
+        {name: 'Speakers', price: 2000, checked: false, id: 4},
+        {name: 'mouse pad', price: 100, checked: false, id: 5},
+        {name: 'cd rom', price: 2500, checked: false, id: 6},
+        {name: 'UPS', price: 16000, checked: false, id: 7},
+        {name: 'Power bank', price: 8000, checked: false, id: 8},
+      ],
+    ],
+    minimum_quantity: [2, 1, 1, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 5,
+  },
+];
+
+
+
+
+
+
+
+
+
+
+export const categoriesDetailedData7 = [
+  {
+    Device: 'Micro SD" ',
+    price: 100,
+    image:
+      'https://ae01.alicdn.com/kf/H71cbb20620ea4e92b94acc04f0daa4f5E/Micro-SD-128GB-32GB-64GB-256GB-16GB-8GB-4GB-Micro-SD-Card-SD-TF-Flash-Card.jpg_220x220xz.jpg_.webp',
+    details:
+      'Micro SD 128GB 32GB 64GB 256Gb',
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 10},
+        {name: '512GB SSD', price: 20000, checked: false, id: 11},
+        {name: '2TB', price: 15000, checked: false, id: 12},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 13},
+        {name: 'Blue', price: 10000, checked: false, id: 14},
+        {name: 'Grey', price: 10000, checked: false, id: 15},
+        {name: 'Black', price: 10000, checked: false, id: 16},
+        {name: 'Yellow', price: 10000, checked: false, id: 17},
+        {name: 'White', price: 10000, checked: false, id: 18},
+        {name: 'Green', price: 10000, checked: false, id: 19},
+        {name: 'Sliver', price: 10000, checked: false, id: 20},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 21},
+        {name: '6GB', price: 4000, checked: false, id: 22},
+        {name: '8GB', price: 6000, checked: false, id: 23},
+        {name: '12GB', price: 8000, checked: false, id: 24},
+        {name: '24GB', price: 10000, checked: false, id: 25},
+        {name: '32GB', price: 12000, checked: false, id: 26},
+        {name: '64GB', price: 14000, checked: false, id: 27},
+        {name: '16GB', price: 16000, checked: false, id: 28},
+        {name: '128GB', price: 18000, checked: false, id: 29},
+      ],
+      [
+        {name: 'i3', price: 1000, checked: false, id: 30},
+        {name: 'i5', price: 2000, checked: false, id: 31},
+        {name: 'i7', price: 3000, checked: false, id: 32},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 33},
+        {name: 'Keyboard', price: 1000, checked: false, id: 34},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 35},
+        {name: 'Head phones', price: 700, checked: false, id: 36},
+        {name: 'Speakers', price: 2000, checked: false, id: 37},
+        {name: 'mouse pad', price: 100, checked: false, id: 38},
+        {name: 'cd rom', price: 2500, checked: false, id: 39},
+        {name: 'UPS', price: 16000, checked: false, id: 40},
+        {name: 'Power bank', price: 8000, checked: false, id: 41},
+      ],
+    ],
+
+    minimum_quantity: [2, 1, 1, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 0,
+  },
+
+  {
+    Device: 'KUNUP USB 3.0 TYPE C USB Flash ',
+    price: 2000,
+    image:
+      'https://ae01.alicdn.com/kf/H1dfb916b773c42b7a9812b11cb217cb2O/KUNUP-USB-3-0-TYPE-C-USB-Flash-Drive-OTG-Pen-Drive-512GB-256GB-128GB-64GB.png_220x220xz.png_.webp',
+    details: 'KUNUP USB 3.0 TYPE C USB Flash Drive OTG Pen Drive 512GB 256GB 128GB 64GB 32GB 16GB USB Stick 2 in 1 High Speed Pendrive',
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 41},
+        {name: '512GB SSD', price: 20000, checked: false, id: 42},
+        {name: '2TB', price: 15000, checked: false, id: 43},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 44},
+        {name: 'Blue', price: 10000, checked: false, id: 45},
+        {name: 'Grey', price: 10000, checked: false, id: 46},
+        {name: 'Black', price: 10000, checked: false, id: 47},
+        {name: 'Yellow', price: 10000, checked: false, id: 48},
+        {name: 'White', price: 10000, checked: false, id: 49},
+        {name: 'Green', price: 10000, checked: false, id: 50},
+        {name: 'Sliver', price: 10000, checked: false, id: 51},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 52},
+        {name: '6GB', price: 4000, checked: false, id: 53},
+        {name: '8GB', price: 6000, checked: false, id: 54},
+        {name: '12GB', price: 8000, checked: false, id: 55},
+        {name: '24GB', price: 10000, checked: false, id: 56},
+        {name: '32GB', price: 12000, checked: false, id: 57},
+        {name: '64GB', price: 14000, checked: false, id: 58},
+        {name: '16GB', price: 16000, checked: false, id: 59},
+        {name: '128GB', price: 18000, checked: false, id: 60},
+      ],
+
+      [
+        {name: 'i3', price: 1000, checked: false, id: 61},
+        {name: 'i5', price: 2000, checked: false, id: 62},
+        {name: 'i7', price: 3000, checked: false, id: 63},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 64},
+        {name: 'Keyboard', price: 1000, checked: false, id: 65},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 66},
+        {name: 'Head phones', price: 700, checked: false, id: 67},
+        {name: 'Speakers', price: 2000, checked: false, id: 68},
+        {name: 'mouse pad', price: 100, checked: false, id: 69},
+        {name: 'cd rom', price: 2500, checked: false, id: 70},
+        {name: 'UPS', price: 16000, checked: false, id: 71},
+        {name: 'Power bank', price: 8000, checked: false, id: 72},
+      ],
+    ],
+    minimum_quantity: [2, 1, 2, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 1,
+  },
+
+  {
+    Device: 'SSD 120GB 240GB 480GB 1TB 2.5 Inch SSD SATA III ',
+    price: 50000 ,
+    image: 'https://ae01.alicdn.com/kf/H4b92f3af0ae74dbaa9fd83683b13999a1/SSD-120GB-240GB-480GB-1TB-2-5-Inch-SSD-SATA-III-Internal-Solid-State-Drive-HDD.jpg_220x220xz.jpg_.webp',
+    details: 'SSD 120GB 240GB 480GB 1TB 2.5 Inch SSD SATA III Internal Solid State Drive HDD SSD Hard Disk for PC Laptop Desktop',
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 0},
+        {name: '512GB SSD', price: 20000, checked: false, id: 1},
+        {name: '2TB', price: 15000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 0},
+        {name: 'Blue', price: 10000, checked: false, id: 1},
+        {name: 'Grey', price: 10000, checked: false, id: 2},
+        {name: 'Black', price: 10000, checked: false, id: 3},
+        {name: 'Yellow', price: 10000, checked: false, id: 4},
+        {name: 'White', price: 10000, checked: false, id: 5},
+        {name: 'Green', price: 10000, checked: false, id: 6},
+        {name: 'Sliver', price: 10000, checked: false, id: 7},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 0},
+        {name: '6GB', price: 4000, checked: false, id: 1},
+        {name: '8GB', price: 6000, checked: false, id: 2},
+        {name: '12GB', price: 8000, checked: false, id: 3},
+        {name: '24GB', price: 10000, checked: false, id: 4},
+        {name: '32GB', price: 12000, checked: false, id: 5},
+        {name: '64GB', price: 14000, checked: false, id: 6},
+        {name: '16GB', price: 16000, checked: false, id: 7},
+        {name: '128GB', price: 18000, checked: false, id: 8},
+      ],
+
+      [
+        {name: 'i3', price: 1000, checked: false, id: 0},
+        {name: 'i5', price: 2000, checked: false, id: 1},
+        {name: 'i7', price: 3000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 0},
+        {name: 'Keyboard', price: 1000, checked: false, id: 1},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 2},
+        {name: 'Head phones', price: 700, checked: false, id: 3},
+        {name: 'Speakers', price: 2000, checked: false, id: 4},
+        {name: 'mouse pad', price: 100, checked: false, id: 5},
+        {name: 'cd rom', price: 2500, checked: false, id: 6},
+        {name: 'UPS', price: 16000, checked: false, id: 7},
+        {name: 'Power bank', price: 8000, checked: false, id: 8},
+      ],
+    ],
+    minimum_quantity: [2, 1, 1, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 2,
+  },
+
+  {
+    Device: '2pcs Custom LOGO Metal',
+    price: 13650000,
+    image: 'https://ae01.alicdn.com/kf/He4996bb004844f6ca3547d5055f8768bf/2pcs-Custom-LOGO-Metal-Usb-Flash-Drive-Flash-Memory-Card-128GB-64GB-32GB-Mini-Pendrive-Pen.jpg_220x220xz.jpg_.webp',
+    details: '2pcs Custom LOGO Metal Usb Flash Drive Flash Memory Card 128GB 64GB 32GB Mini Pendrive Pen Drive 16GB 8GB 4GB Usb Stick 128 Gb',
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 0},
+        {name: '512GB SSD', price: 20000, checked: false, id: 1},
+        {name: '2TB', price: 15000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 0},
+        {name: 'Blue', price: 10000, checked: false, id: 1},
+        {name: 'Grey', price: 10000, checked: false, id: 2},
+        {name: 'Black', price: 10000, checked: false, id: 3},
+        {name: 'Yellow', price: 10000, checked: false, id: 4},
+        {name: 'White', price: 10000, checked: false, id: 5},
+        {name: 'Green', price: 10000, checked: false, id: 6},
+        {name: 'Sliver', price: 10000, checked: false, id: 7},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 0},
+        {name: '6GB', price: 4000, checked: false, id: 1},
+        {name: '8GB', price: 6000, checked: false, id: 2},
+        {name: '12GB', price: 8000, checked: false, id: 3},
+        {name: '24GB', price: 10000, checked: false, id: 4},
+        {name: '32GB', price: 12000, checked: false, id: 5},
+        {name: '64GB', price: 14000, checked: false, id: 6},
+        {name: '16GB', price: 16000, checked: false, id: 7},
+        {name: '128GB', price: 18000, checked: false, id: 8},
+      ],
+
+      [
+        {name: 'i3', price: 1000, checked: false, id: 0},
+        {name: 'i5', price: 2000, checked: false, id: 1},
+        {name: 'i7', price: 3000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 0},
+        {name: 'Keyboard', price: 1000, checked: false, id: 1},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 2},
+        {name: 'Head phones', price: 700, checked: false, id: 3},
+        {name: 'Speakers', price: 2000, checked: false, id: 4},
+        {name: 'mouse pad', price: 100, checked: false, id: 5},
+        {name: 'cd rom', price: 2500, checked: false, id: 6},
+        {name: 'UPS', price: 16000, checked: false, id: 7},
+        {name: 'Power bank', price: 8000, checked: false, id: 8},
+      ],
+    ],
+
+    minimum_quantity: [2, 1, 1, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 3,
+  },
+
+  {
+    Device: 'SATA NGFF 6Gbps Case USB SSD ',
+    price: 8045000,
+    image: 'https://ae01.alicdn.com/kf/He606898311b94ca0a8c5e1197e35f14bC/PCIE-M-2-NVME-GEN2-10Gbps-SATA-NGFF-6Gbps-Case-USB-SSD-Enclosure-Type-C-USB.jpg_220x220xz.jpg_.webp',
+    details:
+      'PCIE M.2 NVME GEN2 10Gbps SATA NGFF 6Gbps Case USB SSD Enclosure Type C USB 3.1 SSD Case NVME Hard Disk Enclosure HDD Case',
+
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 0},
+        {name: '512GB SSD', price: 20000, checked: false, id: 1},
+        {name: '2TB', price: 15000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 0},
+        {name: 'Blue', price: 10000, checked: false, id: 1},
+        {name: 'Grey', price: 10000, checked: false, id: 2},
+        {name: 'Black', price: 10000, checked: false, id: 3},
+        {name: 'Yellow', price: 10000, checked: false, id: 4},
+        {name: 'White', price: 10000, checked: false, id: 5},
+        {name: 'Green', price: 10000, checked: false, id: 6},
+        {name: 'Sliver', price: 10000, checked: false, id: 7},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 0},
+        {name: '6GB', price: 4000, checked: false, id: 1},
+        {name: '8GB', price: 6000, checked: false, id: 2},
+        {name: '12GB', price: 8000, checked: false, id: 3},
+        {name: '24GB', price: 10000, checked: false, id: 4},
+        {name: '32GB', price: 12000, checked: false, id: 5},
+        {name: '64GB', price: 14000, checked: false, id: 6},
+        {name: '16GB', price: 16000, checked: false, id: 7},
+        {name: '128GB', price: 18000, checked: false, id: 8},
+      ],
+
+      [
+        {name: 'i3', price: 1000, checked: false, id: 0},
+        {name: 'i5', price: 2000, checked: false, id: 1},
+        {name: 'i7', price: 3000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 0},
+        {name: 'Keyboard', price: 1000, checked: false, id: 1},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 2},
+        {name: 'Head phones', price: 700, checked: false, id: 3},
+        {name: 'Speakers', price: 2000, checked: false, id: 4},
+        {name: 'mouse pad', price: 100, checked: false, id: 5},
+        {name: 'cd rom', price: 2500, checked: false, id: 6},
+        {name: 'UPS', price: 16000, checked: false, id: 7},
+        {name: 'Power bank', price: 8000, checked: false, id: 8},
+      ],
+    ],
+
+    minimum_quantity: [2, 1, 1, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 4,
+  },
+
+  {
+    Device: 'UNI-T Original Canvas Multimeter Bag ',
+    price: 11799000,
+    image: 'https://ae01.alicdn.com/kf/Ha9a73a943caf4870b74c9385d7190d51N/UNI-T-Original-Canvas-Multimeter-Bag-Black-Waterproof-Tools-Bag-case-For-UT139-UT61-UT89XD-Series.jpg_220x220xz.jpg_.webp',
+    details:
+      'UNI-T Original Canvas Multimeter Bag Black Waterproof Tools Bag case For UT139 UT61 UT89XD Series Universal',
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 0},
+        {name: '512GB SSD', price: 20000, checked: false, id: 1},
+        {name: '2TB', price: 15000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 0},
+        {name: 'Blue', price: 10000, checked: false, id: 1},
+        {name: 'Grey', price: 10000, checked: false, id: 2},
+        {name: 'Black', price: 10000, checked: false, id: 3},
+        {name: 'Yellow', price: 10000, checked: false, id: 4},
+        {name: 'White', price: 10000, checked: false, id: 5},
+        {name: 'Green', price: 10000, checked: false, id: 6},
+        {name: 'Sliver', price: 10000, checked: false, id: 7},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 0},
+        {name: '6GB', price: 4000, checked: false, id: 1},
+        {name: '8GB', price: 6000, checked: false, id: 2},
+        {name: '12GB', price: 8000, checked: false, id: 3},
+        {name: '24GB', price: 10000, checked: false, id: 4},
+        {name: '32GB', price: 12000, checked: false, id: 5},
+        {name: '64GB', price: 14000, checked: false, id: 6},
+        {name: '16GB', price: 16000, checked: false, id: 7},
+        {name: '128GB', price: 18000, checked: false, id: 8},
+      ],
+
+      [
+        {name: 'i3', price: 1000, checked: false, id: 0},
+        {name: 'i5', price: 2000, checked: false, id: 1},
+        {name: 'i7', price: 3000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 0},
+        {name: 'Keyboard', price: 1000, checked: false, id: 1},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 2},
+        {name: 'Head phones', price: 700, checked: false, id: 3},
+        {name: 'Speakers', price: 2000, checked: false, id: 4},
+        {name: 'mouse pad', price: 100, checked: false, id: 5},
+        {name: 'cd rom', price: 2500, checked: false, id: 6},
+        {name: 'UPS', price: 16000, checked: false, id: 7},
+        {name: 'Power bank', price: 8000, checked: false, id: 8},
+      ],
+    ],
+    minimum_quantity: [2, 1, 1, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 5,
+  },
+];
+
+
+
+
+
+
+
+
+
+export const categoriesDetailedData5 = [
+  {
+    Device: 'TCL 20 SE 6.82" ',
+    price: 100000,
+    image:
+      'https://m.media-amazon.com/images/I/61Bdvki2cqS._AC_UY327_FMwebp_QL65_.jpg',
+    details:
+      'TCL 20 SE 6.82" Unlocked Cellphone, 4GB RAM + 128GB ROM, US Version Android 11 Smartphone with 48MP',
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 10},
+        {name: '512GB SSD', price: 20000, checked: false, id: 11},
+        {name: '2TB', price: 15000, checked: false, id: 12},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 13},
+        {name: 'Blue', price: 10000, checked: false, id: 14},
+        {name: 'Grey', price: 10000, checked: false, id: 15},
+        {name: 'Black', price: 10000, checked: false, id: 16},
+        {name: 'Yellow', price: 10000, checked: false, id: 17},
+        {name: 'White', price: 10000, checked: false, id: 18},
+        {name: 'Green', price: 10000, checked: false, id: 19},
+        {name: 'Sliver', price: 10000, checked: false, id: 20},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 21},
+        {name: '6GB', price: 4000, checked: false, id: 22},
+        {name: '8GB', price: 6000, checked: false, id: 23},
+        {name: '12GB', price: 8000, checked: false, id: 24},
+        {name: '24GB', price: 10000, checked: false, id: 25},
+        {name: '32GB', price: 12000, checked: false, id: 26},
+        {name: '64GB', price: 14000, checked: false, id: 27},
+        {name: '16GB', price: 16000, checked: false, id: 28},
+        {name: '128GB', price: 18000, checked: false, id: 29},
+      ],
+      [
+        {name: 'i3', price: 1000, checked: false, id: 30},
+        {name: 'i5', price: 2000, checked: false, id: 31},
+        {name: 'i7', price: 3000, checked: false, id: 32},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 33},
+        {name: 'Keyboard', price: 1000, checked: false, id: 34},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 35},
+        {name: 'Head phones', price: 700, checked: false, id: 36},
+        {name: 'Speakers', price: 2000, checked: false, id: 37},
+        {name: 'mouse pad', price: 100, checked: false, id: 38},
+        {name: 'cd rom', price: 2500, checked: false, id: 39},
+        {name: 'UPS', price: 16000, checked: false, id: 40},
+        {name: 'Power bank', price: 8000, checked: false, id: 41},
+      ],
+    ],
+
+    minimum_quantity: [2, 1, 1, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 0,
+  },
+
+  {
+    Device: 'SAMSUNG Galaxy S20 ',
+    price: 29000,
+    image:
+      'https://m.media-amazon.com/images/I/71RxOftVoQL._AC_UY327_FMwebp_QL65_.jpg',
+    details: 'SAMSUNG Galaxy S20 FE 5G Factory Unlocked Android Cell Phone 128GB US Version Smartphone Pro-Grade',
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 41},
+        {name: '512GB SSD', price: 20000, checked: false, id: 42},
+        {name: '2TB', price: 15000, checked: false, id: 43},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 44},
+        {name: 'Blue', price: 10000, checked: false, id: 45},
+        {name: 'Grey', price: 10000, checked: false, id: 46},
+        {name: 'Black', price: 10000, checked: false, id: 47},
+        {name: 'Yellow', price: 10000, checked: false, id: 48},
+        {name: 'White', price: 10000, checked: false, id: 49},
+        {name: 'Green', price: 10000, checked: false, id: 50},
+        {name: 'Sliver', price: 10000, checked: false, id: 51},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 52},
+        {name: '6GB', price: 4000, checked: false, id: 53},
+        {name: '8GB', price: 6000, checked: false, id: 54},
+        {name: '12GB', price: 8000, checked: false, id: 55},
+        {name: '24GB', price: 10000, checked: false, id: 56},
+        {name: '32GB', price: 12000, checked: false, id: 57},
+        {name: '64GB', price: 14000, checked: false, id: 58},
+        {name: '16GB', price: 16000, checked: false, id: 59},
+        {name: '128GB', price: 18000, checked: false, id: 60},
+      ],
+
+      [
+        {name: 'i3', price: 1000, checked: false, id: 61},
+        {name: 'i5', price: 2000, checked: false, id: 62},
+        {name: 'i7', price: 3000, checked: false, id: 63},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 64},
+        {name: 'Keyboard', price: 1000, checked: false, id: 65},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 66},
+        {name: 'Head phones', price: 700, checked: false, id: 67},
+        {name: 'Speakers', price: 2000, checked: false, id: 68},
+        {name: 'mouse pad', price: 100, checked: false, id: 69},
+        {name: 'cd rom', price: 2500, checked: false, id: 70},
+        {name: 'UPS', price: 16000, checked: false, id: 71},
+        {name: 'Power bank', price: 8000, checked: false, id: 72},
+      ],
+    ],
+    minimum_quantity: [2, 1, 2, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 1,
+  },
+
+  {
+    Device: 'Moto G Power ',
+    price: 8650000 ,
+    image: 'https://m.media-amazon.com/images/I/41iyYW-CrsL._AC_UY327_FMwebp_QL65_.jpg',
+    details: 'Moto G Power | 2021 | 3-Day battery | Unlocked | Made for US by Motorola | 3/32GB | 48MP Camera | Silver',
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 0},
+        {name: '512GB SSD', price: 20000, checked: false, id: 1},
+        {name: '2TB', price: 15000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 0},
+        {name: 'Blue', price: 10000, checked: false, id: 1},
+        {name: 'Grey', price: 10000, checked: false, id: 2},
+        {name: 'Black', price: 10000, checked: false, id: 3},
+        {name: 'Yellow', price: 10000, checked: false, id: 4},
+        {name: 'White', price: 10000, checked: false, id: 5},
+        {name: 'Green', price: 10000, checked: false, id: 6},
+        {name: 'Sliver', price: 10000, checked: false, id: 7},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 0},
+        {name: '6GB', price: 4000, checked: false, id: 1},
+        {name: '8GB', price: 6000, checked: false, id: 2},
+        {name: '12GB', price: 8000, checked: false, id: 3},
+        {name: '24GB', price: 10000, checked: false, id: 4},
+        {name: '32GB', price: 12000, checked: false, id: 5},
+        {name: '64GB', price: 14000, checked: false, id: 6},
+        {name: '16GB', price: 16000, checked: false, id: 7},
+        {name: '128GB', price: 18000, checked: false, id: 8},
+      ],
+
+      [
+        {name: 'i3', price: 1000, checked: false, id: 0},
+        {name: 'i5', price: 2000, checked: false, id: 1},
+        {name: 'i7', price: 3000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 0},
+        {name: 'Keyboard', price: 1000, checked: false, id: 1},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 2},
+        {name: 'Head phones', price: 700, checked: false, id: 3},
+        {name: 'Speakers', price: 2000, checked: false, id: 4},
+        {name: 'mouse pad', price: 100, checked: false, id: 5},
+        {name: 'cd rom', price: 2500, checked: false, id: 6},
+        {name: 'UPS', price: 16000, checked: false, id: 7},
+        {name: 'Power bank', price: 8000, checked: false, id: 8},
+      ],
+    ],
+    minimum_quantity: [2, 1, 1, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 2,
+  },
+
+  {
+    Device: 'SAMSUNG Galaxy S21 Ultra',
+    price: 13650000,
+    image: 'https://m.media-amazon.com/images/I/61O45C5qASL._AC_UL480_FMwebp_QL65_.jpg',
+    details: 'The flagship of Samsung’s Galaxy line boasts a quad-lens rear camera with the highest resolution of any smartphone.',
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 0},
+        {name: '512GB SSD', price: 20000, checked: false, id: 1},
+        {name: '2TB', price: 15000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 0},
+        {name: 'Blue', price: 10000, checked: false, id: 1},
+        {name: 'Grey', price: 10000, checked: false, id: 2},
+        {name: 'Black', price: 10000, checked: false, id: 3},
+        {name: 'Yellow', price: 10000, checked: false, id: 4},
+        {name: 'White', price: 10000, checked: false, id: 5},
+        {name: 'Green', price: 10000, checked: false, id: 6},
+        {name: 'Sliver', price: 10000, checked: false, id: 7},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 0},
+        {name: '6GB', price: 4000, checked: false, id: 1},
+        {name: '8GB', price: 6000, checked: false, id: 2},
+        {name: '12GB', price: 8000, checked: false, id: 3},
+        {name: '24GB', price: 10000, checked: false, id: 4},
+        {name: '32GB', price: 12000, checked: false, id: 5},
+        {name: '64GB', price: 14000, checked: false, id: 6},
+        {name: '16GB', price: 16000, checked: false, id: 7},
+        {name: '128GB', price: 18000, checked: false, id: 8},
+      ],
+
+      [
+        {name: 'i3', price: 1000, checked: false, id: 0},
+        {name: 'i5', price: 2000, checked: false, id: 1},
+        {name: 'i7', price: 3000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 0},
+        {name: 'Keyboard', price: 1000, checked: false, id: 1},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 2},
+        {name: 'Head phones', price: 700, checked: false, id: 3},
+        {name: 'Speakers', price: 2000, checked: false, id: 4},
+        {name: 'mouse pad', price: 100, checked: false, id: 5},
+        {name: 'cd rom', price: 2500, checked: false, id: 6},
+        {name: 'UPS', price: 16000, checked: false, id: 7},
+        {name: 'Power bank', price: 8000, checked: false, id: 8},
+      ],
+    ],
+
+    minimum_quantity: [2, 1, 1, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 3,
+  },
+
+  {
+    Device: 'OnePlus 9 Pro',
+    price: 8045000,
+    image: 'https://m.media-amazon.com/images/I/51P0ap2StaL._AC_UL480_FMwebp_QL65_.jpg',
+    details:
+      'A top-tier smartphone with built-in Alexa and a new, improved Hasselblad camera.',
+
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 0},
+        {name: '512GB SSD', price: 20000, checked: false, id: 1},
+        {name: '2TB', price: 15000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 0},
+        {name: 'Blue', price: 10000, checked: false, id: 1},
+        {name: 'Grey', price: 10000, checked: false, id: 2},
+        {name: 'Black', price: 10000, checked: false, id: 3},
+        {name: 'Yellow', price: 10000, checked: false, id: 4},
+        {name: 'White', price: 10000, checked: false, id: 5},
+        {name: 'Green', price: 10000, checked: false, id: 6},
+        {name: 'Sliver', price: 10000, checked: false, id: 7},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 0},
+        {name: '6GB', price: 4000, checked: false, id: 1},
+        {name: '8GB', price: 6000, checked: false, id: 2},
+        {name: '12GB', price: 8000, checked: false, id: 3},
+        {name: '24GB', price: 10000, checked: false, id: 4},
+        {name: '32GB', price: 12000, checked: false, id: 5},
+        {name: '64GB', price: 14000, checked: false, id: 6},
+        {name: '16GB', price: 16000, checked: false, id: 7},
+        {name: '128GB', price: 18000, checked: false, id: 8},
+      ],
+
+      [
+        {name: 'i3', price: 1000, checked: false, id: 0},
+        {name: 'i5', price: 2000, checked: false, id: 1},
+        {name: 'i7', price: 3000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 0},
+        {name: 'Keyboard', price: 1000, checked: false, id: 1},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 2},
+        {name: 'Head phones', price: 700, checked: false, id: 3},
+        {name: 'Speakers', price: 2000, checked: false, id: 4},
+        {name: 'mouse pad', price: 100, checked: false, id: 5},
+        {name: 'cd rom', price: 2500, checked: false, id: 6},
+        {name: 'UPS', price: 16000, checked: false, id: 7},
+        {name: 'Power bank', price: 8000, checked: false, id: 8},
+      ],
+    ],
+
+    minimum_quantity: [2, 1, 1, null, null],
+    counter: [0, 0, 0, 0, 0],
+    required: [true, true, true, false, false],
+    id: 4,
+  },
+
+  {
+    Device: 'OnePlus Nord N200 ',
+    price: 11799000,
+    image: 'https://m.media-amazon.com/images/I/71DCZOdq92S._AC_UY327_FMwebp_QL65_.jpg',
+    details:
+      '11th Generation Intel(R) Core(TM) i3-1115G4 Processor (6MB Cache, up to 4.1GHz)',
+    preferenceTitle: [
+      'Choose LapTop Capacity',
+      'Choose Colour Family',
+      'Choose Ram capacity',
+      'GENERATION',
+      'Would you like to add more?',
+    ],
+    preferenceData: [
+      [
+        {name: '1TB', price: 10000, checked: false, id: 0},
+        {name: '512GB SSD', price: 20000, checked: false, id: 1},
+        {name: '2TB', price: 15000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Red', price: 1000, checked: false, id: 0},
+        {name: 'Blue', price: 10000, checked: false, id: 1},
+        {name: 'Grey', price: 10000, checked: false, id: 2},
+        {name: 'Black', price: 10000, checked: false, id: 3},
+        {name: 'Yellow', price: 10000, checked: false, id: 4},
+        {name: 'White', price: 10000, checked: false, id: 5},
+        {name: 'Green', price: 10000, checked: false, id: 6},
+        {name: 'Sliver', price: 10000, checked: false, id: 7},
+      ],
+
+      [
+        {name: '4GB', price: 2000, checked: false, id: 0},
+        {name: '6GB', price: 4000, checked: false, id: 1},
+        {name: '8GB', price: 6000, checked: false, id: 2},
+        {name: '12GB', price: 8000, checked: false, id: 3},
+        {name: '24GB', price: 10000, checked: false, id: 4},
+        {name: '32GB', price: 12000, checked: false, id: 5},
+        {name: '64GB', price: 14000, checked: false, id: 6},
+        {name: '16GB', price: 16000, checked: false, id: 7},
+        {name: '128GB', price: 18000, checked: false, id: 8},
+      ],
+
+      [
+        {name: 'i3', price: 1000, checked: false, id: 0},
+        {name: 'i5', price: 2000, checked: false, id: 1},
+        {name: 'i7', price: 3000, checked: false, id: 2},
+      ],
+
+      [
+        {name: 'Mouse', price: 500, checked: false, id: 0},
+        {name: 'Keyboard', price: 1000, checked: false, id: 1},
+        {name: 'Laptop cover', price: 1000, checked: false, id: 2},
+        {name: 'Head phones', price: 700, checked: false, id: 3},
+        {name: 'Speakers', price: 2000, checked: false, id: 4},
+        {name: 'mouse pad', price: 100, checked: false, id: 5},
+        {name: 'cd rom', price: 2500, checked: false, id: 6},
+        {name: 'UPS', price: 16000, checked: false, id: 7},
+        {name: 'Power bank', price: 8000, checked: false, id: 8},
+      ],
+    ],
+    minimum_quantity: [2, 1, 1, null, null],
     counter: [0, 0, 0, 0, 0],
     required: [true, true, true, false, false],
     id: 5,

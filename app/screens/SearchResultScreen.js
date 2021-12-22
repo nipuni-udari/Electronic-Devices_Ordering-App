@@ -8,13 +8,10 @@ import TitleBar from '../constants/TitleBar';
 const SCREEN_WIDTH = Dimensions.get('window').width;
 
 const SearchResultScreen = ({navigation, route}) => {
-  
   return (
-    
     <View style={styles.container}>
-      <TitleBar></TitleBar>
+      <TitleBar />
       <View>
-        
         <FlatList
           style={{backgroundColor: colors.cardbackground}}
           data={shopsData}
