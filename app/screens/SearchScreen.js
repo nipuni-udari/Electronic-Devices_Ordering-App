@@ -12,12 +12,15 @@ import {
 import SearchComponent from '../components/SearchComponent';
 import {filterData2, filterData3} from '../global/Data';
 import {colors} from '../global/styles';
+import TitleBar from '../constants/TitleBar';
 
 const SCREEN_WIDTH = Dimensions.get('window').width;
 
 export default function SearchScreen({navigation}) {
   return (
-    <View style={{flex: 1, marginBottom: 10, paddingTop: 20}}>
+    <View style={{flex: 1, marginBottom: 10}}>
+      <TitleBar></TitleBar>
+
       <SearchComponent />
       <View style={{}}>
         <View>

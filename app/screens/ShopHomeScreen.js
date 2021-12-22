@@ -147,7 +147,7 @@ const ShopHomeScreen = ({navigation, route}) => {
 export default ShopHomeScreen;
 
 const styles = StyleSheet.create({
-  container: {flex: 1, paddingTop: 20},
+  container: {flex: 1, backgroundColor:'white'},
 
   view1: {
     padding: 3,

@@ -264,7 +264,7 @@ export default function HomeScreen({navigation}) {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: 20,
+    paddingTop: 10,
   },
   deliveryButton: {
     paddingHorizontal: 20,
