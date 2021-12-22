@@ -180,8 +180,6 @@ export default function HomeScreen({navigation}) {
             keyExtractor={(item, index) => index.toString()}
             showsHorizontalScrollIndicator={false}
             renderItem={({item}) => (
-              
-              
               <View style={{marginRight: 5}}>
                 <DeviceCard
                   screenWidth={SCREEN_WIDTH * 0.8}
@@ -191,7 +189,6 @@ export default function HomeScreen({navigation}) {
                   businessAddress={item.businessAddress}
                   averageReview={item.averageReview}
                   numberOfReview={item.numberOfReview}
-                  onPress={() => this.props.navigation.navigate(SearchScreen)}
                 />
               </View>
             )}
