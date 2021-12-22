@@ -18,6 +18,7 @@ import {TabView, TabBar} from 'react-native-tab-view';
 import ShopHeader from '../components/ShopHeader';
 import CategoriesScreen from './ShopTabs/CategoriesScreen';
 import AboutScreen from './ShopTabs/AboutScreen';
+import ReviewsScreen from './ShopTabs/ReviewsScreen';
 
 const SCREEN_WIDTH = Dimensions.get('window').width;
 const initialLayout = SCREEN_WIDTH;

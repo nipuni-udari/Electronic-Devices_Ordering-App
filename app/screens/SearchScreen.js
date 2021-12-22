@@ -10,7 +10,7 @@ import {
   ImageBackgroundComponent,
 } from 'react-native';
 import SearchComponent from '../components/SearchComponent';
-import {filterData2} from '../global/Data';
+import {filterData2, filterData3} from '../global/Data';
 import {colors} from '../global/styles';
 
 const SCREEN_WIDTH = Dimensions.get('window').width;
@@ -63,7 +63,7 @@ const Footer = ({navigation}) => {
       <View style={{}}>
         <FlatList
           style={{marginBottom: 1}}
-          data={filterData2}
+          data={filterData3}
           keyExtractor={item => item.id}
           renderItem={({item, index}) => (
             <TouchableWithoutFeedback
