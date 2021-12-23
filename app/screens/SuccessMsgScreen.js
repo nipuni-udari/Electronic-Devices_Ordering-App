@@ -1,5 +1,13 @@
 import React, {Component} from 'react';
-import {Text, View, Button, StyleSheet, Image, TextInput} from 'react-native';
+import {
+  Text,
+  View,
+  Button,
+  StyleSheet,
+  Image,
+  TextInput,
+  TouchableOpacity,
+} from 'react-native';
 import {colors, parameters, title} from '../global/styles';
 import LinearGradient from 'react-native-linear-gradient';
 import TitleBar from '../constants/TitleBar';
@@ -32,14 +40,22 @@ export default class SuccessMsgScreen extends Component {
               />
             </View>
           </View>
-          <View style={{marginHorizontal: 50, marginTop: 30, marginBottom: 10}}>
-            <Button
-              title="Save your Delivery location"
-              buttonStyle={styles.createButton}
-              titleStyle={styles.createButtonTitle}
-              active
-              onPress={() => this.props.navigation.navigate('HomeScreen')}
-            />
+          <View style={styles.view17}>
+            <TouchableOpacity
+              style={styles.buttonContainer2}
+              onPress={() => {
+                this.props.navigation.navigate('HomeScreen');
+              }}>
+              <Text
+                style={{
+                  fontFamily: 'Nunito-Regular',
+                  fontSize: 18,
+                  marginLeft: 10,
+                  color: 'white',
+                }}>
+                Done
+              </Text>
+            </TouchableOpacity>
           </View>
         </View>
       </>
@@ -55,6 +71,24 @@ const styles = StyleSheet.create({
     fontSize: 30,
     fontWeight: 'bold',
     // color: 'white'
+  },
+  buttonContainer2: {
+    marginTop: 10,
+    height: 45,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginBottom: 50,
+    width: 250,
+    borderRadius: 30,
+    backgroundColor: '#9013fe',
+    marginLeft: 40,
+  },
+  view17: {
+    marginVertical: 10,
+    marginTop: 30,
+    marginHorizontal: 50,
+    marginBottom: 10,
   },
   logo: {
     width: '100%',

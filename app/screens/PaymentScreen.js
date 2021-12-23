@@ -1,10 +1,17 @@
 import React, {Component} from 'react';
-import {Text, View, StyleSheet, Image, Button, TextInput} from 'react-native';
+import {
+  Text,
+  View,
+  StyleSheet,
+  Image,
+  Button,
+  TextInput,
+  TouchableOpacity,
+} from 'react-native';
 import {colors, parameters, title} from '../global/styles';
 import MyOrdersScreen from './MyOrdersScreen';
 import TitleBar from '../constants/TitleBar';
 import SuccessMsgScreen from '../screens/SuccessMsgScreen';
-
 
 export default class PaymentScreen extends Component {
   render() {
@@ -37,16 +44,24 @@ export default class PaymentScreen extends Component {
                 alignItems: 'center',
                 justifyContent: 'center',
               }}>
-              <Text style={styles.total}>LKR 62,000.000</Text>
+              <Text style={styles.total}>LKR 2569.00</Text>
             </View>
-            <View>
-              <Button
-                title="Confirm Payment"
-                buttonStyle={styles.createButton}
-                titleStyle={styles.createButtonTitle}
-                active
-                onPress={() => this.props.navigation.navigate(SuccessMsgScreen)}
-              />
+            <View style={styles.view17}>
+              <TouchableOpacity
+                style={styles.buttonContainer2}
+                onPress={() => {
+                  this.props.navigation.navigate('SuccessMsgScreen');
+                }}>
+                <Text
+                  style={{
+                    fontFamily: 'Nunito-Regular',
+                    fontSize: 18,
+                    marginLeft: 10,
+                    color: 'white',
+                  }}>
+                  Confirm Payment
+                </Text>
+              </TouchableOpacity>
             </View>
           </View>
         </View>
@@ -61,6 +76,23 @@ const styles = StyleSheet.create({
   },
   body: {
     flex: 1,
+  },
+  buttonContainer2: {
+    marginTop: 10,
+    height: 45,
+    flexDirection: 'row',
+    justifyContent: 'center',
+    alignItems: 'center',
+    marginBottom: 40,
+    width: 250,
+    borderRadius: 30,
+    backgroundColor: '#9013fe',
+    marginLeft: 40,
+  },
+  view17: {
+    marginVertical: 10,
+    marginTop: 30,
+    marginHorizontal: 50,
   },
   logo: {
     width: '100%',
