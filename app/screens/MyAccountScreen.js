@@ -29,6 +29,7 @@ export default class MyAccountScreen extends Component {
               <Text style={styles.name}>Nipuni Udari</Text>
               <Text style={styles.info}>nipuniudari@gmail.com</Text>
               <Text style={styles.description}>No 45, pallegmama, Hungama.</Text>
+              <Text style={styles.description}>0711064083</Text>
 
               <TouchableOpacity
                 style={styles.buttonContainer}

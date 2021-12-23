@@ -123,11 +123,6 @@ export const filterData2 = [
   },
 ];
 
-
-
-
-
-
 export const filterData3 = [
   {
     name: 'TV, Video',
@@ -217,14 +212,11 @@ export const filterData3 = [
   },
 
   {
-    name: 'Computer Cpmponents',
+    name: 'Computer Components',
     image: 'https://i.ebayimg.com/thumbs/images/g/cAkAAOSwi8VZW0zc/s-l225.webp',
     id: '15',
   },
 ];
-
-
-
 
 export const shopsData = [
   {
@@ -586,9 +578,11 @@ export const categoriesDetailedData = [
 
   {
     Device: 'Chicken Burger',
-    price: 8650000 ,
-    image: 'https://www.fastbuy.lk/wp-content/uploads/2016/03/lenovo-l340-sri-lanka.jpg',
-    details: 'Part Number:  81LG003UUSLenovo L340 LaptopIntel® Core™ i3-8145U4GB RAM DDR41TB Hard Drive15.6 LED Screen Windows 10',
+    price: 8650000,
+    image:
+      'https://www.fastbuy.lk/wp-content/uploads/2016/03/lenovo-l340-sri-lanka.jpg',
+    details:
+      'Part Number:  81LG003UUSLenovo L340 LaptopIntel® Core™ i3-8145U4GB RAM DDR41TB Hard Drive15.6 LED Screen Windows 10',
     preferenceTitle: [
       'Choose LapTop Capacity',
       'Choose Colour Family',
@@ -653,8 +647,10 @@ export const categoriesDetailedData = [
   {
     Device: 'HUAWEI MateBook D15 Reborn',
     price: 13650000,
-    image: 'https://www.fastbuy.lk/wp-content/uploads/2020/06/huawei-matebook-d15-300x300.png',
-    details: 'PROCESSOR: AMD Ryzen 5 3500UGRAPHICS: Radeon™ Vega 8 GraphicsMEMORY : 8GB DDR4STORAGE : 256GB PCIe SSD + 1TB HDD',
+    image:
+      'https://www.fastbuy.lk/wp-content/uploads/2020/06/huawei-matebook-d15-300x300.png',
+    details:
+      'PROCESSOR: AMD Ryzen 5 3500UGRAPHICS: Radeon™ Vega 8 GraphicsMEMORY : 8GB DDR4STORAGE : 256GB PCIe SSD + 1TB HDD',
     preferenceTitle: [
       'Choose LapTop Capacity',
       'Choose Colour Family',
@@ -720,7 +716,8 @@ export const categoriesDetailedData = [
   {
     Device: 'Hp 15 Core',
     price: 8045000,
-    image: 'https://www.fastbuy.lk/wp-content/uploads/2020/05/Hp-15-Core-i3-Sri-lanka.png',
+    image:
+      'https://www.fastbuy.lk/wp-content/uploads/2020/05/Hp-15-Core-i3-Sri-lanka.png',
     details:
       'Intel® Core™ i3-10110U 10th gen Processor 4GB Ram 1TB Hard Drive 15.6 LED Microsoft Windows 10',
 
@@ -790,7 +787,8 @@ export const categoriesDetailedData = [
   {
     Device: 'Acer Aspire 5 ',
     price: 11799000,
-    image: 'https://www.fastbuy.lk/wp-content/uploads/2020/05/Acer-A515-56G-350AS-11th-geni5-300x300.png',
+    image:
+      'https://www.fastbuy.lk/wp-content/uploads/2020/05/Acer-A515-56G-350AS-11th-geni5-300x300.png',
     details:
       '11th Generation Intel(R) Core(TM) i3-1115G4 Processor (6MB Cache, up to 4.1GHz)',
     preferenceTitle: [
@@ -854,16 +852,6 @@ export const categoriesDetailedData = [
     id: 5,
   },
 ];
-
-
-
-
-
-
-
-
-
-
 
 export const categoriesDetailedData2 = [
   {
@@ -939,7 +927,8 @@ export const categoriesDetailedData2 = [
     price: 29000,
     image:
       'https://ae01.alicdn.com/kf/H89ffa7f084eb4da281177499913345c3h/Cafele-Car-Phone-Holder-Magnetic-Air-Vent-Magnet-Car-Smartphone-Holder-For-Xiaomi-Cell-Phone-Car.jpg_220x220xz.jpg_.webp',
-    details: 'Cafele Car Phone Holder Magnetic Air Vent Magnet Car Smartphone Holder For Xiaomi Cell Phone Car Mobile Support Mount Universal',
+    details:
+      'Cafele Car Phone Holder Magnetic Air Vent Magnet Car Smartphone Holder For Xiaomi Cell Phone Car Mobile Support Mount Universal',
     preferenceTitle: [
       'Choose LapTop Capacity',
       'Choose Colour Family',
@@ -1003,9 +992,11 @@ export const categoriesDetailedData2 = [
 
   {
     Device: 'USLION 540 Rotate 5A Magnetic Cable  ',
-    price: 8650000 ,
-    image: 'https://ae01.alicdn.com/kf/Hb1021bdab24c4790b175afa3d20f2ee0f/USLION-540-Rotate-5A-Magnetic-Cable-Fast-Charging-For-Mobile-Phone-Magnet-Charger-Wire-Cord-Micro.jpg_220x220xz.jpg_.webp',
-    details: 'USLION 540 Rotate 5A Magnetic Cable Fast Charging For Mobile Phone Magnet Charger Wire Cord Micro Type C Cable For iPhone Xiaomi',
+    price: 8650000,
+    image:
+      'https://ae01.alicdn.com/kf/Hb1021bdab24c4790b175afa3d20f2ee0f/USLION-540-Rotate-5A-Magnetic-Cable-Fast-Charging-For-Mobile-Phone-Magnet-Charger-Wire-Cord-Micro.jpg_220x220xz.jpg_.webp',
+    details:
+      'USLION 540 Rotate 5A Magnetic Cable Fast Charging For Mobile Phone Magnet Charger Wire Cord Micro Type C Cable For iPhone Xiaomi',
     preferenceTitle: [
       'Choose LapTop Capacity',
       'Choose Colour Family',
@@ -1070,8 +1061,10 @@ export const categoriesDetailedData2 = [
   {
     Device: 'Movols H.265 3MP HD Wireless CCTV',
     price: 1365,
-    image: 'https://ae01.alicdn.com/kf/Hd7fcb22863e94057802f8a8de2c62b28o/TWS-Bluetooth-5-1-Earphones-3500mAh-Charging-Box-Wireless-Headphone-9D-Stereo-Sports-Waterproof-Earbuds-Headsets.jpg_220x220xz.jpg_.webp',
-    details: 'TWS Bluetooth 5.1 Earphones 3500mAh Charging Box Wireless Headphone 9D Stereo Sports Waterproof Earbuds Headsets With Microphone',
+    image:
+      'https://ae01.alicdn.com/kf/Hd7fcb22863e94057802f8a8de2c62b28o/TWS-Bluetooth-5-1-Earphones-3500mAh-Charging-Box-Wireless-Headphone-9D-Stereo-Sports-Waterproof-Earbuds-Headsets.jpg_220x220xz.jpg_.webp',
+    details:
+      'TWS Bluetooth 5.1 Earphones 3500mAh Charging Box Wireless Headphone 9D Stereo Sports Waterproof Earbuds Headsets With Microphone',
     preferenceTitle: [
       'Choose LapTop Capacity',
       'Choose Colour Family',
@@ -1137,7 +1130,8 @@ export const categoriesDetailedData2 = [
   {
     Device: 'KERUI PIR Motion Detector Security Alarm',
     price: 4000,
-    image: 'https://ae01.alicdn.com/kf/H2ffab849b944463ab1d6b0c7e1d4e646S/Headphones-Bluetooth-Headset-Earphone-Wireless-Headphones-Stereo-Foldable-Sport-Earphone-Microphone-Headset-Handfree-MP3-Player.jpg_220x220xz.jpg_.webp',
+    image:
+      'https://ae01.alicdn.com/kf/H2ffab849b944463ab1d6b0c7e1d4e646S/Headphones-Bluetooth-Headset-Earphone-Wireless-Headphones-Stereo-Foldable-Sport-Earphone-Microphone-Headset-Handfree-MP3-Player.jpg_220x220xz.jpg_.webp',
     details:
       'Headphones Bluetooth Headset Earphone Wireless Headphones Stereo Foldable Sport Earphone Microphone Headset Handfree MP3 Player',
 
@@ -1207,7 +1201,8 @@ export const categoriesDetailedData2 = [
   {
     Device: '5MP Wifi Camera  ',
     price: 11799000,
-    image: 'https://ae01.alicdn.com/kf/H2364fd94a8b24c2989bdeb636fc4e941w/5MP-Wifi-Camera-Outdoor-Video-Recorder-Surveillance-Camera-With-Wifi-CCTV-Security-Camera-For-Home.jpg_220x220xz.jpg_.webp',
+    image:
+      'https://ae01.alicdn.com/kf/H2364fd94a8b24c2989bdeb636fc4e941w/5MP-Wifi-Camera-Outdoor-Video-Recorder-Surveillance-Camera-With-Wifi-CCTV-Security-Camera-For-Home.jpg_220x220xz.jpg_.webp',
     details:
       '5MP Wifi Camera Outdoor Video Recorder Surveillance Camera With Wifi CCTV Security Camera For Home',
     preferenceTitle: [
@@ -1271,8 +1266,6 @@ export const categoriesDetailedData2 = [
     id: 5,
   },
 ];
-
-
 
 export const categoriesDetailedData3 = [
   {
@@ -1348,7 +1341,8 @@ export const categoriesDetailedData3 = [
     price: 29000,
     image:
       'https://ae01.alicdn.com/kf/Hfd6e7658b5054911aba04aed35f93f15h/Game-Headphones-Gaming-Headsets-Bass-Stereo-Over-Head-Earphone-Casque-PC-Laptop-Microphone-Wired-Headset-For.jpg_220x220xz.jpg_.webp',
-    details: 'SAMSUNG Galaxy S20 FE 5G Factory Unlocked Android Cell Phone 128GB US Version Smartphone Pro-Grade',
+    details:
+      'SAMSUNG Galaxy S20 FE 5G Factory Unlocked Android Cell Phone 128GB US Version Smartphone Pro-Grade',
     preferenceTitle: [
       'Choose LapTop Capacity',
       'Choose Colour Family',
@@ -1412,9 +1406,11 @@ export const categoriesDetailedData3 = [
 
   {
     Device: ' embedded industrial mini tablet PC ',
-    price: 8650000 ,
-    image: 'https://ae01.alicdn.com/kf/Hda9343dbe893465388625df16737a2a25/13-3-15-6-18-5-21-5-inch-embedded-industrial-mini-tablet-PC-all-in.jpg_220x220xz.jpg_.webp',
-    details: '13.3 15.6 18.5 21.5 inch embedded industrial mini tablet PC all-in-one computer With capacitive touch screen with WiFi RS232 com',
+    price: 8650000,
+    image:
+      'https://ae01.alicdn.com/kf/Hda9343dbe893465388625df16737a2a25/13-3-15-6-18-5-21-5-inch-embedded-industrial-mini-tablet-PC-all-in.jpg_220x220xz.jpg_.webp',
+    details:
+      '13.3 15.6 18.5 21.5 inch embedded industrial mini tablet PC all-in-one computer With capacitive touch screen with WiFi RS232 com',
     preferenceTitle: [
       'Choose LapTop Capacity',
       'Choose Colour Family',
@@ -1479,7 +1475,8 @@ export const categoriesDetailedData3 = [
   {
     Device: 'eMc E-TİCARET YAZILIMI',
     price: 13650000,
-    image: 'https://ae01.alicdn.com/kf/UTB8JQlHxevJXKJkSajhq6A7aFXaM/eMc-E-T%C4%B0CARET-YAZILIMI-PLUS-PAKET.jpg_220x220xz.jpg_.webp',
+    image:
+      'https://ae01.alicdn.com/kf/UTB8JQlHxevJXKJkSajhq6A7aFXaM/eMc-E-T%C4%B0CARET-YAZILIMI-PLUS-PAKET.jpg_220x220xz.jpg_.webp',
     details: 'eMc E-TİCARET YAZILIMI | PLUS PAKET',
     preferenceTitle: [
       'Choose LapTop Capacity',
@@ -1546,7 +1543,8 @@ export const categoriesDetailedData3 = [
   {
     Device: '4G Wifi Router',
     price: 8045000,
-    image: 'https://ae01.alicdn.com/kf/H8bc6e86ca719477dabafe8dd2352c9031/Unlocked-300Mbps-Wifi-Routers-4G-lte-cpe-Mobile-Router-with-LAN-Port-Support-SIM-card-Portable.jpg_220x220xz.jpg_.webp',
+    image:
+      'https://ae01.alicdn.com/kf/H8bc6e86ca719477dabafe8dd2352c9031/Unlocked-300Mbps-Wifi-Routers-4G-lte-cpe-Mobile-Router-with-LAN-Port-Support-SIM-card-Portable.jpg_220x220xz.jpg_.webp',
     details:
       '4G Wifi Router mini router 3G 4G Lte Wireless Portable Pocket wi fi Mobile Hotspot Car Wi-fi Router With Sim Card Slot',
 
@@ -1616,7 +1614,8 @@ export const categoriesDetailedData3 = [
   {
     Device: 'Professional gamer Gaming Mouse ',
     price: 1000,
-    image: 'https://ae01.alicdn.com/kf/Hfa42e1795bf2418db038a712426534010/ZUOYA-Professional-gamer-Gaming-Mouse-8D-3200DPI-Adjustable-Wired-Optical-LED-Computer-Mice-USB-Cable-Mouse.jpg_220x220xz.jpg_.webp',
+    image:
+      'https://ae01.alicdn.com/kf/Hfa42e1795bf2418db038a712426534010/ZUOYA-Professional-gamer-Gaming-Mouse-8D-3200DPI-Adjustable-Wired-Optical-LED-Computer-Mice-USB-Cable-Mouse.jpg_220x220xz.jpg_.webp',
     details:
       'ZUOYA Professional gamer Gaming Mouse 8D 3200DPI Adjustable Wired Optical LED Computer Mice USB Cable Mouse for laptop PC',
     preferenceTitle: [
@@ -1680,13 +1679,6 @@ export const categoriesDetailedData3 = [
     id: 5,
   },
 ];
-
-
-
-
-
-
-
 
 export const categoriesDetailedData4 = [
   {
@@ -1762,7 +1754,8 @@ export const categoriesDetailedData4 = [
     price: 29000,
     image:
       'https://ae01.alicdn.com/kf/H945cb39d48b441c89d6d5e290e9683e8e/Neye-4k-8MP-HD-Wifi-IP-Camera-Outdoor-5X-Digital-Zoom-AI-Human-Detect-Wireless-Camera.jpg_Q90.jpg_.webp',
-    details: 'Neye 4k 8MP HD Wifi IP Camera Outdoor 5X Digital Zoom AI Human Detect Wireless Camera H.265 P2P ONVIF Audio Security CCTV Camera',
+    details:
+      'Neye 4k 8MP HD Wifi IP Camera Outdoor 5X Digital Zoom AI Human Detect Wireless Camera H.265 P2P ONVIF Audio Security CCTV Camera',
     preferenceTitle: [
       'Choose LapTop Capacity',
       'Choose Colour Family',
@@ -1826,9 +1819,11 @@ export const categoriesDetailedData4 = [
 
   {
     Device: 'YUPA TUYA 433Mhz GSM wireless Burglar Home Security System  ',
-    price: 8650000 ,
-    image: 'https://ae01.alicdn.com/kf/H3ed3851aa2ea40e8b9debc7cdebe478dY/YUPA-TUYA-433Mhz-GSM-wireless-Burglar-Home-Security-System-4-3-Inch-Full-Touch-Screen-Alarm.jpg_220x220xz.jpg_.webp',
-    details: 'YUPA TUYA 433Mhz GSM wireless Burglar Home Security System 4.3 Inch Full Touch Screen Alarm Host With Accessories',
+    price: 8650000,
+    image:
+      'https://ae01.alicdn.com/kf/H3ed3851aa2ea40e8b9debc7cdebe478dY/YUPA-TUYA-433Mhz-GSM-wireless-Burglar-Home-Security-System-4-3-Inch-Full-Touch-Screen-Alarm.jpg_220x220xz.jpg_.webp',
+    details:
+      'YUPA TUYA 433Mhz GSM wireless Burglar Home Security System 4.3 Inch Full Touch Screen Alarm Host With Accessories',
     preferenceTitle: [
       'Choose LapTop Capacity',
       'Choose Colour Family',
@@ -1893,8 +1888,10 @@ export const categoriesDetailedData4 = [
   {
     Device: 'Movols H.265 3MP HD Wireless CCTV',
     price: 13650000,
-    image: 'https://ae01.alicdn.com/kf/H34611f3a72714aedae49f680eedb52e8S/Movols-H-265-3MP-HD-Wireless-CCTV-System-Two-Way-Audio-Waterproof-PTZ-WIFI-IP-Security.png_220x220xz.png_.webp',
-    details: 'Movols H.265 3MP HD Wireless CCTV System Two Way Audio Waterproof PTZ WIFI IP Security Camera 8CH P2P NVR Video Surveillance Kit',
+    image:
+      'https://ae01.alicdn.com/kf/H34611f3a72714aedae49f680eedb52e8S/Movols-H-265-3MP-HD-Wireless-CCTV-System-Two-Way-Audio-Waterproof-PTZ-WIFI-IP-Security.png_220x220xz.png_.webp',
+    details:
+      'Movols H.265 3MP HD Wireless CCTV System Two Way Audio Waterproof PTZ WIFI IP Security Camera 8CH P2P NVR Video Surveillance Kit',
     preferenceTitle: [
       'Choose LapTop Capacity',
       'Choose Colour Family',
@@ -1960,7 +1957,8 @@ export const categoriesDetailedData4 = [
   {
     Device: 'KERUI PIR Motion Detector Security Alarm',
     price: 8045000,
-    image: 'https://ae01.alicdn.com/kf/H4d67e86783b444d1856262b77d9fc834n/KERUI-PIR-Motion-Detector-Security-Alarm-Detector-Anti-theft-Motion-Sensor-Detector-Welcome-Doorbell-Human-Body.png_220x220xz.png_.webp',
+    image:
+      'https://ae01.alicdn.com/kf/H4d67e86783b444d1856262b77d9fc834n/KERUI-PIR-Motion-Detector-Security-Alarm-Detector-Anti-theft-Motion-Sensor-Detector-Welcome-Doorbell-Human-Body.png_220x220xz.png_.webp',
     details:
       'KERUI PIR Motion Detector Security Alarm Detector Anti-theft Motion Sensor Detector Welcome Doorbell Human Body Detector',
 
@@ -2030,7 +2028,8 @@ export const categoriesDetailedData4 = [
   {
     Device: '5MP Wifi Camera  ',
     price: 11799000,
-    image: 'https://ae01.alicdn.com/kf/H2364fd94a8b24c2989bdeb636fc4e941w/5MP-Wifi-Camera-Outdoor-Video-Recorder-Surveillance-Camera-With-Wifi-CCTV-Security-Camera-For-Home.jpg_220x220xz.jpg_.webp',
+    image:
+      'https://ae01.alicdn.com/kf/H2364fd94a8b24c2989bdeb636fc4e941w/5MP-Wifi-Camera-Outdoor-Video-Recorder-Surveillance-Camera-With-Wifi-CCTV-Security-Camera-For-Home.jpg_220x220xz.jpg_.webp',
     details:
       '5MP Wifi Camera Outdoor Video Recorder Surveillance Camera With Wifi CCTV Security Camera For Home',
     preferenceTitle: [
@@ -2094,8 +2093,6 @@ export const categoriesDetailedData4 = [
     id: 5,
   },
 ];
-
-
 
 export const categoriesDetailedData6 = [
   {
@@ -2171,7 +2168,8 @@ export const categoriesDetailedData6 = [
     price: 200,
     image:
       'https://ae01.alicdn.com/kf/Hdb96c1d221054565b4fbeb5bbf1f69eaa/For-Samsung-A41-A31-A51-A71-Liquid-Silicone-Square-Case-For-Samsung-S21-S10-S9-S20.jpg_220x220xz.jpg_.webp',
-    details: 'For Samsung A41 A31 A51 A71 Liquid Silicone Square Case For Samsung S21 S10 S9 S20 FE A50 A70 A22 A32 A42 A52 A72 A82 A21s Cover',
+    details:
+      'For Samsung A41 A31 A51 A71 Liquid Silicone Square Case For Samsung S21 S10 S9 S20 FE A50 A70 A22 A32 A42 A52 A72 A82 A21s Cover',
     preferenceTitle: [
       'Choose LapTop Capacity',
       'Choose Colour Family',
@@ -2235,9 +2233,11 @@ export const categoriesDetailedData6 = [
 
   {
     Device: 'Xundd Cases For iPhone ',
-    price: 500 ,
-    image: 'https://ae01.alicdn.com/kf/He42b8e9257944c2dae889f162ed758ebr/Xundd-Cases-For-iPhone-11-12-13-Case-Shockproof-Protective-Phone-Bumper-Cover-Coque-For-iPhone11.jpg_220x220xz.jpg_.webp',
-    details: 'Xundd Cases For iPhone 11 12 13 Case Shockproof Protective Phone Bumper Cover Coque For iPhone11 iPhone12 iPhone13 Pro Max Case',
+    price: 500,
+    image:
+      'https://ae01.alicdn.com/kf/He42b8e9257944c2dae889f162ed758ebr/Xundd-Cases-For-iPhone-11-12-13-Case-Shockproof-Protective-Phone-Bumper-Cover-Coque-For-iPhone11.jpg_220x220xz.jpg_.webp',
+    details:
+      'Xundd Cases For iPhone 11 12 13 Case Shockproof Protective Phone Bumper Cover Coque For iPhone11 iPhone12 iPhone13 Pro Max Case',
     preferenceTitle: [
       'Choose LapTop Capacity',
       'Choose Colour Family',
@@ -2302,8 +2302,10 @@ export const categoriesDetailedData6 = [
   {
     Device: 'Double-sided Magnetic 360 Protect Case',
     price: 13650000,
-    image: 'https://ae01.alicdn.com/kf/Hd018092226fb4cea8fe35020e5f00a86g/Double-sided-Magnetic-360-Protect-Case-For-Samsung-M51-A51-A71-A41-A50-A70-M31-S20FE.jpg_220x220xz.jpg_.webp',
-    details: 'Double-sided Magnetic 360 Protect Case For Samsung M51 A51 A71 A41 A50 A70 M31 S20FE S10 S9 S8 Note20 Tempered Glass Metal Cover',
+    image:
+      'https://ae01.alicdn.com/kf/Hd018092226fb4cea8fe35020e5f00a86g/Double-sided-Magnetic-360-Protect-Case-For-Samsung-M51-A51-A71-A41-A50-A70-M31-S20FE.jpg_220x220xz.jpg_.webp',
+    details:
+      'Double-sided Magnetic 360 Protect Case For Samsung M51 A51 A71 A41 A50 A70 M31 S20FE S10 S9 S8 Note20 Tempered Glass Metal Cover',
     preferenceTitle: [
       'Choose LapTop Capacity',
       'Choose Colour Family',
@@ -2369,7 +2371,8 @@ export const categoriesDetailedData6 = [
   {
     Device: 'OnePlus 9 Pro',
     price: 8045000,
-    image: 'https://ae01.alicdn.com/kf/H408410c00d6d404aa3e351d433955ef5m/Custom-Name-for-iPhone-13-Pro-Case-DIY-Letters-12-8-Plus-SE-2020-Cover-Girls.jpg_220x220xz.jpg_.webp',
+    image:
+      'https://ae01.alicdn.com/kf/H408410c00d6d404aa3e351d433955ef5m/Custom-Name-for-iPhone-13-Pro-Case-DIY-Letters-12-8-Plus-SE-2020-Cover-Girls.jpg_220x220xz.jpg_.webp',
     details:
       'A top-tier smartphone with built-in Alexa and a new, improved Hasselblad camera.',
 
@@ -2439,7 +2442,8 @@ export const categoriesDetailedData6 = [
   {
     Device: 'UNI-T Original Canvas Multimeter Bag ',
     price: 11799000,
-    image: 'https://ae01.alicdn.com/kf/Ha9a73a943caf4870b74c9385d7190d51N/UNI-T-Original-Canvas-Multimeter-Bag-Black-Waterproof-Tools-Bag-case-For-UT139-UT61-UT89XD-Series.jpg_220x220xz.jpg_.webp',
+    image:
+      'https://ae01.alicdn.com/kf/Ha9a73a943caf4870b74c9385d7190d51N/UNI-T-Original-Canvas-Multimeter-Bag-Black-Waterproof-Tools-Bag-case-For-UT139-UT61-UT89XD-Series.jpg_220x220xz.jpg_.webp',
     details:
       'UNI-T Original Canvas Multimeter Bag Black Waterproof Tools Bag case For UT139 UT61 UT89XD Series Universal',
     preferenceTitle: [
@@ -2503,14 +2507,6 @@ export const categoriesDetailedData6 = [
     id: 5,
   },
 ];
-
-
-
-
-
-
-
-
 
 export const categoriesDetailedData8 = [
   {
@@ -2586,7 +2582,8 @@ export const categoriesDetailedData8 = [
     price: 29000,
     image:
       'https://ae01.alicdn.com/kf/Hf6b9b27e7d3d4f1c85832f7e64be27e0j/Tuya-Symphony-Light-Bar-Bluetooth-WiFi-IR-Smart-LED-Ambient-Light-Ambilight-Color-Bar-Light-Suitable.jpg_220x220xz.jpg_.webp',
-    details: 'Tuya Symphony Light Bar Bluetooth WiFi+IR Smart LED Ambient Light Ambilight Color Bar Light Suitable For Alexa Google Home',
+    details:
+      'Tuya Symphony Light Bar Bluetooth WiFi+IR Smart LED Ambient Light Ambilight Color Bar Light Suitable For Alexa Google Home',
     preferenceTitle: [
       'Choose LapTop Capacity',
       'Choose Colour Family',
@@ -2650,9 +2647,11 @@ export const categoriesDetailedData8 = [
 
   {
     Device: ' Route Flying Fingertip ',
-    price: 8650000 ,
-    image: 'https://ae01.alicdn.com/kf/Hdc071252dcac4046a6450e485cc8af44R/2020-New-Free-Route-Flying-Fingertip-Gyro-UFO-Intelligent-Cyclotron-Suspension-Induction.jpg_220x220.jpg_.webp',
-    details: '2020 New Free Route Flying Fingertip Gyro UFO Intelligent Cyclotron Suspension Induction',
+    price: 8650000,
+    image:
+      'https://ae01.alicdn.com/kf/Hdc071252dcac4046a6450e485cc8af44R/2020-New-Free-Route-Flying-Fingertip-Gyro-UFO-Intelligent-Cyclotron-Suspension-Induction.jpg_220x220.jpg_.webp',
+    details:
+      '2020 New Free Route Flying Fingertip Gyro UFO Intelligent Cyclotron Suspension Induction',
     preferenceTitle: [
       'Choose LapTop Capacity',
       'Choose Colour Family',
@@ -2717,7 +2716,8 @@ export const categoriesDetailedData8 = [
   {
     Device: 'FPV Quadcopter',
     price: 136500,
-    image: 'https://ae01.alicdn.com/kf/Hf3e5046d0b214158880d4450bd7f82bdm/2021-Hot-sell-NEW-Drone-Wifi-FPV-Quadcopter-G-sensor-Altitude-Hold-Foldable-Selfie-RC-Drones.jpg_220x220.jpg_.webp',
+    image:
+      'https://ae01.alicdn.com/kf/Hf3e5046d0b214158880d4450bd7f82bdm/2021-Hot-sell-NEW-Drone-Wifi-FPV-Quadcopter-G-sensor-Altitude-Hold-Foldable-Selfie-RC-Drones.jpg_220x220.jpg_.webp',
     details: '2021 Hot sell NEW Drone Wifi FPV Quadcopter',
     preferenceTitle: [
       'Choose LapTop Capacity',
@@ -2784,7 +2784,8 @@ export const categoriesDetailedData8 = [
   {
     Device: 'OnePlus 9 Pro',
     price: 8045000,
-    image: 'https://ae01.alicdn.com/kf/H85047fdd471f4dfa8dc708a7b551a427J/NETUM-NT-1698W-Handheld-Wirelress-Barcode-Scanner-AND-NT-1228BL-Bluetooth-1D-2D-QR-Bar-Code.jpg_220x220xz.jpg_.webp',
+    image:
+      'https://ae01.alicdn.com/kf/H85047fdd471f4dfa8dc708a7b551a427J/NETUM-NT-1698W-Handheld-Wirelress-Barcode-Scanner-AND-NT-1228BL-Bluetooth-1D-2D-QR-Bar-Code.jpg_220x220xz.jpg_.webp',
     details:
       'NETUM NT-1698W Handheld Wirelress Barcode Scanner AND NT-1228BL Bluetooth 1D/2D QR Bar Code Reader PDF417 for IOS Android IPAD',
 
@@ -2854,7 +2855,8 @@ export const categoriesDetailedData8 = [
   {
     Device: 'OnePlus Nord N200 ',
     price: 11799000,
-    image: 'https://m.media-amazon.com/images/I/71DCZOdq92S._AC_UY327_FMwebp_QL65_.jpg',
+    image:
+      'https://m.media-amazon.com/images/I/71DCZOdq92S._AC_UY327_FMwebp_QL65_.jpg',
     details:
       '11th Generation Intel(R) Core(TM) i3-1115G4 Processor (6MB Cache, up to 4.1GHz)',
     preferenceTitle: [
@@ -2919,23 +2921,13 @@ export const categoriesDetailedData8 = [
   },
 ];
 
-
-
-
-
-
-
-
-
-
 export const categoriesDetailedData7 = [
   {
     Device: 'Micro SD" ',
     price: 100,
     image:
       'https://ae01.alicdn.com/kf/H71cbb20620ea4e92b94acc04f0daa4f5E/Micro-SD-128GB-32GB-64GB-256GB-16GB-8GB-4GB-Micro-SD-Card-SD-TF-Flash-Card.jpg_220x220xz.jpg_.webp',
-    details:
-      'Micro SD 128GB 32GB 64GB 256Gb',
+    details: 'Micro SD 128GB 32GB 64GB 256Gb',
     preferenceTitle: [
       'Choose LapTop Capacity',
       'Choose Colour Family',
@@ -3002,7 +2994,8 @@ export const categoriesDetailedData7 = [
     price: 2000,
     image:
       'https://ae01.alicdn.com/kf/H1dfb916b773c42b7a9812b11cb217cb2O/KUNUP-USB-3-0-TYPE-C-USB-Flash-Drive-OTG-Pen-Drive-512GB-256GB-128GB-64GB.png_220x220xz.png_.webp',
-    details: 'KUNUP USB 3.0 TYPE C USB Flash Drive OTG Pen Drive 512GB 256GB 128GB 64GB 32GB 16GB USB Stick 2 in 1 High Speed Pendrive',
+    details:
+      'KUNUP USB 3.0 TYPE C USB Flash Drive OTG Pen Drive 512GB 256GB 128GB 64GB 32GB 16GB USB Stick 2 in 1 High Speed Pendrive',
     preferenceTitle: [
       'Choose LapTop Capacity',
       'Choose Colour Family',
@@ -3066,9 +3059,11 @@ export const categoriesDetailedData7 = [
 
   {
     Device: 'SSD 120GB 240GB 480GB 1TB 2.5 Inch SSD SATA III ',
-    price: 50000 ,
-    image: 'https://ae01.alicdn.com/kf/H4b92f3af0ae74dbaa9fd83683b13999a1/SSD-120GB-240GB-480GB-1TB-2-5-Inch-SSD-SATA-III-Internal-Solid-State-Drive-HDD.jpg_220x220xz.jpg_.webp',
-    details: 'SSD 120GB 240GB 480GB 1TB 2.5 Inch SSD SATA III Internal Solid State Drive HDD SSD Hard Disk for PC Laptop Desktop',
+    price: 50000,
+    image:
+      'https://ae01.alicdn.com/kf/H4b92f3af0ae74dbaa9fd83683b13999a1/SSD-120GB-240GB-480GB-1TB-2-5-Inch-SSD-SATA-III-Internal-Solid-State-Drive-HDD.jpg_220x220xz.jpg_.webp',
+    details:
+      'SSD 120GB 240GB 480GB 1TB 2.5 Inch SSD SATA III Internal Solid State Drive HDD SSD Hard Disk for PC Laptop Desktop',
     preferenceTitle: [
       'Choose LapTop Capacity',
       'Choose Colour Family',
@@ -3133,8 +3128,10 @@ export const categoriesDetailedData7 = [
   {
     Device: '2pcs Custom LOGO Metal',
     price: 13650000,
-    image: 'https://ae01.alicdn.com/kf/He4996bb004844f6ca3547d5055f8768bf/2pcs-Custom-LOGO-Metal-Usb-Flash-Drive-Flash-Memory-Card-128GB-64GB-32GB-Mini-Pendrive-Pen.jpg_220x220xz.jpg_.webp',
-    details: '2pcs Custom LOGO Metal Usb Flash Drive Flash Memory Card 128GB 64GB 32GB Mini Pendrive Pen Drive 16GB 8GB 4GB Usb Stick 128 Gb',
+    image:
+      'https://ae01.alicdn.com/kf/He4996bb004844f6ca3547d5055f8768bf/2pcs-Custom-LOGO-Metal-Usb-Flash-Drive-Flash-Memory-Card-128GB-64GB-32GB-Mini-Pendrive-Pen.jpg_220x220xz.jpg_.webp',
+    details:
+      '2pcs Custom LOGO Metal Usb Flash Drive Flash Memory Card 128GB 64GB 32GB Mini Pendrive Pen Drive 16GB 8GB 4GB Usb Stick 128 Gb',
     preferenceTitle: [
       'Choose LapTop Capacity',
       'Choose Colour Family',
@@ -3200,7 +3197,8 @@ export const categoriesDetailedData7 = [
   {
     Device: 'SATA NGFF 6Gbps Case USB SSD ',
     price: 8045000,
-    image: 'https://ae01.alicdn.com/kf/He606898311b94ca0a8c5e1197e35f14bC/PCIE-M-2-NVME-GEN2-10Gbps-SATA-NGFF-6Gbps-Case-USB-SSD-Enclosure-Type-C-USB.jpg_220x220xz.jpg_.webp',
+    image:
+      'https://ae01.alicdn.com/kf/He606898311b94ca0a8c5e1197e35f14bC/PCIE-M-2-NVME-GEN2-10Gbps-SATA-NGFF-6Gbps-Case-USB-SSD-Enclosure-Type-C-USB.jpg_220x220xz.jpg_.webp',
     details:
       'PCIE M.2 NVME GEN2 10Gbps SATA NGFF 6Gbps Case USB SSD Enclosure Type C USB 3.1 SSD Case NVME Hard Disk Enclosure HDD Case',
 
@@ -3270,7 +3268,8 @@ export const categoriesDetailedData7 = [
   {
     Device: 'UNI-T Original Canvas Multimeter Bag ',
     price: 11799000,
-    image: 'https://ae01.alicdn.com/kf/Ha9a73a943caf4870b74c9385d7190d51N/UNI-T-Original-Canvas-Multimeter-Bag-Black-Waterproof-Tools-Bag-case-For-UT139-UT61-UT89XD-Series.jpg_220x220xz.jpg_.webp',
+    image:
+      'https://ae01.alicdn.com/kf/Ha9a73a943caf4870b74c9385d7190d51N/UNI-T-Original-Canvas-Multimeter-Bag-Black-Waterproof-Tools-Bag-case-For-UT139-UT61-UT89XD-Series.jpg_220x220xz.jpg_.webp',
     details:
       'UNI-T Original Canvas Multimeter Bag Black Waterproof Tools Bag case For UT139 UT61 UT89XD Series Universal',
     preferenceTitle: [
@@ -3334,14 +3333,6 @@ export const categoriesDetailedData7 = [
     id: 5,
   },
 ];
-
-
-
-
-
-
-
-
 
 export const categoriesDetailedData5 = [
   {
@@ -3417,7 +3408,8 @@ export const categoriesDetailedData5 = [
     price: 29000,
     image:
       'https://m.media-amazon.com/images/I/71RxOftVoQL._AC_UY327_FMwebp_QL65_.jpg',
-    details: 'SAMSUNG Galaxy S20 FE 5G Factory Unlocked Android Cell Phone 128GB US Version Smartphone Pro-Grade',
+    details:
+      'SAMSUNG Galaxy S20 FE 5G Factory Unlocked Android Cell Phone 128GB US Version Smartphone Pro-Grade',
     preferenceTitle: [
       'Choose LapTop Capacity',
       'Choose Colour Family',
@@ -3481,9 +3473,11 @@ export const categoriesDetailedData5 = [
 
   {
     Device: 'Moto G Power ',
-    price: 8650000 ,
-    image: 'https://m.media-amazon.com/images/I/41iyYW-CrsL._AC_UY327_FMwebp_QL65_.jpg',
-    details: 'Moto G Power | 2021 | 3-Day battery | Unlocked | Made for US by Motorola | 3/32GB | 48MP Camera | Silver',
+    price: 8650000,
+    image:
+      'https://m.media-amazon.com/images/I/41iyYW-CrsL._AC_UY327_FMwebp_QL65_.jpg',
+    details:
+      'Moto G Power | 2021 | 3-Day battery | Unlocked | Made for US by Motorola | 3/32GB | 48MP Camera | Silver',
     preferenceTitle: [
       'Choose LapTop Capacity',
       'Choose Colour Family',
@@ -3548,8 +3542,10 @@ export const categoriesDetailedData5 = [
   {
     Device: 'SAMSUNG Galaxy S21 Ultra',
     price: 13650000,
-    image: 'https://m.media-amazon.com/images/I/61O45C5qASL._AC_UL480_FMwebp_QL65_.jpg',
-    details: 'The flagship of Samsung’s Galaxy line boasts a quad-lens rear camera with the highest resolution of any smartphone.',
+    image:
+      'https://m.media-amazon.com/images/I/61O45C5qASL._AC_UL480_FMwebp_QL65_.jpg',
+    details:
+      'The flagship of Samsung’s Galaxy line boasts a quad-lens rear camera with the highest resolution of any smartphone.',
     preferenceTitle: [
       'Choose LapTop Capacity',
       'Choose Colour Family',
@@ -3615,7 +3611,8 @@ export const categoriesDetailedData5 = [
   {
     Device: 'OnePlus 9 Pro',
     price: 8045000,
-    image: 'https://m.media-amazon.com/images/I/51P0ap2StaL._AC_UL480_FMwebp_QL65_.jpg',
+    image:
+      'https://m.media-amazon.com/images/I/51P0ap2StaL._AC_UL480_FMwebp_QL65_.jpg',
     details:
       'A top-tier smartphone with built-in Alexa and a new, improved Hasselblad camera.',
 
@@ -3685,7 +3682,8 @@ export const categoriesDetailedData5 = [
   {
     Device: 'OnePlus Nord N200 ',
     price: 11799000,
-    image: 'https://m.media-amazon.com/images/I/71DCZOdq92S._AC_UY327_FMwebp_QL65_.jpg',
+    image:
+      'https://m.media-amazon.com/images/I/71DCZOdq92S._AC_UY327_FMwebp_QL65_.jpg',
     details:
       '11th Generation Intel(R) Core(TM) i3-1115G4 Processor (6MB Cache, up to 4.1GHz)',
     preferenceTitle: [

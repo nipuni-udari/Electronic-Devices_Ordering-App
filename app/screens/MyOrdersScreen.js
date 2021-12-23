@@ -77,18 +77,18 @@ export default class MyOrdersScreen extends React.Component {
 
   selectHandler = (index, value) => {
     const newItems = [...this.state.cartItems]; // clone the array
-    newItems[index].checked = value == 1 ? 0 : 1; // set the new value
+    newItems[index].checked = value === 1 ? 0 : 1; // set the new value
     this.setState({cartItems: newItems}); // set new state
   };
 
   selectHandlerAll = value => {
     const newItems = [...this.state.cartItems]; // clone the array
     newItems.map((item, index) => {
-      newItems[index].checked = value == true ? 0 : 1; // set the new value
+      newItems[index].checked = value === true ? 0 : 1; // set the new value
     });
     this.setState({
       cartItems: newItems,
-      selectAll: value == true ? false : true,
+      selectAll: value === true ? false : true,
     }); // set new state
   };
 
@@ -123,9 +123,9 @@ export default class MyOrdersScreen extends React.Component {
 
     let currentQty = newItems[index].qty;
 
-    if (action == 'more') {
+    if (action === 'more') {
       newItems[index].qty = currentQty + 1;
-    } else if (action == 'less') {
+    } else if (action === 'less') {
       newItems[index].qty = currentQty > 1 ? currentQty - 1 : 1;
     }
 
@@ -137,7 +137,7 @@ export default class MyOrdersScreen extends React.Component {
     if (cartItems) {
       return cartItems.reduce(
         (sum, item) =>
-          sum + (item.checked == 1 ? item.qty * item.salePrice : 0),
+          sum + (item.checked === 1 ? item.qty * item.salePrice : 0),
         0,
       );
     }
@@ -235,7 +235,7 @@ export default class MyOrdersScreen extends React.Component {
                       <Text
                         numberOfLines={1}
                         style={{color: '#333333', marginBottom: 10}}>
-                       LKR: {item.qty * item.salePrice}
+                        LKR: {item.qty * item.salePrice}
                       </Text>
                       <View style={{flexDirection: 'row'}}>
                         <TouchableOpacity
@@ -318,16 +318,15 @@ export default class MyOrdersScreen extends React.Component {
                   alignItems: 'center',
                 }}>
                 <Text>Voucher</Text>
-                <View style={{paddingRight: 20}}>
+                <View style={{paddingRight: 20, height: 40}}>
                   <TextInput
                     style={{
                       paddingHorizontal: 10,
                       backgroundColor: '#f0f0f0',
-                      height: 25,
+                      height: 40,
                       borderRadius: 4,
                     }}
                     placeholder="Enter voucher code"
-                    value={''}
                     onChangeText={searchKeyword => {}}
                   />
                 </View>
@@ -341,12 +340,12 @@ export default class MyOrdersScreen extends React.Component {
                   <Icon
                     type="material-community"
                     name={
-                      selectAll == true
+                      selectAll === true
                         ? 'checkbox-marked-circle'
                         : 'checkbox-marked-circle-outline'
                     }
                     size={25}
-                    color={selectAll == true ? '#9013fe' : '#aaaaaa'}
+                    color={selectAll === true ? '#9013fe' : '#aaaaaa'}
                   />
                 </TouchableOpacity>
               </View>
