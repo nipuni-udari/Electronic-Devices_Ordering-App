@@ -8,7 +8,7 @@ import {
   ScrollView,
   Image,
 } from 'react-native';
-import {Icon, checkBox, Button, CheckBox} from 'react-native-elements';
+import {Icon, Button, CheckBox} from 'react-native-elements';
 import {color} from 'react-native-reanimated';
 import {colors} from '../global/styles';
 
@@ -230,7 +230,7 @@ const styles = StyleSheet.create({
   },
   bar: {
     backgroundColor: 'transparent',
-    marginTop: Platform.OS == 'ios' ? 28 : 38,
+    marginTop: Platform.OS === 'ios' ? 28 : 38,
     height: 32,
     alignItems: 'center',
     justifyContent: 'center',
@@ -324,8 +324,6 @@ const styles = StyleSheet.create({
 
   view13: {paddingBottom: 1, marginTop: 5},
 
-  text8: {paddingLeft: 10, fontWeight: 'bold', fontSize: 18},
-
   view14: {
     flexDirection: 'row',
     backgroundColor: colors.cardbackground,
@@ -333,8 +331,6 @@ const styles = StyleSheet.create({
     marginBottom: 0,
     justifyContent: 'space-between',
     paddingHorizontal: 15,
-    paddingVertical: 10,
-    marginBottom: 5,
   },
 
   text9: {fontWeight: 'bold', fontSize: 18},
