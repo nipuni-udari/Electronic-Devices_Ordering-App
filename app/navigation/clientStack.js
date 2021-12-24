@@ -8,13 +8,15 @@ import {getFocusedRouteNameFromRoute} from '@react-navigation/native';
 import CategoriesProductScreen from '../screens/CategoriesProductsScreen';
 import PreferenceScreen from '../screens/PreferenceScreen';
 import PaymentScreen from '../screens/PaymentScreen';
+import MyOrdersScreen from '../screens/MyOrdersScreen';
+import SuccessMsgScreen from '../screens/SuccessMsgScreen';
 
 const ClientSearch = createStackNavigator();
 
 export function ClientStack({navigation, route}) {
   useLayoutEffect(() => {
     const routeName = getFocusedRouteNameFromRoute(route);
-    if (routeName === 'ShopHomeScreen' || 'CategoriesProductScreen') {
+    if (routeName === 'ShopHomeScreen' || 'SuccessMsgScreen') {
       navigation.setOptions({tabBarVisible: false});
     } else {
       navigation.setOptions({tabBarVisible: true});
@@ -60,7 +62,27 @@ export function ClientStack({navigation, route}) {
           headerShown: false,
         })}
       />
-      
+      <ClientSearch.Screen
+        name="MyOrdersScreen"
+        component={MyOrdersScreen}
+        options={() => ({
+          headerShown: false,
+        })}
+      />
+      <ClientSearch.Screen
+        name="PaymentScreen"
+        component={PaymentScreen}
+        options={() => ({
+          headerShown: false,
+        })}
+      />
+      <ClientSearch.Screen
+        name="SuccessMsgScreen"
+        component={SuccessMsgScreen}
+        options={() => ({
+          headerShown: false,
+        })}
+      />
     </ClientSearch.Navigator>
   );
 }

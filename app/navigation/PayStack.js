@@ -10,7 +10,7 @@ const PaySearch = createStackNavigator();
 export function PayStack({navigation, route}) {
   useLayoutEffect(() => {
     const routeName = getFocusedRouteNameFromRoute(route);
-    if (routeName === 'MyOrdersScreen' || 'PaymentScreen') {
+    if (routeName === 'MyOrdersScreen' || 'SuccessMsgScreen') {
       navigation.setOptions({tabBarVisible: false});
     } else {
       navigation.setOptions({tabBarVisible: true});

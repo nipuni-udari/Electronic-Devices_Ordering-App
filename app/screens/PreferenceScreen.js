@@ -202,8 +202,7 @@ export default class PreferenceScreen extends Component {
           title="Go to Cart"
           buttonStyle={styles.createButton}
           titleStyle={styles.createButtonTitle}
-          active
-          onPress={() => this.props.navigation.navigate(MyOrdersScreen)}
+          onPress={() => this.props.navigation.navigate('MyOrdersScreen')}
         />
       </View>
     );
