@@ -7,6 +7,6 @@ including things like the colour scheme, font selection, and the types of button
 
 <p align="center">
   <kbd>
-<img src="https://youtu.be/Vp-jaeOLHTE"></img>
+<"https://youtu.be/Vp-jaeOLHTE">
   </kbd>
 </p>
